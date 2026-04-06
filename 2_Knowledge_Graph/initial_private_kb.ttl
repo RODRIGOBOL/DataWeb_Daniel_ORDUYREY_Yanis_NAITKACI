@@ -1,0 +1,421 @@
+@prefix ex: <http://example.org/private#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Abdus_Salam a ex:Researcher ;
+    rdfs:label "Abdus Salam"@en ;
+    ex:affiliatedWith ex:Imperial_College_London ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "Pakistani"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Ada_Lovelace a ex:Researcher ;
+    rdfs:label "Ada Lovelace"@en ;
+    ex:affiliatedWith ex:University_of_London ;
+    ex:fieldOfStudy "Mathematics"@en ;
+    ex:nationality "British"@en .
+
+ex:Ada_Yonath a ex:Researcher ;
+    rdfs:label "Ada Yonath"@en ;
+    ex:affiliatedWith ex:Weizmann_Institute ;
+    ex:fieldOfStudy "Structural Biology"@en ;
+    ex:nationality "Israeli"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:Alain_Aspect a ex:Researcher ;
+    rdfs:label "Alain Aspect"@en ;
+    ex:affiliatedWith ex:Universite_Paris_Saclay ;
+    ex:fieldOfStudy "Quantum Physics"@en ;
+    ex:nationality "French"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Alan_Turing a ex:Researcher ;
+    rdfs:label "Alan Turing"@en ;
+    ex:affiliatedWith ex:University_of_Manchester ;
+    ex:fieldOfStudy "Computer Science"@en ;
+    ex:nationality "British"@en .
+
+ex:Albert_Einstein a ex:Researcher ;
+    rdfs:label "Albert Einstein"@en ;
+    ex:affiliatedWith ex:Institute_for_Advanced_Study ;
+    ex:fieldOfStudy "Theoretical Physics"@en ;
+    ex:nationality "German"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Barbara_McClintock a ex:Researcher ;
+    rdfs:label "Barbara McClintock"@en ;
+    ex:affiliatedWith ex:Cold_Spring_Harbor_Laboratory ;
+    ex:fieldOfStudy "Genetics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physiology .
+
+ex:Carlo_Rubbia a ex:Researcher ;
+    rdfs:label "Carlo Rubbia"@en ;
+    ex:affiliatedWith ex:CERN ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "Italian"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Dorothy_Hodgkin a ex:Researcher ;
+    rdfs:label "Dorothy Hodgkin"@en ;
+    ex:affiliatedWith ex:University_of_Oxford ;
+    ex:fieldOfStudy "X Ray Crystallography"@en ;
+    ex:nationality "British"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:Emmanuelle_Charpentier a ex:Researcher ;
+    rdfs:label "Emmanuelle Charpentier"@en ;
+    ex:affiliatedWith ex:Max_Planck_Institute ;
+    ex:fieldOfStudy "Microbiology"@en ;
+    ex:nationality "French"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:Enrico_Fermi a ex:Researcher ;
+    rdfs:label "Enrico Fermi"@en ;
+    ex:affiliatedWith ex:University_of_Chicago ;
+    ex:fieldOfStudy "Nuclear Physics"@en ;
+    ex:nationality "Italian"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Erwin_Schrodinger a ex:Researcher ;
+    rdfs:label "Erwin Schrodinger"@en ;
+    ex:affiliatedWith ex:University_of_Vienna ;
+    ex:fieldOfStudy "Quantum Mechanics"@en ;
+    ex:nationality "Austrian"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Frances_Arnold a ex:Researcher ;
+    rdfs:label "Frances Arnold"@en ;
+    ex:affiliatedWith ex:California_Institute_of_Technology ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:Francis_Crick a ex:Researcher ;
+    rdfs:label "Francis Crick"@en ;
+    ex:affiliatedWith ex:Salk_Institute ;
+    ex:fieldOfStudy "Molecular Biology"@en ;
+    ex:nationality "British"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physiology .
+
+ex:Frederick_Sanger a ex:Researcher ;
+    rdfs:label "Frederick Sanger"@en ;
+    ex:affiliatedWith ex:University_of_Cambridge ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "British"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:George_Smith a ex:Researcher ;
+    rdfs:label "George Smith"@en ;
+    ex:affiliatedWith ex:University_of_Missouri ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:Georges_Charpak a ex:Researcher ;
+    rdfs:label "Georges Charpak"@en ;
+    ex:affiliatedWith ex:CERN ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "French"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Gertrude_Elion a ex:Researcher ;
+    rdfs:label "Gertrude Elion"@en ;
+    ex:affiliatedWith ex:Duke_University ;
+    ex:fieldOfStudy "Pharmacology"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physiology .
+
+ex:Grace_Hopper a ex:Researcher ;
+    rdfs:label "Grace Hopper"@en ;
+    ex:affiliatedWith ex:Yale_University ;
+    ex:fieldOfStudy "Computer Science"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Presidential_Medal_of_Freedom .
+
+ex:James_Watson a ex:Researcher ;
+    rdfs:label "James Watson"@en ;
+    ex:affiliatedWith ex:Cold_Spring_Harbor_Laboratory ;
+    ex:fieldOfStudy "Genetics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physiology .
+
+ex:Jennifer_Doudna a ex:Researcher ;
+    rdfs:label "Jennifer Doudna"@en ;
+    ex:affiliatedWith ex:University_of_California_Berkeley ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:John_Fenn a ex:Researcher ;
+    rdfs:label "John Fenn"@en ;
+    ex:affiliatedWith ex:Yale_University ;
+    ex:fieldOfStudy "Chemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:Kary_Mullis a ex:Researcher ;
+    rdfs:label "Kary Mullis"@en ;
+    ex:affiliatedWith ex:Cetus_Corporation ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:Leon_Lederman a ex:Researcher ;
+    rdfs:label "Leon Lederman"@en ;
+    ex:affiliatedWith ex:Fermi_National_Laboratory ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Linus_Pauling a ex:Researcher ;
+    rdfs:label "Linus Pauling"@en ;
+    ex:affiliatedWith ex:California_Institute_of_Technology ;
+    ex:fieldOfStudy "Chemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:Lise_Meitner a ex:Researcher ;
+    rdfs:label "Lise Meitner"@en ;
+    ex:affiliatedWith ex:Kaiser_Wilhelm_Institute ;
+    ex:fieldOfStudy "Nuclear Physics"@en ;
+    ex:nationality "Austrian"@en .
+
+ex:Marie_Curie a ex:Researcher ;
+    rdfs:label "Marie Curie"@en ;
+    ex:affiliatedWith ex:Sorbonne_University ;
+    ex:fieldOfStudy "Physics"@en ;
+    ex:nationality "French"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Martin_Chalfie a ex:Researcher ;
+    rdfs:label "Martin Chalfie"@en ;
+    ex:affiliatedWith ex:Columbia_University ;
+    ex:fieldOfStudy "Neuroscience"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:Max_Planck a ex:Researcher ;
+    rdfs:label "Max Planck"@en ;
+    ex:affiliatedWith ex:Humboldt_University_Berlin ;
+    ex:fieldOfStudy "Theoretical Physics"@en ;
+    ex:nationality "German"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Murray_Gell_Mann a ex:Researcher ;
+    rdfs:label "Murray Gell Mann"@en ;
+    ex:affiliatedWith ex:California_Institute_of_Technology ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Niels_Bohr a ex:Researcher ;
+    rdfs:label "Niels Bohr"@en ;
+    ex:affiliatedWith ex:University_of_Copenhagen ;
+    ex:fieldOfStudy "Atomic Physics"@en ;
+    ex:nationality "Danish"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Osamu_Shimomura a ex:Researcher ;
+    rdfs:label "Osamu Shimomura"@en ;
+    ex:affiliatedWith ex:Marine_Biological_Laboratory ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "Japanese"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:Paul_Dirac a ex:Researcher ;
+    rdfs:label "Paul Dirac"@en ;
+    ex:affiliatedWith ex:University_of_Cambridge ;
+    ex:fieldOfStudy "Theoretical Physics"@en ;
+    ex:nationality "British"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Peter_Higgs a ex:Researcher ;
+    rdfs:label "Peter Higgs"@en ;
+    ex:affiliatedWith ex:University_of_Edinburgh ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "British"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:ResearchInstitute a owl:Class ;
+    rdfs:subClassOf ex:Organization .
+
+ex:Richard_Feynman a ex:Researcher ;
+    rdfs:label "Richard Feynman"@en ;
+    ex:affiliatedWith ex:California_Institute_of_Technology ;
+    ex:fieldOfStudy "Quantum Mechanics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Roger_Tsien a ex:Researcher ;
+    rdfs:label "Roger Tsien"@en ;
+    ex:affiliatedWith ex:University_of_California_San_Diego ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry .
+
+ex:Rosalind_Franklin a ex:Researcher ;
+    rdfs:label "Rosalind Franklin"@en ;
+    ex:affiliatedWith ex:Kings_College_London ;
+    ex:fieldOfStudy "Biophysics"@en ;
+    ex:nationality "British"@en .
+
+ex:Sheldon_Glashow a ex:Researcher ;
+    rdfs:label "Sheldon Glashow"@en ;
+    ex:affiliatedWith ex:Harvard_University ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:Steven_Weinberg a ex:Researcher ;
+    rdfs:label "Steven Weinberg"@en ;
+    ex:affiliatedWith ex:University_of_Texas ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:University a owl:Class ;
+    rdfs:subClassOf ex:Organization .
+
+ex:Werner_Heisenberg a ex:Researcher ;
+    rdfs:label "Werner Heisenberg"@en ;
+    ex:affiliatedWith ex:University_of_Leipzig ;
+    ex:fieldOfStudy "Quantum Mechanics"@en ;
+    ex:nationality "German"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics .
+
+ex:affiliatedWith a owl:ObjectProperty ;
+    rdfs:domain ex:Researcher ;
+    rdfs:range ex:Organization .
+
+ex:employedBy a owl:ObjectProperty ;
+    rdfs:domain ex:Researcher ;
+    rdfs:range ex:Organization .
+
+ex:fieldOfStudy a owl:ObjectProperty ;
+    rdfs:domain ex:Researcher .
+
+ex:nationality a owl:ObjectProperty ;
+    rdfs:domain ex:Researcher .
+
+ex:wonAward a owl:ObjectProperty ;
+    rdfs:domain ex:Researcher ;
+    rdfs:range ex:Award .
+
+ex:Cetus_Corporation a ex:Organization ;
+    rdfs:label "Cetus Corporation"@en .
+
+ex:Columbia_University a ex:Organization ;
+    rdfs:label "Columbia University"@en .
+
+ex:Duke_University a ex:Organization ;
+    rdfs:label "Duke University"@en .
+
+ex:Fermi_National_Laboratory a ex:Organization ;
+    rdfs:label "Fermi National Laboratory"@en .
+
+ex:Harvard_University a ex:Organization ;
+    rdfs:label "Harvard University"@en .
+
+ex:Humboldt_University_Berlin a ex:Organization ;
+    rdfs:label "Humboldt University Berlin"@en .
+
+ex:Imperial_College_London a ex:Organization ;
+    rdfs:label "Imperial College London"@en .
+
+ex:Institute_for_Advanced_Study a ex:Organization ;
+    rdfs:label "Institute for Advanced Study"@en .
+
+ex:Kaiser_Wilhelm_Institute a ex:Organization ;
+    rdfs:label "Kaiser Wilhelm Institute"@en .
+
+ex:Kings_College_London a ex:Organization ;
+    rdfs:label "Kings College London"@en .
+
+ex:Marine_Biological_Laboratory a ex:Organization ;
+    rdfs:label "Marine Biological Laboratory"@en .
+
+ex:Max_Planck_Institute a ex:Organization ;
+    rdfs:label "Max Planck Institute"@en .
+
+ex:Presidential_Medal_of_Freedom a ex:Award ;
+    rdfs:label "Presidential Medal of Freedom"@en .
+
+ex:Salk_Institute a ex:Organization ;
+    rdfs:label "Salk Institute"@en .
+
+ex:Sorbonne_University a ex:Organization ;
+    rdfs:label "Sorbonne University"@en .
+
+ex:Universite_Paris_Saclay a ex:Organization ;
+    rdfs:label "Universite Paris Saclay"@en .
+
+ex:University_of_California_Berkeley a ex:Organization ;
+    rdfs:label "University of California Berkeley"@en .
+
+ex:University_of_California_San_Diego a ex:Organization ;
+    rdfs:label "University of California San Diego"@en .
+
+ex:University_of_Chicago a ex:Organization ;
+    rdfs:label "University of Chicago"@en .
+
+ex:University_of_Copenhagen a ex:Organization ;
+    rdfs:label "University of Copenhagen"@en .
+
+ex:University_of_Edinburgh a ex:Organization ;
+    rdfs:label "University of Edinburgh"@en .
+
+ex:University_of_Leipzig a ex:Organization ;
+    rdfs:label "University of Leipzig"@en .
+
+ex:University_of_London a ex:Organization ;
+    rdfs:label "University of London"@en .
+
+ex:University_of_Manchester a ex:Organization ;
+    rdfs:label "University of Manchester"@en .
+
+ex:University_of_Missouri a ex:Organization ;
+    rdfs:label "University of Missouri"@en .
+
+ex:University_of_Oxford a ex:Organization ;
+    rdfs:label "University of Oxford"@en .
+
+ex:University_of_Texas a ex:Organization ;
+    rdfs:label "University of Texas"@en .
+
+ex:University_of_Vienna a ex:Organization ;
+    rdfs:label "University of Vienna"@en .
+
+ex:Weizmann_Institute a ex:Organization ;
+    rdfs:label "Weizmann Institute"@en .
+
+ex:CERN a ex:Organization ;
+    rdfs:label "CERN"@en .
+
+ex:Cold_Spring_Harbor_Laboratory a ex:Organization ;
+    rdfs:label "Cold Spring Harbor Laboratory"@en .
+
+ex:University_of_Cambridge a ex:Organization ;
+    rdfs:label "University of Cambridge"@en .
+
+ex:Yale_University a ex:Organization ;
+    rdfs:label "Yale University"@en .
+
+ex:California_Institute_of_Technology a ex:Organization ;
+    rdfs:label "California Institute of Technology"@en .
+
+ex:Nobel_Prize_in_Physiology a ex:Award ;
+    rdfs:label "Nobel Prize in Physiology"@en .
+
+ex:Award a owl:Class .
+
+ex:Nobel_Prize_in_Chemistry a ex:Award ;
+    rdfs:label "Nobel Prize in Chemistry"@en .
+
+ex:Nobel_Prize_in_Physics a ex:Award ;
+    rdfs:label "Nobel Prize in Physics"@en .
+
+ex:Organization a owl:Class .
+
+ex:Researcher a owl:Class .
+

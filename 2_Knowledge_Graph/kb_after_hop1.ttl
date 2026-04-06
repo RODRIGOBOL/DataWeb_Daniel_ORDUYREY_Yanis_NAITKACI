@@ -1,0 +1,6269 @@
+@prefix ex: <http://example.org/private#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+ex:Abdus_Salam a ex:Researcher ;
+    rdfs:label "Abdus Salam"@en ;
+    ex:affiliatedWith ex:Imperial_College_London ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "Pakistani"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q28189 .
+
+ex:Ada_Lovelace a ex:Researcher ;
+    rdfs:label "Ada Lovelace"@en ;
+    ex:affiliatedWith ex:University_of_London ;
+    ex:fieldOfStudy "Mathematics"@en ;
+    ex:nationality "British"@en ;
+    owl:sameAs wd:Q7259 .
+
+ex:Ada_Yonath a ex:Researcher ;
+    rdfs:label "Ada Yonath"@en ;
+    ex:affiliatedWith ex:Weizmann_Institute ;
+    ex:fieldOfStudy "Structural Biology"@en ;
+    ex:nationality "Israeli"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q7426 .
+
+ex:Alain_Aspect a ex:Researcher ;
+    rdfs:label "Alain Aspect"@en ;
+    ex:affiliatedWith ex:Universite_Paris_Saclay ;
+    ex:fieldOfStudy "Quantum Physics"@en ;
+    ex:nationality "French"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q364997 .
+
+ex:Alan_Turing a ex:Researcher ;
+    rdfs:label "Alan Turing"@en ;
+    ex:affiliatedWith ex:University_of_Manchester ;
+    ex:fieldOfStudy "Computer Science"@en ;
+    ex:nationality "British"@en ;
+    owl:sameAs wd:Q7251 .
+
+ex:Albert_Einstein a ex:Researcher ;
+    rdfs:label "Albert Einstein"@en ;
+    ex:affiliatedWith ex:Institute_for_Advanced_Study ;
+    ex:fieldOfStudy "Theoretical Physics"@en ;
+    ex:nationality "German"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q937 .
+
+ex:Barbara_McClintock a ex:Researcher ;
+    rdfs:label "Barbara McClintock"@en ;
+    ex:affiliatedWith ex:Cold_Spring_Harbor_Laboratory ;
+    ex:fieldOfStudy "Genetics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physiology ;
+    owl:sameAs wd:Q199654 .
+
+ex:Carlo_Rubbia a ex:Researcher ;
+    rdfs:label "Carlo Rubbia"@en ;
+    ex:affiliatedWith ex:CERN ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "Italian"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q187199 .
+
+ex:Dorothy_Hodgkin a ex:Researcher ;
+    rdfs:label "Dorothy Hodgkin"@en ;
+    ex:affiliatedWith ex:University_of_Oxford ;
+    ex:fieldOfStudy "X Ray Crystallography"@en ;
+    ex:nationality "British"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q7487 .
+
+ex:Emmanuelle_Charpentier a ex:Researcher ;
+    rdfs:label "Emmanuelle Charpentier"@en ;
+    ex:affiliatedWith ex:Max_Planck_Institute ;
+    ex:fieldOfStudy "Microbiology"@en ;
+    ex:nationality "French"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q17280087 .
+
+ex:Enrico_Fermi a ex:Researcher ;
+    rdfs:label "Enrico Fermi"@en ;
+    ex:affiliatedWith ex:University_of_Chicago ;
+    ex:fieldOfStudy "Nuclear Physics"@en ;
+    ex:nationality "Italian"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q8753 .
+
+ex:Erwin_Schrodinger a ex:Researcher ;
+    rdfs:label "Erwin Schrodinger"@en ;
+    ex:affiliatedWith ex:University_of_Vienna ;
+    ex:fieldOfStudy "Quantum Mechanics"@en ;
+    ex:nationality "Austrian"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q9130 .
+
+ex:Frances_Arnold a ex:Researcher ;
+    rdfs:label "Frances Arnold"@en ;
+    ex:affiliatedWith ex:California_Institute_of_Technology ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q4273363 .
+
+ex:Francis_Crick a ex:Researcher ;
+    rdfs:label "Francis Crick"@en ;
+    ex:affiliatedWith ex:Salk_Institute ;
+    ex:fieldOfStudy "Molecular Biology"@en ;
+    ex:nationality "British"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physiology ;
+    owl:sameAs wd:Q123280 .
+
+ex:Frederick_Sanger a ex:Researcher ;
+    rdfs:label "Frederick Sanger"@en ;
+    ex:affiliatedWith ex:University_of_Cambridge ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "British"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q151564 .
+
+ex:George_Smith a ex:Researcher ;
+    rdfs:label "George Smith"@en ;
+    ex:affiliatedWith ex:University_of_Missouri ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q1009506 .
+
+ex:Georges_Charpak a ex:Researcher ;
+    rdfs:label "Georges Charpak"@en ;
+    ex:affiliatedWith ex:CERN ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "French"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q153178 .
+
+ex:Gertrude_Elion a ex:Researcher ;
+    rdfs:label "Gertrude Elion"@en ;
+    ex:affiliatedWith ex:Duke_University ;
+    ex:fieldOfStudy "Pharmacology"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physiology ;
+    owl:sameAs wd:Q35703 .
+
+ex:Grace_Hopper a ex:Researcher ;
+    rdfs:label "Grace Hopper"@en ;
+    ex:affiliatedWith ex:Yale_University ;
+    ex:fieldOfStudy "Computer Science"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Presidential_Medal_of_Freedom ;
+    owl:sameAs wd:Q11641 .
+
+ex:James_Watson a ex:Researcher ;
+    rdfs:label "James Watson"@en ;
+    ex:affiliatedWith ex:Cold_Spring_Harbor_Laboratory ;
+    ex:fieldOfStudy "Genetics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physiology ;
+    owl:sameAs wd:Q83333 .
+
+ex:Jennifer_Doudna a ex:Researcher ;
+    rdfs:label "Jennifer Doudna"@en ;
+    ex:affiliatedWith ex:University_of_California_Berkeley ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q56068 .
+
+ex:John_Fenn a ex:Researcher ;
+    rdfs:label "John Fenn"@en ;
+    ex:affiliatedWith ex:Yale_University ;
+    ex:fieldOfStudy "Chemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q106738 .
+
+ex:Kary_Mullis a ex:Researcher ;
+    rdfs:label "Kary Mullis"@en ;
+    ex:affiliatedWith ex:Cetus_Corporation ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q157224 .
+
+ex:Leon_Lederman a ex:Researcher ;
+    rdfs:label "Leon Lederman"@en ;
+    ex:affiliatedWith ex:Fermi_National_Laboratory ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q192695 .
+
+ex:Linus_Pauling a ex:Researcher ;
+    rdfs:label "Linus Pauling"@en ;
+    ex:affiliatedWith ex:California_Institute_of_Technology ;
+    ex:fieldOfStudy "Chemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q48983 .
+
+ex:Lise_Meitner a ex:Researcher ;
+    rdfs:label "Lise Meitner"@en ;
+    ex:affiliatedWith ex:Kaiser_Wilhelm_Institute ;
+    ex:fieldOfStudy "Nuclear Physics"@en ;
+    ex:nationality "Austrian"@en ;
+    owl:sameAs wd:Q56189 .
+
+ex:Marie_Curie a ex:Researcher ;
+    rdfs:label "Marie Curie"@en ;
+    ex:affiliatedWith ex:Sorbonne_University ;
+    ex:fieldOfStudy "Physics"@en ;
+    ex:nationality "French"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q7186 .
+
+ex:Martin_Chalfie a ex:Researcher ;
+    rdfs:label "Martin Chalfie"@en ;
+    ex:affiliatedWith ex:Columbia_University ;
+    ex:fieldOfStudy "Neuroscience"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q106699 .
+
+ex:Max_Planck a ex:Researcher ;
+    rdfs:label "Max Planck"@en ;
+    ex:affiliatedWith ex:Humboldt_University_Berlin ;
+    ex:fieldOfStudy "Theoretical Physics"@en ;
+    ex:nationality "German"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q9021 .
+
+ex:Murray_Gell_Mann a ex:Researcher ;
+    rdfs:label "Murray Gell Mann"@en ;
+    ex:affiliatedWith ex:California_Institute_of_Technology ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q172840 .
+
+ex:Niels_Bohr a ex:Researcher ;
+    rdfs:label "Niels Bohr"@en ;
+    ex:affiliatedWith ex:University_of_Copenhagen ;
+    ex:fieldOfStudy "Atomic Physics"@en ;
+    ex:nationality "Danish"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q7085 .
+
+ex:Osamu_Shimomura a ex:Researcher ;
+    rdfs:label "Osamu Shimomura"@en ;
+    ex:affiliatedWith ex:Marine_Biological_Laboratory ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "Japanese"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q205345 .
+
+ex:Paul_Dirac a ex:Researcher ;
+    rdfs:label "Paul Dirac"@en ;
+    ex:affiliatedWith ex:University_of_Cambridge ;
+    ex:fieldOfStudy "Theoretical Physics"@en ;
+    ex:nationality "British"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q47480 .
+
+ex:Peter_Higgs a ex:Researcher ;
+    rdfs:label "Peter Higgs"@en ;
+    ex:affiliatedWith ex:University_of_Edinburgh ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "British"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q192112 .
+
+ex:ResearchInstitute a owl:Class ;
+    rdfs:subClassOf ex:Organization .
+
+ex:Richard_Feynman a ex:Researcher ;
+    rdfs:label "Richard Feynman"@en ;
+    ex:affiliatedWith ex:California_Institute_of_Technology ;
+    ex:fieldOfStudy "Quantum Mechanics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q39246 .
+
+ex:Roger_Tsien a ex:Researcher ;
+    rdfs:label "Roger Tsien"@en ;
+    ex:affiliatedWith ex:University_of_California_San_Diego ;
+    ex:fieldOfStudy "Biochemistry"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Chemistry ;
+    owl:sameAs wd:Q200470 .
+
+ex:Rosalind_Franklin a ex:Researcher ;
+    rdfs:label "Rosalind Franklin"@en ;
+    ex:affiliatedWith ex:Kings_College_London ;
+    ex:fieldOfStudy "Biophysics"@en ;
+    ex:nationality "British"@en ;
+    owl:sameAs wd:Q7474 .
+
+ex:Sheldon_Glashow a ex:Researcher ;
+    rdfs:label "Sheldon Glashow"@en ;
+    ex:affiliatedWith ex:Harvard_University ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q107420 .
+
+ex:Steven_Weinberg a ex:Researcher ;
+    rdfs:label "Steven Weinberg"@en ;
+    ex:affiliatedWith ex:University_of_Texas ;
+    ex:fieldOfStudy "Particle Physics"@en ;
+    ex:nationality "American"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q179282 .
+
+ex:University a owl:Class ;
+    rdfs:subClassOf ex:Organization .
+
+ex:Werner_Heisenberg a ex:Researcher ;
+    rdfs:label "Werner Heisenberg"@en ;
+    ex:affiliatedWith ex:University_of_Leipzig ;
+    ex:fieldOfStudy "Quantum Mechanics"@en ;
+    ex:nationality "German"@en ;
+    ex:wonAward ex:Nobel_Prize_in_Physics ;
+    owl:sameAs wd:Q40904 .
+
+ex:affiliatedWith a owl:ObjectProperty ;
+    rdfs:domain ex:Researcher ;
+    rdfs:range ex:Organization ;
+    owl:equivalentProperty wdt:P1416 .
+
+ex:employedBy a owl:ObjectProperty ;
+    rdfs:domain ex:Researcher ;
+    rdfs:range ex:Organization ;
+    owl:equivalentProperty wdt:P108 .
+
+ex:fieldOfStudy a owl:ObjectProperty ;
+    rdfs:domain ex:Researcher ;
+    owl:equivalentProperty wdt:P101 .
+
+ex:nationality a owl:ObjectProperty ;
+    rdfs:domain ex:Researcher ;
+    owl:equivalentProperty wdt:P27 .
+
+ex:wonAward a owl:ObjectProperty ;
+    rdfs:domain ex:Researcher ;
+    rdfs:range ex:Award ;
+    owl:equivalentProperty wdt:P166 .
+
+ex:Cetus_Corporation a ex:Organization ;
+    rdfs:label "Cetus Corporation"@en ;
+    owl:sameAs wd:Q5065711 .
+
+ex:Columbia_University a ex:Organization ;
+    rdfs:label "Columbia University"@en ;
+    owl:sameAs wd:Q49088 .
+
+ex:Duke_University a ex:Organization ;
+    rdfs:label "Duke University"@en ;
+    owl:sameAs wd:Q168751 .
+
+ex:Fermi_National_Laboratory a ex:Organization ;
+    rdfs:label "Fermi National Laboratory"@en .
+
+ex:Harvard_University a ex:Organization ;
+    rdfs:label "Harvard University"@en ;
+    owl:sameAs wd:Q13371 .
+
+ex:Humboldt_University_Berlin a ex:Organization ;
+    rdfs:label "Humboldt University Berlin"@en ;
+    owl:sameAs wd:Q2047280 .
+
+ex:Imperial_College_London a ex:Organization ;
+    rdfs:label "Imperial College London"@en ;
+    owl:sameAs wd:Q189022 .
+
+ex:Institute_for_Advanced_Study a ex:Organization ;
+    rdfs:label "Institute for Advanced Study"@en ;
+    owl:sameAs wd:Q635642 .
+
+ex:Kaiser_Wilhelm_Institute a ex:Organization ;
+    rdfs:label "Kaiser Wilhelm Institute"@en ;
+    owl:sameAs wd:Q324178 .
+
+ex:Kings_College_London a ex:Organization ;
+    rdfs:label "Kings College London"@en ;
+    owl:sameAs wd:Q245247 .
+
+ex:Marine_Biological_Laboratory a ex:Organization ;
+    rdfs:label "Marine Biological Laboratory"@en ;
+    owl:sameAs wd:Q500632 .
+
+ex:Max_Planck_Institute a ex:Organization ;
+    rdfs:label "Max Planck Institute"@en ;
+    owl:sameAs wd:Q6019423 .
+
+ex:Presidential_Medal_of_Freedom a ex:Award ;
+    rdfs:label "Presidential Medal of Freedom"@en ;
+    owl:sameAs wd:Q17144 .
+
+ex:Salk_Institute a ex:Organization ;
+    rdfs:label "Salk Institute"@en ;
+    owl:sameAs wd:Q1351061 .
+
+ex:Sorbonne_University a ex:Organization ;
+    rdfs:label "Sorbonne University"@en ;
+    owl:sameAs wd:Q41497113 .
+
+ex:Universite_Paris_Saclay a ex:Organization ;
+    rdfs:label "Universite Paris Saclay"@en ;
+    owl:sameAs wd:Q109409389 .
+
+ex:University_of_California_Berkeley a ex:Organization ;
+    rdfs:label "University of California Berkeley"@en ;
+    owl:sameAs wd:Q168756 .
+
+ex:University_of_California_San_Diego a ex:Organization ;
+    rdfs:label "University of California San Diego"@en ;
+    owl:sameAs wd:Q622664 .
+
+ex:University_of_Chicago a ex:Organization ;
+    rdfs:label "University of Chicago"@en ;
+    owl:sameAs wd:Q131252 .
+
+ex:University_of_Copenhagen a ex:Organization ;
+    rdfs:label "University of Copenhagen"@en ;
+    owl:sameAs wd:Q186285 .
+
+ex:University_of_Edinburgh a ex:Organization ;
+    rdfs:label "University of Edinburgh"@en ;
+    owl:sameAs wd:Q160302 .
+
+ex:University_of_Leipzig a ex:Organization ;
+    rdfs:label "University of Leipzig"@en ;
+    owl:sameAs wd:Q154804 .
+
+ex:University_of_London a ex:Organization ;
+    rdfs:label "University of London"@en ;
+    owl:sameAs wd:Q170027 .
+
+ex:University_of_Manchester a ex:Organization ;
+    rdfs:label "University of Manchester"@en ;
+    owl:sameAs wd:Q230899 .
+
+ex:University_of_Missouri a ex:Organization ;
+    rdfs:label "University of Missouri"@en ;
+    owl:sameAs wd:Q579968 .
+
+ex:University_of_Oxford a ex:Organization ;
+    rdfs:label "University of Oxford"@en ;
+    owl:sameAs wd:Q34433 .
+
+ex:University_of_Texas a ex:Organization ;
+    rdfs:label "University of Texas"@en ;
+    owl:sameAs wd:Q49213 .
+
+ex:University_of_Vienna a ex:Organization ;
+    rdfs:label "University of Vienna"@en ;
+    owl:sameAs wd:Q165980 .
+
+ex:Weizmann_Institute a ex:Organization ;
+    rdfs:label "Weizmann Institute"@en ;
+    owl:sameAs wd:Q4182 .
+
+wd:Q1009506 wdt:P101 wd:Q156859,
+        wd:Q466340,
+        wd:Q66018222 ;
+    wdt:P106 wd:Q1731155,
+        wd:Q19361459,
+        wd:Q36180,
+        wd:Q3621491,
+        wd:Q4773904 ;
+    wdt:P108 wd:Q6373 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q15987216,
+        wd:Q17378135,
+        wd:Q19098835,
+        wd:Q3181656,
+        wd:Q602358,
+        wd:Q678259,
+        wd:Q867541 ;
+    wdt:P1412 wd:Q1860,
+        wd:Q188 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mr.%20George%20Smith%2C%20the%20man%20who%20transliterated%20and%20read%20the%20so-called%20the%20Babylonian%20Flood%20Story%20of%20Tablet%20XI.jpg> ;
+    wdt:P19 wd:Q743535 ;
+    wdt:P20 wd:Q41183 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P27 wd:Q174193 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P509 wd:Q129279 ;
+    wdt:P6886 wd:Q1860 ;
+    wdt:P734 wd:Q1158446 ;
+    wdt:P735 wd:Q15921732 .
+
+wd:Q106699 wdt:P101 wd:Q2728012 ;
+    wdt:P106 wd:Q121594,
+        wd:Q15839136,
+        wd:Q1622272,
+        wd:Q2919046,
+        wd:Q593644,
+        wd:Q6337803,
+        wd:Q864503 ;
+    wdt:P108 wd:Q49088 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q1273466,
+        wd:Q1340199,
+        wd:Q14906020,
+        wd:Q1577949,
+        wd:Q44585,
+        wd:Q5442484,
+        wd:Q5579511 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Chalfie%20Royal%20Society.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Chalfie-press%20conference%20Dec%2007th%2C%202008-4.jpg> ;
+    wdt:P19 wd:Q1297 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P2650 wd:Q2728012 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q123885,
+        wd:Q270794,
+        wd:Q463303 ;
+    wdt:P512 wd:Q752297 ;
+    wdt:P69 wd:Q13371,
+        wd:Q15262345,
+        wd:Q49088 ;
+    wdt:P734 wd:Q92493694 ;
+    wdt:P735 wd:Q18002399 .
+
+wd:Q106738 wdt:P101 wd:Q2329 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q593644 ;
+    wdt:P108 wd:Q2303536,
+        wd:Q49112 ;
+    wdt:P119 wd:Q111285685 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q28854612,
+        wd:Q44585,
+        wd:Q8000166,
+        wd:Q873412 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/John%20B%20Fenn01.jpg> ;
+    wdt:P19 wd:Q60 ;
+    wdt:P20 wd:Q43421 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q270794,
+        wd:Q463303 ;
+    wdt:P551 wd:Q138458,
+        wd:Q3180809,
+        wd:Q60,
+        wd:Q79474 ;
+    wdt:P69 wd:Q49112,
+        wd:Q846859 ;
+    wdt:P734 wd:Q21493950 ;
+    wdt:P735 wd:Q4925477 ;
+    wdt:P737 wd:Q10323301 ;
+    wdt:P910 wd:Q55244823 .
+
+wd:Q109409389 wdt:P1075 wd:Q15918380 ;
+    wdt:P131 wd:Q13917 ;
+    wdt:P1365 wd:Q13531686,
+        wd:Q1480643 ;
+    wdt:P1416 wd:Q1146208,
+        wd:Q1156553,
+        wd:Q1474517,
+        wd:Q2007769,
+        wd:Q280413,
+        wd:Q70571774,
+        wd:Q868550 ;
+    wdt:P1454 wd:Q87715841 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Universit%C3%A9%20Paris-Saclay%20%28ComUE%29.svg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Universit%C3%A9%20Paris-Saclay%20%28externe%29.svg> ;
+    wdt:P159 wd:Q208851 ;
+    wdt:P17 wd:Q142 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/All%C3%A9e%20des%20sciences%20Paris-Saclay.jpg> ;
+    wdt:P1889 wd:Q13531686,
+        wd:Q48759778 ;
+    wdt:P276 wd:Q262710 ;
+    wdt:P31 wd:Q3551775,
+        wd:Q875538 ;
+    wdt:P355 wd:Q106411948,
+        wd:Q107167255,
+        wd:Q107460661,
+        wd:Q109042505,
+        wd:Q109042513,
+        wd:Q109580163,
+        wd:Q109580465,
+        wd:Q109580532,
+        wd:Q109583924,
+        wd:Q109584042,
+        wd:Q109584110,
+        wd:Q109584378,
+        wd:Q109584455,
+        wd:Q109584482,
+        wd:Q109584557,
+        wd:Q109586954,
+        wd:Q109587042,
+        wd:Q109587096,
+        wd:Q109587112,
+        wd:Q109587130,
+        wd:Q109587149,
+        wd:Q109587416,
+        wd:Q109587430,
+        wd:Q109590316,
+        wd:Q109590356,
+        wd:Q109590507,
+        wd:Q109613823,
+        wd:Q109614005,
+        wd:Q109614029,
+        wd:Q109614136,
+        wd:Q109614346,
+        wd:Q109614407,
+        wd:Q109614419,
+        wd:Q109614434,
+        wd:Q109614567,
+        wd:Q109614610,
+        wd:Q109620107,
+        wd:Q109620211,
+        wd:Q109620221,
+        wd:Q109620247,
+        wd:Q109620268,
+        wd:Q109620334,
+        wd:Q109620444,
+        wd:Q109620502,
+        wd:Q109620568,
+        wd:Q109620610,
+        wd:Q109620633,
+        wd:Q109620641,
+        wd:Q109620651,
+        wd:Q109620676,
+        wd:Q109620694,
+        wd:Q109620707,
+        wd:Q109620837,
+        wd:Q109620862,
+        wd:Q109621117,
+        wd:Q109621193,
+        wd:Q109621213,
+        wd:Q109621296,
+        wd:Q109621455,
+        wd:Q109621470,
+        wd:Q109621540,
+        wd:Q109621568,
+        wd:Q109621596,
+        wd:Q109621617,
+        wd:Q109621628,
+        wd:Q109621639,
+        wd:Q109621650,
+        wd:Q109621661,
+        wd:Q109621679,
+        wd:Q109621690,
+        wd:Q109621715,
+        wd:Q109621741,
+        wd:Q109621749,
+        wd:Q109621757,
+        wd:Q109621764,
+        wd:Q109621785,
+        wd:Q109621801,
+        wd:Q109621817,
+        wd:Q109621839,
+        wd:Q109621847,
+        wd:Q109621884,
+        wd:Q109621930,
+        wd:Q112513,
+        wd:Q16511698,
+        wd:Q16652997,
+        wd:Q18156000,
+        wd:Q19945099,
+        wd:Q19945120,
+        wd:Q20971756,
+        wd:Q2388377,
+        wd:Q23932129,
+        wd:Q2404384,
+        wd:Q27825818,
+        wd:Q28494051,
+        wd:Q2945821,
+        wd:Q29606460,
+        wd:Q29620711,
+        wd:Q29624201,
+        wd:Q29625240,
+        wd:Q30261372,
+        wd:Q30261419,
+        wd:Q30261453,
+        wd:Q30261478,
+        wd:Q30261484,
+        wd:Q30261487,
+        wd:Q30261512,
+        wd:Q30261524,
+        wd:Q30261527,
+        wd:Q30261542,
+        wd:Q30261547,
+        wd:Q30261584,
+        wd:Q30261600,
+        wd:Q30261615,
+        wd:Q30261619,
+        wd:Q30262143,
+        wd:Q30262186,
+        wd:Q30262232,
+        wd:Q30262264,
+        wd:Q30262272,
+        wd:Q30262336,
+        wd:Q30262344,
+        wd:Q30262348,
+        wd:Q30262349,
+        wd:Q30262362,
+        wd:Q30262363,
+        wd:Q30262402,
+        wd:Q30262477,
+        wd:Q30264842,
+        wd:Q30281727,
+        wd:Q30282357,
+        wd:Q30282474,
+        wd:Q30296505,
+        wd:Q3074480,
+        wd:Q3100800,
+        wd:Q3133097,
+        wd:Q3151917,
+        wd:Q3151940,
+        wd:Q3152216,
+        wd:Q3152682,
+        wd:Q3214360,
+        wd:Q3214361,
+        wd:Q3214460,
+        wd:Q3214466,
+        wd:Q3214477,
+        wd:Q3214478,
+        wd:Q3214491,
+        wd:Q33121126,
+        wd:Q33121468,
+        wd:Q3578308,
+        wd:Q47008419,
+        wd:Q50040166,
+        wd:Q51778773,
+        wd:Q51779721,
+        wd:Q51779965,
+        wd:Q51779969,
+        wd:Q51780035,
+        wd:Q51780102,
+        wd:Q51780222,
+        wd:Q51780281,
+        wd:Q51780480,
+        wd:Q51780517,
+        wd:Q51780589,
+        wd:Q51780617,
+        wd:Q51780838,
+        wd:Q51781077,
+        wd:Q51781169,
+        wd:Q51781179,
+        wd:Q51781188,
+        wd:Q51781269,
+        wd:Q51781422,
+        wd:Q51781442,
+        wd:Q51781503,
+        wd:Q51781538,
+        wd:Q51781548,
+        wd:Q51781565,
+        wd:Q51781581,
+        wd:Q51781588,
+        wd:Q51781591,
+        wd:Q51781653,
+        wd:Q51781667,
+        wd:Q51781704,
+        wd:Q51781731,
+        wd:Q51781787,
+        wd:Q51781798,
+        wd:Q51781928,
+        wd:Q51781994,
+        wd:Q51782089,
+        wd:Q51782112,
+        wd:Q51782141,
+        wd:Q51782153,
+        wd:Q51782157,
+        wd:Q51782185,
+        wd:Q51782268,
+        wd:Q51782390,
+        wd:Q51782564,
+        wd:Q51782610,
+        wd:Q51782612,
+        wd:Q51782948,
+        wd:Q51783587,
+        wd:Q51783904,
+        wd:Q51783930,
+        wd:Q51784186,
+        wd:Q51784520,
+        wd:Q51784594,
+        wd:Q51784646,
+        wd:Q51784750,
+        wd:Q51784779,
+        wd:Q51784796,
+        wd:Q51784880,
+        wd:Q51785046,
+        wd:Q51785052,
+        wd:Q51785279,
+        wd:Q51785301,
+        wd:Q51785320,
+        wd:Q51785421,
+        wd:Q51785610,
+        wd:Q51785613,
+        wd:Q51786239,
+        wd:Q52604639,
+        wd:Q52604715,
+        wd:Q52605228,
+        wd:Q52605263,
+        wd:Q52605393,
+        wd:Q52605461,
+        wd:Q52605521,
+        wd:Q52605668,
+        wd:Q52606352,
+        wd:Q52606886,
+        wd:Q61983066,
+        wd:Q61983067,
+        wd:Q90272039,
+        wd:Q98094372,
+        wd:Q98094403,
+        wd:Q98112081 ;
+    wdt:P452 wd:Q112166132 ;
+    wdt:P463 wd:Q125499293,
+        wd:Q19861084,
+        wd:Q2826718,
+        wd:Q97293250 ;
+    wdt:P488 wd:Q110891482 ;
+    wdt:P527 wd:Q1474517,
+        wd:Q1531014,
+        wd:Q1637105,
+        wd:Q186638,
+        wd:Q19203245,
+        wd:Q273604,
+        wd:Q898448 ;
+    wdt:P5460 wd:Q134350485 ;
+    wdt:P856 <https://www.universite-paris-saclay.fr> ;
+    wdt:P910 wd:Q26241145 .
+
+wd:Q11641 wdt:P101 wd:Q21198 ;
+    wdt:P1026 wd:Q109376154 ;
+    wdt:P106 wd:Q10669499,
+        wd:Q1622272,
+        wd:Q169470,
+        wd:Q170790,
+        wd:Q5482740,
+        wd:Q82594 ;
+    wdt:P1066 wd:Q22073800 ;
+    wdt:P108 wd:Q1010549,
+        wd:Q1281617,
+        wd:Q1372129,
+        wd:Q2093794,
+        wd:Q690079,
+        wd:Q6981916,
+        wd:Q784567 ;
+    wdt:P119 wd:Q216344 ;
+    wdt:P1343 wd:Q113116304,
+        wd:Q55090238,
+        wd:Q66758970 ;
+    wdt:P1344 wd:Q1023961 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1416 wd:Q830971 ;
+    wdt:P1442 <http://commons.wikimedia.org/wiki/Special:FilePath/ANCExplorer%20Grace%20Hopper%20grave.jpg> ;
+    wdt:P166 wd:Q15995115,
+        wd:Q17144,
+        wd:Q17231624,
+        wd:Q1760530,
+        wd:Q1967852,
+        wd:Q2079534,
+        wd:Q2338107,
+        wd:Q2536791,
+        wd:Q2611552,
+        wd:Q29545180,
+        wd:Q30128828,
+        wd:Q4793010,
+        wd:Q5204895,
+        wd:Q52382875,
+        wd:Q531410,
+        wd:Q5424551,
+        wd:Q56876092,
+        wd:Q57629136,
+        wd:Q5970360,
+        wd:Q724443,
+        wd:Q7971681,
+        wd:Q8000166,
+        wd:Q937629 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Commodore%20Grace%20M.%20Hopper%2C%20USN%20%28covered%29.jpg> ;
+    wdt:P184 wd:Q329846 ;
+    wdt:P19 wd:Q60 ;
+    wdt:P20 wd:Q107126 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P22 wd:Q108840783 ;
+    wdt:P241 wd:Q11220 ;
+    wdt:P25 wd:Q108840790 ;
+    wdt:P26 wd:Q109324610 ;
+    wdt:P2650 wd:Q3128018,
+        wd:Q5676506,
+        wd:Q776823 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P410 wd:Q1278830 ;
+    wdt:P463 wd:Q1541947,
+        wd:Q1938003,
+        wd:Q40358,
+        wd:Q463303,
+        wd:Q5592054 ;
+    wdt:P485 wd:Q148584,
+        wd:Q3276938,
+        wd:Q7431696,
+        wd:Q964035 ;
+    wdt:P5008 wd:Q60687720 ;
+    wdt:P551 wd:Q60 ;
+    wdt:P607 wd:Q362 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P69 wd:Q2093794,
+        wd:Q49112,
+        wd:Q7969164 ;
+    wdt:P734 wd:Q1308329,
+        wd:Q21501617 ;
+    wdt:P735 wd:Q1541047,
+        wd:Q60523878 ;
+    wdt:P737 wd:Q299723,
+        wd:Q522162,
+        wd:Q61046 ;
+    wdt:P800 wd:Q1389173 ;
+    wdt:P910 wd:Q50377355 ;
+    wdt:P9600 wd:Q964035 ;
+    wdt:P973 <http://usnhistory.navylive.dodlive.mil/2014/12/09/grace-hopper-navy-to-the-core-a-pirate-at-heart/>,
+        <http://www.sciencestories.io/Q11641> .
+
+wd:Q123280 wdt:P101 wd:Q207011,
+        wd:Q413,
+        wd:Q7100,
+        wd:Q7162,
+        wd:Q7202,
+        wd:Q7430 ;
+    wdt:P103 wd:Q1860 ;
+    wdt:P106 wd:Q14906342,
+        wd:Q15839206,
+        wd:Q1622272,
+        wd:Q169470,
+        wd:Q2919046,
+        wd:Q3126128,
+        wd:Q36180,
+        wd:Q6337803,
+        wd:Q864503 ;
+    wdt:P1066 wd:Q127073,
+        wd:Q78480 ;
+    wdt:P108 wd:Q1351061,
+        wd:Q35794,
+        wd:Q75478 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Francis%20Crick%20signature.svg> ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q124737664 ;
+    wdt:P140 wd:Q7066 ;
+    wdt:P1411 wd:Q44585 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q1031994,
+        wd:Q1192912,
+        wd:Q15631401,
+        wd:Q23055166,
+        wd:Q26268243,
+        wd:Q28003,
+        wd:Q4710826,
+        wd:Q61745062,
+        wd:Q63638576,
+        wd:Q7182737,
+        wd:Q746756,
+        wd:Q80061,
+        wd:Q904645,
+        wd:Q94056,
+        wd:Q999734 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Francis%20Crick%201995.jpg> ;
+    wdt:P184 wd:Q78480 ;
+    wdt:P19 wd:Q192240 ;
+    wdt:P20 wd:Q840668 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P26 wd:Q3880866 ;
+    wdt:P2650 wd:Q7094 ;
+    wdt:P27 wd:Q145 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q123885,
+        wd:Q1376791,
+        wd:Q188771,
+        wd:Q270794,
+        wd:Q463303,
+        wd:Q466089,
+        wd:Q543804 ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P509 wd:Q188874 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P69 wd:Q13654033,
+        wd:Q193196,
+        wd:Q35794,
+        wd:Q6858340,
+        wd:Q863940 ;
+    wdt:P734 wd:Q16865867 ;
+    wdt:P735 wd:Q1441346,
+        wd:Q28007618,
+        wd:Q668885 ;
+    wdt:P800 wd:Q116918556 .
+
+wd:Q151564 wdt:P101 wd:Q7094 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q2919046,
+        wd:Q2930613,
+        wd:Q593644 ;
+    wdt:P108 wd:Q35794 ;
+    wdt:P1343 wd:Q124737637,
+        wd:Q17378135 ;
+    wdt:P140 wd:Q517609 ;
+    wdt:P1411 wd:Q44585,
+        wd:Q80061 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q1031994,
+        wd:Q1137694,
+        wd:Q1192912,
+        wd:Q12201477,
+        wd:Q15631401,
+        wd:Q16947520,
+        wd:Q17060634,
+        wd:Q28003,
+        wd:Q42304660,
+        wd:Q44585,
+        wd:Q4809650,
+        wd:Q66988003,
+        wd:Q746756,
+        wd:Q898961,
+        wd:Q899039,
+        wd:Q94056,
+        wd:Q999734 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Frederick%20Sanger2.jpg> ;
+    wdt:P184 wd:Q4710895 ;
+    wdt:P185 wd:Q26321,
+        wd:Q271766,
+        wd:Q5537344,
+        wd:Q554898 ;
+    wdt:P19 wd:Q2605064 ;
+    wdt:P20 wd:Q350 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P26 wd:Q109322973 ;
+    wdt:P2650 wd:Q7094 ;
+    wdt:P27 wd:Q145,
+        wd:Q174193 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q123885,
+        wd:Q1376791,
+        wd:Q188771,
+        wd:Q2095524,
+        wd:Q245247,
+        wd:Q26328740,
+        wd:Q270794,
+        wd:Q3650983,
+        wd:Q463303,
+        wd:Q514105,
+        wd:Q684415,
+        wd:Q691283,
+        wd:Q7157422 ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P512 wd:Q11415564,
+        wd:Q752297 ;
+    wdt:P69 wd:Q1536562,
+        wd:Q35794,
+        wd:Q691283,
+        wd:Q7730801,
+        wd:Q995138 ;
+    wdt:P734 wd:Q21484790 ;
+    wdt:P735 wd:Q3273004 ;
+    wdt:P802 wd:Q26321,
+        wd:Q295700 .
+
+wd:Q157224 wdt:P101 wd:Q2329,
+        wd:Q7094,
+        wd:Q7202 ;
+    wdt:P106 wd:Q15839206,
+        wd:Q2919046,
+        wd:Q593644 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1552 wd:Q104844637 ;
+    wdt:P166 wd:Q1031994,
+        wd:Q1366018,
+        wd:Q1732108,
+        wd:Q3332215,
+        wd:Q3405402,
+        wd:Q44585,
+        wd:Q505132,
+        wd:Q64756748,
+        wd:Q908745 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Kary%20Mullis.jpg> ;
+    wdt:P184 wd:Q26818587 ;
+    wdt:P19 wd:Q2028342 ;
+    wdt:P20 wd:Q268873 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q104603397 ;
+    wdt:P2650 wd:Q7094 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P509 wd:Q12192 ;
+    wdt:P69 wd:Q168756,
+        wd:Q5306874,
+        wd:Q864855 ;
+    wdt:P734 wd:Q37509990 ;
+    wdt:P735 wd:Q98669321 ;
+    wdt:P856 <https://karymullis.com> .
+
+wd:Q17280087 wdt:P101 wd:Q7094,
+        wd:Q7162,
+        wd:Q7193 ;
+    wdt:P106 wd:Q12119633,
+        wd:Q1622272,
+        wd:Q2919046,
+        wd:Q3126128,
+        wd:Q3779582,
+        wd:Q901 ;
+    wdt:P108 wd:Q1144565,
+        wd:Q165980,
+        wd:Q1667439,
+        wd:Q77084747,
+        wd:Q911561 ;
+    wdt:P1412 wd:Q150,
+        wd:Q1860,
+        wd:Q188,
+        wd:Q9027 ;
+    wdt:P166 wd:Q102029408,
+        wd:Q1031994,
+        wd:Q1036458,
+        wd:Q1046023,
+        wd:Q10855212,
+        wd:Q10905235,
+        wd:Q10922924,
+        wd:Q13422140,
+        wd:Q1366018,
+        wd:Q1395117,
+        wd:Q14324534,
+        wd:Q14906020,
+        wd:Q15056034,
+        wd:Q15303658,
+        wd:Q1557678,
+        wd:Q15811193,
+        wd:Q1587906,
+        wd:Q1786381,
+        wd:Q18889779,
+        wd:Q1907790,
+        wd:Q1926301,
+        wd:Q19833995,
+        wd:Q20853537,
+        wd:Q23700921,
+        wd:Q2586286,
+        wd:Q26268243,
+        wd:Q2637278,
+        wd:Q2643422,
+        wd:Q29886440,
+        wd:Q30168724,
+        wd:Q3320352,
+        wd:Q3332215,
+        wd:Q41795465,
+        wd:Q42120789,
+        wd:Q44585,
+        wd:Q458338,
+        wd:Q477467,
+        wd:Q5019489,
+        wd:Q52382875,
+        wd:Q52414520,
+        wd:Q5304319,
+        wd:Q540561,
+        wd:Q55787581,
+        wd:Q56241840,
+        wd:Q58356454,
+        wd:Q6085042,
+        wd:Q61636373,
+        wd:Q62061080,
+        wd:Q62732098,
+        wd:Q700368,
+        wd:Q703205,
+        wd:Q7795894,
+        wd:Q7970020,
+        wd:Q908745 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Emmanuelle%20Charpentier.jpg> ;
+    wdt:P19 wd:Q752255 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P2650 wd:Q7094 ;
+    wdt:P27 wd:Q142 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q188771,
+        wd:Q191583,
+        wd:Q270794,
+        wd:Q299015,
+        wd:Q338432,
+        wd:Q463303,
+        wd:Q543804,
+        wd:Q938622 ;
+    wdt:P69 wd:Q1144549,
+        wd:Q391083 ;
+    wdt:P734 wd:Q37171045,
+        wd:Q5309108 ;
+    wdt:P735 wd:Q1338465,
+        wd:Q632104 ;
+    wdt:P856 <https://www.emmanuelle-charpentier-pr.org/>,
+        <https://www.mpg.de/9343753/infektionsbiologie-charpentier> .
+
+wd:Q199654 wdt:P101 wd:Q246128,
+        wd:Q7162 ;
+    wdt:P1026 wd:Q21083873 ;
+    wdt:P106 wd:Q71049338 ;
+    wdt:P108 wd:Q49115,
+        wd:Q579968,
+        wd:Q609768 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Barbara%20McClintock%20%28signature%29.svg> ;
+    wdt:P1343 wd:Q112892854,
+        wd:Q113116304 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q1316544,
+        wd:Q14906020,
+        wd:Q1543268,
+        wd:Q1577949,
+        wd:Q1741617,
+        wd:Q1967852,
+        wd:Q2424864,
+        wd:Q39384825,
+        wd:Q5161648,
+        wd:Q52382875,
+        wd:Q540561,
+        wd:Q737051,
+        wd:Q80061,
+        wd:Q899039,
+        wd:Q904645,
+        wd:Q999734 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Barbara%20McClintock%20%281902-1992%29%20shown%20in%20her%20laboratory%20in%201947.jpg> ;
+    wdt:P184 wd:Q7361264 ;
+    wdt:P185 wd:Q18643889 ;
+    wdt:P19 wd:Q33486 ;
+    wdt:P20 wd:Q999123 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P25 wd:Q100699872 ;
+    wdt:P2650 wd:Q7162 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q123885,
+        wd:Q270794,
+        wd:Q40358,
+        wd:Q463303,
+        wd:Q466089,
+        wd:Q5592054 ;
+    wdt:P551 wd:Q33486,
+        wd:Q840381 ;
+    wdt:P552 wd:Q3039938 ;
+    wdt:P6104 wd:Q10823481,
+        wd:Q14544312,
+        wd:Q15884837,
+        wd:Q15884861,
+        wd:Q18377637,
+        wd:Q21829616,
+        wd:Q21829765,
+        wd:Q21830419,
+        wd:Q21830424,
+        wd:Q21830628,
+        wd:Q21831120,
+        wd:Q4913761,
+        wd:Q6723002,
+        wd:Q88425552 ;
+    wdt:P69 wd:Q49115,
+        wd:Q5171560,
+        wd:Q5384959,
+        wd:Q579968 ;
+    wdt:P734 wd:Q24953220,
+        wd:Q6800364 ;
+    wdt:P735 wd:Q153957 .
+
+wd:Q200470 wdt:P101 wd:Q7094 ;
+    wdt:P1038 wd:Q1074727,
+        wd:Q333500,
+        wd:Q8422398,
+        wd:Q944168 ;
+    wdt:P106 wd:Q14906342,
+        wd:Q1622272,
+        wd:Q2919046,
+        wd:Q593644 ;
+    wdt:P108 wd:Q168756,
+        wd:Q622664 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1344 wd:Q114717229 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1416 wd:Q622664 ;
+    wdt:P166 wd:Q1031994,
+        wd:Q1273466,
+        wd:Q1324940,
+        wd:Q1366018,
+        wd:Q14906020,
+        wd:Q1562531,
+        wd:Q1577949,
+        wd:Q15839972,
+        wd:Q1738081,
+        wd:Q1912013,
+        wd:Q21042373,
+        wd:Q26268243,
+        wd:Q29364864,
+        wd:Q4442635,
+        wd:Q44585,
+        wd:Q52382875,
+        wd:Q540561,
+        wd:Q56072830,
+        wd:Q56294522,
+        wd:Q63072128,
+        wd:Q63101620,
+        wd:Q7795894,
+        wd:Q7945315 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Roger%20Tsien-press%20conference%20Dec%2007th%2C%202008-2.jpg> ;
+    wdt:P184 wd:Q6181850 ;
+    wdt:P185 wd:Q23908909 ;
+    wdt:P19 wd:Q60 ;
+    wdt:P20 wd:Q171224 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q5924422 ;
+    wdt:P25 wd:Q112085662 ;
+    wdt:P2650 wd:Q7094 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3373 wd:Q3248932 ;
+    wdt:P463 wd:Q123885,
+        wd:Q1376791,
+        wd:Q270794,
+        wd:Q463303 ;
+    wdt:P509 wd:Q12152 ;
+    wdt:P53 wd:Q10919731 ;
+    wdt:P551 wd:Q16552 ;
+    wdt:P66 wd:Q1022464 ;
+    wdt:P69 wd:Q35794,
+        wd:Q49123,
+        wd:Q6659650,
+        wd:Q714740 ;
+    wdt:P734 wd:Q2541846 ;
+    wdt:P735 wd:Q4925304 ;
+    wdt:P856 <http://www.tsienlab.ucsd.edu/> .
+
+wd:Q2047280 wdt:P131 wd:Q163966,
+        wd:Q64 ;
+    wdt:P138 wd:Q50993 ;
+    wdt:P1435 wd:Q811165 ;
+    wdt:P149 wd:Q840829 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berlin-Mitte%20Humboldt-Uni%2005-2014.jpg> ;
+    wdt:P276 wd:Q2013767 ;
+    wdt:P31 wd:Q15848826 ;
+    wdt:P466 wd:Q152087,
+        wd:Q20266330 ;
+    wdt:P5775 <http://commons.wikimedia.org/wiki/Special:FilePath/Fotothek%20df%20pk%200000296%20036%20Dozent%20Prof.%20Erwin%20Gohrbandt.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/SarahEwart-122.JPG> ;
+    wdt:P5816 wd:Q56556915 ;
+    wdt:P669 wd:Q160899 ;
+    wdt:P7561 wd:Q105729660 ;
+    wdt:P84 wd:Q71886,
+        wd:Q788800 ;
+    wdt:P88 wd:Q33550 .
+
+wd:Q205345 wdt:P101 wd:Q11351,
+        wd:Q420,
+        wd:Q7094,
+        wd:Q7173 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q2919046,
+        wd:Q34463094,
+        wd:Q3640160,
+        wd:Q593644 ;
+    wdt:P108 wd:Q1191132,
+        wd:Q49110 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1412 wd:Q1860,
+        wd:Q5287 ;
+    wdt:P166 wd:Q2545449,
+        wd:Q44585,
+        wd:Q530124,
+        wd:Q720434 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Osamu%20Shimomura-press%20conference%20Dec%2006th%2C%202008-2.jpg> ;
+    wdt:P19 wd:Q3355306 ;
+    wdt:P20 wd:Q38234 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P2650 wd:Q7094 ;
+    wdt:P27 wd:Q17,
+        wd:Q188712 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P40 wd:Q2345155 ;
+    wdt:P463 wd:Q270794 ;
+    wdt:P509 wd:Q438971 ;
+    wdt:P69 wd:Q11652417,
+        wd:Q1191132 ;
+    wdt:P734 wd:Q26203250 ;
+    wdt:P735 wd:Q30109062 .
+
+wd:Q230899 wdt:P1019 <https://www.manchester.ac.uk/about/news/tagfeed/en/tags/headlines> ;
+    wdt:P1343 wd:Q73357989 ;
+    wdt:P1365 wd:Q4272498,
+        wd:Q867530 ;
+    wdt:P1416 wd:Q4005852 ;
+    wdt:P1454 wd:Q111668431 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Manchester%20University%20Logo%20%282%29.png> ;
+    wdt:P159 wd:Q18125 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Whitworth%20Hall.jpg> ;
+    wdt:P1830 wd:Q15261120,
+        wd:Q15272327,
+        wd:Q2801933,
+        wd:Q4707939,
+        wd:Q4799518,
+        wd:Q4861552,
+        wd:Q52164809,
+        wd:Q5434698,
+        wd:Q6787326,
+        wd:Q7114738,
+        wd:Q7396868,
+        wd:Q7433048,
+        wd:Q7619840 ;
+    wdt:P276 wd:Q18125 ;
+    wdt:P2888 <https://findthatcharity.uk/orgid/XI-ROR-027m9bs27> ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q3918,
+        wd:Q45400320,
+        wd:Q5341295 ;
+    wdt:P355 wd:Q18350525,
+        wd:Q45132786,
+        wd:Q90830991 ;
+    wdt:P3876 wd:Q8237396 ;
+    wdt:P4195 wd:Q6390499 ;
+    wdt:P463 wd:Q109496493,
+        wd:Q118398,
+        wd:Q19861084,
+        wd:Q4005852,
+        wd:Q5275956,
+        wd:Q5463432,
+        wd:Q5463503,
+        wd:Q590631,
+        wd:Q593768,
+        wd:Q6269240,
+        wd:Q74245723,
+        wd:Q7894986,
+        wd:Q868940 ;
+    wdt:P5008 wd:Q117222928 ;
+    wdt:P527 wd:Q2087619,
+        wd:Q67890031 ;
+    wdt:P6269 <https://shib.manchester.ac.uk/shibboleth> ;
+    wdt:P6363 <http://data.wordlift.io/wl01714/entity/university-of-manchester.html> ;
+    wdt:P7959 wd:Q67311452 ;
+    wdt:P856 <https://manchester.ac.uk> ;
+    wdt:P910 wd:Q6389232 .
+
+wd:Q324178 wdt:P101 wd:Q864928 ;
+    wdt:P131 wd:Q2966 ;
+    wdt:P137 wd:Q158085 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Max-Planck-Institut%20f%C3%BCr%20medizinische%20Forschung.jpg> ;
+    wdt:P31 wd:Q6019423 ;
+    wdt:P527 wd:Q28720033 ;
+    wdt:P749 wd:Q158085 ;
+    wdt:P856 <http://www.mpimf-heidelberg.mpg.de/english/institute/instUeberInstitut/instForschungsthemen/index.html> .
+
+wd:Q35703 wdt:P101 wd:Q128406,
+        wd:Q7094 ;
+    wdt:P103 wd:Q7976 ;
+    wdt:P106 wd:Q105186,
+        wd:Q1622272,
+        wd:Q2114605,
+        wd:Q2919046 ;
+    wdt:P108 wd:Q168751 ;
+    wdt:P1343 wd:Q113116304,
+        wd:Q66758970 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q106690287,
+        wd:Q1366018,
+        wd:Q14906020,
+        wd:Q1967852,
+        wd:Q1996511,
+        wd:Q52382875,
+        wd:Q551250,
+        wd:Q57647862,
+        wd:Q737051,
+        wd:Q80061 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Gertrude%20Elion%20%28cropped%29.jpg> ;
+    wdt:P184 wd:Q310487 ;
+    wdt:P19 wd:Q1384 ;
+    wdt:P20 wd:Q671812 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P2650 wd:Q128406 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q123885,
+        wd:Q270794,
+        wd:Q40358,
+        wd:Q4352382,
+        wd:Q463303 ;
+    wdt:P6104 wd:Q14544312,
+        wd:Q15884984,
+        wd:Q18377637,
+        wd:Q21830145,
+        wd:Q21830490,
+        wd:Q21830628,
+        wd:Q4913761,
+        wd:Q8487234 ;
+    wdt:P69 wd:Q1446181,
+        wd:Q14706609,
+        wd:Q49210,
+        wd:Q75478,
+        wd:Q7966759 ;
+    wdt:P734 wd:Q37549561 ;
+    wdt:P735 wd:Q2277072,
+        wd:Q509729 ;
+    wdt:P973 <http://www.nasonline.org/publications/biographical-memoirs/memoir-pdfs/elion-gertrude.pdf> .
+
+wd:Q41497113 wdt:P131 wd:Q90 ;
+    wdt:P1365 wd:Q1144549,
+        wd:Q546118 ;
+    wdt:P138 wd:Q214654 ;
+    wdt:P1416 wd:Q1152269 ;
+    wdt:P1454 wd:Q87715841 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Logo%20of%20Sorbonne%20University.svg> ;
+    wdt:P159 wd:Q214654 ;
+    wdt:P166 wd:Q114660506 ;
+    wdt:P17 wd:Q142 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Chapelle%20Sainte-Ursule%20de%20la%20Sorbonne%2C%20Paris%20001.jpg> ;
+    wdt:P31 wd:Q3551775,
+        wd:Q875538 ;
+    wdt:P355 wd:Q105981321,
+        wd:Q106107980,
+        wd:Q109024382,
+        wd:Q16652997,
+        wd:Q30261615,
+        wd:Q3152211,
+        wd:Q3214361,
+        wd:Q51784762 ;
+    wdt:P452 wd:Q112166132 ;
+    wdt:P463 wd:Q100264092,
+        wd:Q1152269,
+        wd:Q115682002,
+        wd:Q1201755,
+        wd:Q19861084,
+        wd:Q2826718,
+        wd:Q2996653,
+        wd:Q3456896,
+        wd:Q63171242,
+        wd:Q868940 ;
+    wdt:P488 wd:Q112119622 ;
+    wdt:P527 wd:Q105981321,
+        wd:Q106107980,
+        wd:Q109024382 ;
+    wdt:P5460 wd:Q127687193 ;
+    wdt:P856 <https://www.sorbonne-universite.fr/> ;
+    wdt:P910 wd:Q60889379 .
+
+wd:Q4273363 wdt:P101 wd:Q16007026,
+        wd:Q169525,
+        wd:Q83588,
+        wd:Q862838 ;
+    wdt:P1038 wd:Q8012567 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q205375,
+        wd:Q2919046,
+        wd:Q81096 ;
+    wdt:P108 wd:Q161562,
+        wd:Q168756,
+        wd:Q30263031 ;
+    wdt:P1343 wd:Q98164947 ;
+    wdt:P1344 wd:Q114717229 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1416 wd:Q161562 ;
+    wdt:P166 wd:Q1063447,
+        wd:Q113469875,
+        wd:Q1366018,
+        wd:Q1385301,
+        wd:Q14906020,
+        wd:Q16153104,
+        wd:Q18342538,
+        wd:Q1853663,
+        wd:Q1996511,
+        wd:Q31836898,
+        wd:Q44585,
+        wd:Q52382875,
+        wd:Q5424476,
+        wd:Q5442484,
+        wd:Q56876092,
+        wd:Q59767813,
+        wd:Q62505651,
+        wd:Q63315195,
+        wd:Q817496,
+        wd:Q895417,
+        wd:Q937629 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Frances%20Arnold%20in%202021%20at%20Caltech%2001%20%28cropped%29.jpg> ;
+    wdt:P184 wd:Q102077245 ;
+    wdt:P185 wd:Q30504767,
+        wd:Q42873253,
+        wd:Q5935111 ;
+    wdt:P19 wd:Q1342 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P22 wd:Q8012566 ;
+    wdt:P26 wd:Q6166364 ;
+    wdt:P2650 wd:Q2329 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P39 wd:Q55168644 ;
+    wdt:P451 wd:Q456536 ;
+    wdt:P463 wd:Q123885,
+        wd:Q1493021,
+        wd:Q270794,
+        wd:Q4352382,
+        wd:Q463303 ;
+    wdt:P5008 wd:Q115943922,
+        wd:Q60687720 ;
+    wdt:P512 wd:Q752297 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P69 wd:Q168756,
+        wd:Q21578,
+        wd:Q7689864 ;
+    wdt:P734 wd:Q694764 ;
+    wdt:P735 wd:Q1440778,
+        wd:Q19818110 ;
+    wdt:P856 <http://www.che.caltech.edu/faculty/arnold_f/index.html> .
+
+wd:Q48983 wdt:P101 wd:Q11372,
+        wd:Q188403,
+        wd:Q7094 ;
+    wdt:P1026 wd:Q51755190 ;
+    wdt:P106 wd:Q14906342,
+        wd:Q15142825,
+        wd:Q1622272,
+        wd:Q16323111,
+        wd:Q169470,
+        wd:Q2823717,
+        wd:Q2919046,
+        wd:Q593644,
+        wd:Q860918 ;
+    wdt:P1065 <http://scarc.library.oregonstate.edu/coll/pauling/index.html> ;
+    wdt:P1066 wd:Q77078 ;
+    wdt:P108 wd:Q161562,
+        wd:Q3151762,
+        wd:Q41506,
+        wd:Q622664,
+        wd:Q861888 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Linus%20Pauling%20signature.svg> ;
+    wdt:P119 wd:Q117503900 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q124737636,
+        wd:Q126178049,
+        wd:Q131138343 ;
+    wdt:P135 wd:Q7066 ;
+    wdt:P140 wd:Q7066 ;
+    wdt:P1411 wd:Q35637,
+        wd:Q44585,
+        wd:Q80061 ;
+    wdt:P1412 wd:Q143,
+        wd:Q1860 ;
+    wdt:P1424 wd:Q135981703 ;
+    wdt:P1552 wd:Q104844637 ;
+    wdt:P166 wd:Q1069189,
+        wd:Q126415081,
+        wd:Q126418747,
+        wd:Q1307005,
+        wd:Q1316544,
+        wd:Q1340199,
+        wd:Q14906020,
+        wd:Q15851109,
+        wd:Q1777741,
+        wd:Q18560175,
+        wd:Q19869310,
+        wd:Q220842,
+        wd:Q25324505,
+        wd:Q2607382,
+        wd:Q27966910,
+        wd:Q308907,
+        wd:Q3404636,
+        wd:Q35637,
+        wd:Q3910565,
+        wd:Q41955909,
+        wd:Q42156802,
+        wd:Q44585,
+        wd:Q5020532,
+        wd:Q52382875,
+        wd:Q5438598,
+        wd:Q6502783,
+        wd:Q737051,
+        wd:Q7515378,
+        wd:Q826100,
+        wd:Q901579,
+        wd:Q902788,
+        wd:Q905656 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Linus%20Pauling%201962.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Pauling.jpg> ;
+    wdt:P184 wd:Q554828,
+        wd:Q714440 ;
+    wdt:P185 wd:Q103311764,
+        wd:Q103311806,
+        wd:Q103312168,
+        wd:Q103312182,
+        wd:Q103312255,
+        wd:Q103312286,
+        wd:Q103312295,
+        wd:Q103312311,
+        wd:Q110935,
+        wd:Q138030613,
+        wd:Q1494839,
+        wd:Q15479950,
+        wd:Q261276,
+        wd:Q28935564,
+        wd:Q3128036,
+        wd:Q4859942,
+        wd:Q511581,
+        wd:Q5234726,
+        wd:Q559397,
+        wd:Q6137589,
+        wd:Q63856389,
+        wd:Q708523,
+        wd:Q903471,
+        wd:Q9122782,
+        wd:Q93915986 ;
+    wdt:P19 wd:Q6106 ;
+    wdt:P20 wd:Q859413 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P26 wd:Q4827386 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P39 wd:Q121594 ;
+    wdt:P40 wd:Q61761658 ;
+    wdt:P463 wd:Q117467,
+        wd:Q123885,
+        wd:Q188771,
+        wd:Q2268652,
+        wd:Q2370801,
+        wd:Q270794,
+        wd:Q337555,
+        wd:Q338432,
+        wd:Q463303,
+        wd:Q466089,
+        wd:Q543804,
+        wd:Q651690,
+        wd:Q684415 ;
+    wdt:P485 wd:Q75341040 ;
+    wdt:P5008 wd:Q103505599,
+        wd:Q6173448 ;
+    wdt:P509 wd:Q181257 ;
+    wdt:P512 wd:Q111024554 ;
+    wdt:P551 wd:Q748474,
+        wd:Q859413,
+        wd:Q983805 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P69 wd:Q161562,
+        wd:Q861888 ;
+    wdt:P734 wd:Q7155110 ;
+    wdt:P735 wd:Q15196019,
+        wd:Q2529610 ;
+    wdt:P737 wd:Q3154628,
+        wd:Q60287 ;
+    wdt:P802 wd:Q6148474 ;
+    wdt:P856 <https://scarc.library.oregonstate.edu/digitalresources/pauling/> ;
+    wdt:P910 wd:Q13313563 ;
+    wdt:P937 wd:Q47265 .
+
+wd:Q500632 wdt:P112 wd:Q97586047 ;
+    wdt:P131 wd:Q1523514 ;
+    wdt:P1344 wd:Q172266 ;
+    wdt:P1416 wd:Q131252,
+        wd:Q172266 ;
+    wdt:P1454 wd:Q18325436 ;
+    wdt:P159 wd:Q1523514 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/MBL%20Main%20Brick%20Building%2C%20aka%20the%20Lillie%20Laboratory.jpg> ;
+    wdt:P276 wd:Q747172 ;
+    wdt:P31 wd:Q13462494,
+        wd:Q163740,
+        wd:Q2385804,
+        wd:Q31855,
+        wd:Q483242 ;
+    wdt:P452 wd:Q42240 ;
+    wdt:P463 wd:Q132154030 ;
+    wdt:P6269 <https://idp.mbl.edu/idp/shibboleth> ;
+    wdt:P856 <http://www.mbl.edu/> .
+
+wd:Q5065711 wdt:P1056 wd:Q1851162 ;
+    wdt:P159 wd:Q499178 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P31 wd:Q4830453 ;
+    wdt:P452 wd:Q7108 ;
+    wdt:P749 wd:Q207983 .
+
+wd:Q56068 wdt:P101 wd:Q177900,
+        wd:Q201993,
+        wd:Q42244,
+        wd:Q708693,
+        wd:Q7094,
+        wd:Q7202,
+        wd:Q826582 ;
+    wdt:P106 wd:Q15142825,
+        wd:Q15839206,
+        wd:Q1622272,
+        wd:Q2919046,
+        wd:Q593644 ;
+    wdt:P1066 wd:Q104600 ;
+    wdt:P108 wd:Q1061104,
+        wd:Q1512226,
+        wd:Q168756,
+        wd:Q49112 ;
+    wdt:P1343 wd:Q94948718 ;
+    wdt:P1344 wd:Q114717231,
+        wd:Q114717232 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1416 wd:Q168756 ;
+    wdt:P166 wd:Q100377523,
+        wd:Q1031994,
+        wd:Q10922924,
+        wd:Q113469875,
+        wd:Q1192912,
+        wd:Q1210161,
+        wd:Q1316544,
+        wd:Q1328817,
+        wd:Q1366018,
+        wd:Q137258850,
+        wd:Q14906020,
+        wd:Q1562531,
+        wd:Q15811193,
+        wd:Q1587906,
+        wd:Q1786381,
+        wd:Q18357228,
+        wd:Q18889779,
+        wd:Q1907790,
+        wd:Q22080517,
+        wd:Q25324264,
+        wd:Q2637278,
+        wd:Q31836935,
+        wd:Q3320352,
+        wd:Q3332215,
+        wd:Q3405093,
+        wd:Q3607779,
+        wd:Q44585,
+        wd:Q458338,
+        wd:Q477467,
+        wd:Q5019489,
+        wd:Q5304319,
+        wd:Q540561,
+        wd:Q5442484,
+        wd:Q59104907,
+        wd:Q604370,
+        wd:Q6085042,
+        wd:Q61636373,
+        wd:Q6952555,
+        wd:Q7158133,
+        wd:Q7795894,
+        wd:Q7970020,
+        wd:Q85787109,
+        wd:Q905656,
+        wd:Q908745,
+        wd:Q937629 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Professor%20Jennifer%20Doudna%20ForMemRS%20%28cropped%29.jpg> ;
+    wdt:P184 wd:Q104600 ;
+    wdt:P185 wd:Q102941359 ;
+    wdt:P19 wd:Q61 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P26 wd:Q87623216 ;
+    wdt:P2650 wd:Q7094 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P39 wd:Q55168644 ;
+    wdt:P463 wd:Q123885,
+        wd:Q270794,
+        wd:Q4352382,
+        wd:Q463303,
+        wd:Q938622 ;
+    wdt:P5008 wd:Q87748614 ;
+    wdt:P512 wd:Q752297 ;
+    wdt:P551 wd:Q216258 ;
+    wdt:P6104 wd:Q14544312,
+        wd:Q15785976,
+        wd:Q4913761,
+        wd:Q8487234,
+        wd:Q88425552 ;
+    wdt:P69 wd:Q13371,
+        wd:Q5764322,
+        wd:Q7227384 ;
+    wdt:P734 wd:Q37567647 ;
+    wdt:P735 wd:Q4677161,
+        wd:Q564684 ;
+    wdt:P737 wd:Q104600,
+        wd:Q135180,
+        wd:Q5173502,
+        wd:Q84426680 ;
+    wdt:P800 wd:Q23663359 ;
+    wdt:P910 wd:Q110268242 .
+
+wd:Q7251 wdt:P101 wd:Q21198,
+        wd:Q395,
+        wd:Q8078,
+        wd:Q8789,
+        wd:Q897511 ;
+    wdt:P1026 wd:Q7663875 ;
+    wdt:P103 wd:Q1860 ;
+    wdt:P1050 wd:Q186676 ;
+    wdt:P106 wd:Q15442776,
+        wd:Q82594 ;
+    wdt:P1066 wd:Q92741 ;
+    wdt:P108 wd:Q1967606,
+        wd:Q220798,
+        wd:Q35794,
+        wd:Q867530 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Turing%20signature.svg> ;
+    wdt:P119 wd:Q8029331 ;
+    wdt:P1196 wd:Q10737 ;
+    wdt:P1343 wd:Q136161453,
+        wd:Q27638634 ;
+    wdt:P1399 wd:Q5610496 ;
+    wdt:P140 wd:Q7066 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1424 wd:Q120912950 ;
+    wdt:P166 wd:Q10762848,
+        wd:Q15631401,
+        wd:Q1690167 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Turing%20%281951%29%20%28crop%29.jpg> ;
+    wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/Alan%20Turing%20%285025990183%29.jpg> ;
+    wdt:P1830 wd:Q47451142 ;
+    wdt:P184 wd:Q92741 ;
+    wdt:P185 wd:Q16493,
+        wd:Q249984 ;
+    wdt:P19 wd:Q122744 ;
+    wdt:P20 wd:Q2011497 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q20895930 ;
+    wdt:P25 wd:Q20895935 ;
+    wdt:P2650 wd:Q11660,
+        wd:Q1166618,
+        wd:Q833585 ;
+    wdt:P27 wd:Q145 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P451 wd:Q21693479 ;
+    wdt:P463 wd:Q123885 ;
+    wdt:P485 wd:Q2278254,
+        wd:Q81165230 ;
+    wdt:P5008 wd:Q5460604,
+        wd:Q6173448,
+        wd:Q97285685 ;
+    wdt:P509 wd:Q883082 ;
+    wdt:P551 wd:Q122744,
+        wd:Q213465 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P641 wd:Q542 ;
+    wdt:P69 wd:Q21578,
+        wd:Q2278254,
+        wd:Q66135280,
+        wd:Q924289 ;
+    wdt:P734 wd:Q104650420 ;
+    wdt:P735 wd:Q134606297,
+        wd:Q294833 ;
+    wdt:P737 wd:Q707155 ;
+    wdt:P7781 wd:Q5610496 ;
+    wdt:P800 wd:Q1190223,
+        wd:Q1191836,
+        wd:Q133854517,
+        wd:Q1527413,
+        wd:Q163310,
+        wd:Q189223,
+        wd:Q197970,
+        wd:Q20895949,
+        wd:Q20895966,
+        wd:Q2703890,
+        wd:Q309157,
+        wd:Q480476,
+        wd:Q622849,
+        wd:Q7661303,
+        wd:Q772056 ;
+    wdt:P802 wd:Q249984 ;
+    wdt:P856 <http://www.turingarchive.org/> ;
+    wdt:P91 wd:Q6636 ;
+    wdt:P910 wd:Q9384007 ;
+    wdt:P973 <https://heritage.humanists.uk/alan-turing/>,
+        <https://universityarchives.princeton.edu/2014/11/alan-turings-princeton-university-file-available-online/>,
+        <https://www.kings.cam.ac.uk/archive-centre/online-resources/online-exhibitions/alan-mathison-turing-1912-54>,
+        <https://www.nytimes.com/2019/06/05/obituaries/alan-turing-overlooked.html> .
+
+wd:Q7259 wdt:P101 wd:Q179310,
+        wd:Q395 ;
+    wdt:P103 wd:Q1860 ;
+    wdt:P106 wd:Q170790,
+        wd:Q205375,
+        wd:Q333634,
+        wd:Q36180,
+        wd:Q49757,
+        wd:Q5482740,
+        wd:Q81096,
+        wd:Q82594 ;
+    wdt:P1066 wd:Q208448,
+        wd:Q268702,
+        wd:Q8009437 ;
+    wdt:P108 wd:Q35794 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Augusta%20Ava%20Lovelace%20autograph.svg> ;
+    wdt:P119 wd:Q5117286 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q108572536,
+        wd:Q112892854,
+        wd:Q113116304,
+        wd:Q124350773,
+        wd:Q66758970 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ada%20Byron%20daguerreotype%20by%20Antoine%20Claudet%201843%20or%201850%20-%20cropped.png> ;
+    wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/AdaLovelaceplaque.JPG> ;
+    wdt:P19 wd:Q84 ;
+    wdt:P20 wd:Q123634 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P22 wd:Q5679 ;
+    wdt:P25 wd:Q272161 ;
+    wdt:P26 wd:Q4426480 ;
+    wdt:P27 wd:Q174193 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3342 wd:Q46633 ;
+    wdt:P3373 wd:Q276241,
+        wd:Q2837843 ;
+    wdt:P3716 wd:Q134737 ;
+    wdt:P40 wd:Q451969,
+        wd:Q5004403,
+        wd:Q7287750 ;
+    wdt:P5008 wd:Q60687720,
+        wd:Q6173448,
+        wd:Q85319493 ;
+    wdt:P509 wd:Q1209744 ;
+    wdt:P51 <http://commons.wikimedia.org/wiki/Special:FilePath/Ada%20Lovelace%20%28As%20Told%20By%20U.S.%20Chief%20Technology%20Officer%20Megan%20Smith%29.mp3> ;
+    wdt:P511 wd:Q1480896 ;
+    wdt:P6104 wd:Q11036732,
+        wd:Q11336485,
+        wd:Q14544312,
+        wd:Q14605773,
+        wd:Q15730590,
+        wd:Q18377637,
+        wd:Q21712210,
+        wd:Q21829616,
+        wd:Q4913761,
+        wd:Q8487137 ;
+    wdt:P6886 wd:Q1860 ;
+    wdt:P734 wd:Q1260681,
+        wd:Q535214 ;
+    wdt:P735 wd:Q1370330,
+        wd:Q346047 ;
+    wdt:P737 wd:Q46633 ;
+    wdt:P910 wd:Q27920173 ;
+    wdt:P97 wd:Q5177051 .
+
+wd:Q7426 wdt:P101 wd:Q160398,
+        wd:Q420,
+        wd:Q42244,
+        wd:Q7094,
+        wd:Q7202,
+        wd:Q908902 ;
+    wdt:P106 wd:Q15142825,
+        wd:Q15839206,
+        wd:Q1622272,
+        wd:Q2919046,
+        wd:Q593644,
+        wd:Q901 ;
+    wdt:P108 wd:Q102212738,
+        wd:Q131252 ;
+    wdt:P1343 wd:Q113116304 ;
+    wdt:P1412 wd:Q1860,
+        wd:Q9288 ;
+    wdt:P166 wd:Q110867674,
+        wd:Q126416278,
+        wd:Q1287930,
+        wd:Q14906020,
+        wd:Q1587906,
+        wd:Q1786381,
+        wd:Q1907790,
+        wd:Q2202680,
+        wd:Q25386857,
+        wd:Q26268243,
+        wd:Q26936132,
+        wd:Q31836935,
+        wd:Q40673468,
+        wd:Q44585,
+        wd:Q458338,
+        wd:Q54107107,
+        wd:Q56509042,
+        wd:Q616568,
+        wd:Q69797486,
+        wd:Q700368,
+        wd:Q7731313,
+        wd:Q86454113,
+        wd:Q86752757,
+        wd:Q899039,
+        wd:Q968876 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Ada%20E.%20Yonath.jpg> ;
+    wdt:P184 wd:Q28519193 ;
+    wdt:P19 wd:Q1218 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P2650 wd:Q160398 ;
+    wdt:P27 wd:Q801 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q123885,
+        wd:Q1376791,
+        wd:Q209184,
+        wd:Q270794,
+        wd:Q338432,
+        wd:Q463303,
+        wd:Q46703,
+        wd:Q543804,
+        wd:Q938622 ;
+    wdt:P69 wd:Q174158,
+        wd:Q4182 ;
+    wdt:P734 wd:Q131931040 ;
+    wdt:P735 wd:Q346047 ;
+    wdt:P737 wd:Q110935 ;
+    wdt:P937 wd:Q4182 .
+
+wd:Q7474 wdt:P101 wd:Q826582 ;
+    wdt:P103 wd:Q1860 ;
+    wdt:P106 wd:Q14906342,
+        wd:Q15142825,
+        wd:Q15839206,
+        wd:Q1622272,
+        wd:Q169470,
+        wd:Q2919046,
+        wd:Q3126128,
+        wd:Q593644,
+        wd:Q864503 ;
+    wdt:P108 wd:Q245247,
+        wd:Q375606 ;
+    wdt:P119 wd:Q8003686 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q112892854,
+        wd:Q113116304,
+        wd:Q124350773,
+        wd:Q66758970 ;
+    wdt:P1412 wd:Q150,
+        wd:Q1860,
+        wd:Q7979 ;
+    wdt:P166 wd:Q137915278,
+        wd:Q899039 ;
+    wdt:P172 wd:Q7325 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Rosalind%20Franklin.jpg> ;
+    wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/ROSALIND%20FRANKLIN%201920-1958%20Pioneer%20of%20the%20study%20of%20molecular%20structures%20including%20DNA%20lived%20here%201951-1958.jpg> ;
+    wdt:P185 wd:Q21166230 ;
+    wdt:P1889 wd:Q6744161 ;
+    wdt:P19 wd:Q215354 ;
+    wdt:P20 wd:Q50575536 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P22 wd:Q5365834 ;
+    wdt:P27 wd:Q145,
+        wd:Q174193 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P485 wd:Q714740,
+        wd:Q7981191 ;
+    wdt:P5008 wd:Q117322976,
+        wd:Q60687720 ;
+    wdt:P509 wd:Q172341 ;
+    wdt:P512 wd:Q752297 ;
+    wdt:P69 wd:Q1247589,
+        wd:Q35794,
+        wd:Q4638918,
+        wd:Q7051393 ;
+    wdt:P734 wd:Q2696075 ;
+    wdt:P735 wd:Q16423214,
+        wd:Q20165788 ;
+    wdt:P802 wd:Q21166230,
+        wd:Q425771,
+        wd:Q6390212 ;
+    wdt:P973 <https://www.nytimes.com/2023/04/25/science/rosalind-franklin-dna.html> .
+
+wd:Q7487 wdt:P101 wd:Q160398,
+        wd:Q2329,
+        wd:Q7094,
+        wd:Q826582 ;
+    wdt:P1026 wd:Q50560072 ;
+    wdt:P1050 wd:Q187255 ;
+    wdt:P106 wd:Q14906342,
+        wd:Q15142825,
+        wd:Q169470,
+        wd:Q2919046,
+        wd:Q593644 ;
+    wdt:P108 wd:Q35794 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q112892854,
+        wd:Q113116304,
+        wd:Q124350773,
+        wd:Q125459804,
+        wd:Q17378135,
+        wd:Q66758970 ;
+    wdt:P1411 wd:Q38104,
+        wd:Q44585 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q109595718,
+        wd:Q1107771,
+        wd:Q11415564,
+        wd:Q1340199,
+        wd:Q15631401,
+        wd:Q17521493,
+        wd:Q18560176,
+        wd:Q18560233,
+        wd:Q28003,
+        wd:Q28401709,
+        wd:Q306590,
+        wd:Q308907,
+        wd:Q41578548,
+        wd:Q41799198,
+        wd:Q42609895,
+        wd:Q44585,
+        wd:Q52382875,
+        wd:Q746756,
+        wd:Q94056 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Professor%20Dorothy%20Hodgkin.jpg> ;
+    wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/Dorothy%20Hodgkin%20blue%20plaque%20in%20Oxford.jpg> ;
+    wdt:P184 wd:Q168362 ;
+    wdt:P185 wd:Q102289521,
+        wd:Q45766574,
+        wd:Q6303470,
+        wd:Q7814993,
+        wd:Q92903 ;
+    wdt:P19 wd:Q85 ;
+    wdt:P20 wd:Q2043291 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P22 wd:Q6955980 ;
+    wdt:P25 wd:Q15130018 ;
+    wdt:P26 wd:Q7791866 ;
+    wdt:P2650 wd:Q7094 ;
+    wdt:P27 wd:Q145 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3373 wd:Q55154410,
+        wd:Q96088570,
+        wd:Q96088572 ;
+    wdt:P463 wd:Q123885,
+        wd:Q2370801,
+        wd:Q253439,
+        wd:Q270794,
+        wd:Q3285345,
+        wd:Q463303,
+        wd:Q543804,
+        wd:Q83172 ;
+    wdt:P5008 wd:Q60687720,
+        wd:Q6173448 ;
+    wdt:P509 wd:Q1368943 ;
+    wdt:P551 wd:Q34217 ;
+    wdt:P69 wd:Q1247589,
+        wd:Q34433,
+        wd:Q7527890,
+        wd:Q774489 ;
+    wdt:P734 wd:Q28920982,
+        wd:Q37476456 ;
+    wdt:P735 wd:Q2647244,
+        wd:Q734578 ;
+    wdt:P910 wd:Q55331654 ;
+    wdt:P937 wd:Q34217,
+        wd:Q350 .
+
+ex:CERN a ex:Organization ;
+    rdfs:label "CERN"@en ;
+    owl:sameAs wd:Q42944 .
+
+ex:Cold_Spring_Harbor_Laboratory a ex:Organization ;
+    rdfs:label "Cold Spring Harbor Laboratory"@en ;
+    owl:sameAs wd:Q609768 .
+
+ex:University_of_Cambridge a ex:Organization ;
+    rdfs:label "University of Cambridge"@en ;
+    owl:sameAs wd:Q35794 .
+
+ex:Yale_University a ex:Organization ;
+    rdfs:label "Yale University"@en ;
+    owl:sameAs wd:Q49112 .
+
+wd:Q107420 wdt:P101 wd:Q1262328,
+        wd:Q18334,
+        wd:Q18362,
+        wd:Q466416 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q169470,
+        wd:Q19350898,
+        wd:Q901 ;
+    wdt:P1066 wd:Q186465 ;
+    wdt:P108 wd:Q13371,
+        wd:Q168756,
+        wd:Q49110 ;
+    wdt:P1343 wd:Q126178049 ;
+    wdt:P140 wd:Q7066 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q126416234,
+        wd:Q15815544,
+        wd:Q23055126,
+        wd:Q38104,
+        wd:Q42293686,
+        wd:Q69420858,
+        wd:Q7331107 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sheldon%20Glashow%20at%20Harvard.jpg> ;
+    wdt:P184 wd:Q186465 ;
+    wdt:P185 wd:Q103373160,
+        wd:Q103373177 ;
+    wdt:P19 wd:Q60 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P2650 wd:Q18362 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q270794,
+        wd:Q338432,
+        wd:Q40358,
+        wd:Q463303,
+        wd:Q466089,
+        wd:Q466113,
+        wd:Q83172 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P69 wd:Q13371,
+        wd:Q49110,
+        wd:Q49115,
+        wd:Q751612 ;
+    wdt:P734 wd:Q75358570 ;
+    wdt:P735 wd:Q2061957,
+        wd:Q2277847 ;
+    wdt:P800 wd:Q33198 .
+
+wd:Q1351061 wdt:P112 wd:Q200101 ;
+    wdt:P131 wd:Q16552 ;
+    wdt:P138 wd:Q200101 ;
+    wdt:P1454 wd:Q18325436 ;
+    wdt:P159 wd:Q128635401 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Salk%20Institute%20%284%29.jpg> ;
+    wdt:P276 wd:Q128635401 ;
+    wdt:P31 wd:Q121267210,
+        wd:Q163740,
+        wd:Q1664720 ;
+    wdt:P463 wd:Q116153205,
+        wd:Q132154030 ;
+    wdt:P856 <https://www.salk.edu/> ;
+    wdt:P910 wd:Q55250472 .
+
+wd:Q153178 wdt:P101 wd:Q18334 ;
+    wdt:P106 wd:Q1650915,
+        wd:Q169470,
+        wd:Q23833535 ;
+    wdt:P108 wd:Q280413,
+        wd:Q42944 ;
+    wdt:P1412 wd:Q150 ;
+    wdt:P166 wd:Q10855195,
+        wd:Q13422140,
+        wd:Q137557200,
+        wd:Q15815544,
+        wd:Q2111249,
+        wd:Q25287226,
+        wd:Q28493923,
+        wd:Q3332287,
+        wd:Q3405088,
+        wd:Q38104,
+        wd:Q42309575,
+        wd:Q59306809,
+        wd:Q62592341 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/CHARPAK%20Georges-24x50-2005%20cropped.JPG> ;
+    wdt:P185 wd:Q38523490 ;
+    wdt:P19 wd:Q205765 ;
+    wdt:P20 wd:Q238723 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P26 wd:Q109332563 ;
+    wdt:P2632 wd:Q151198 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q142,
+        wd:Q36 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3373 wd:Q2847499 ;
+    wdt:P40 wd:Q54669715 ;
+    wdt:P463 wd:Q188771,
+        wd:Q270794,
+        wd:Q299015,
+        wd:Q337555,
+        wd:Q83172 ;
+    wdt:P512 wd:Q798022,
+        wd:Q849697 ;
+    wdt:P607 wd:Q362 ;
+    wdt:P69 wd:Q1189954,
+        wd:Q209842,
+        wd:Q273500,
+        wd:Q471980 ;
+    wdt:P734 wd:Q78147728 ;
+    wdt:P735 wd:Q123575822,
+        wd:Q15921764 ;
+    wdt:P800 wd:Q3025405 ;
+    wdt:P973 <https://comihistocnrs.hypotheses.org/2706> .
+
+wd:Q154804 wdt:P1075 wd:Q109735193 ;
+    wdt:P112 wd:Q69694 ;
+    wdt:P11326 <https://www.uni-leipzig.de/impressum> ;
+    wdt:P131 wd:Q2079 ;
+    wdt:P1343 wd:Q125973359,
+        wd:Q14916674 ;
+    wdt:P1454 wd:Q15734684 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Universit%C3%A4t%20Leipzig%20logo.svg> ;
+    wdt:P158 <http://commons.wikimedia.org/wiki/Special:FilePath/Uni%20Leipzig%20-%20Siegel.svg> ;
+    wdt:P159 wd:Q2079 ;
+    wdt:P17 wd:Q183 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/BibliothecaAlbertina%20Leipzig.jpg> ;
+    wdt:P1830 wd:Q465 ;
+    wdt:P2936 wd:Q188 ;
+    wdt:P31 wd:Q1365560,
+        wd:Q1767829,
+        wd:Q45400320,
+        wd:Q875538 ;
+    wdt:P355 wd:Q108600897,
+        wd:Q135495242,
+        wd:Q135655112,
+        wd:Q21821328,
+        wd:Q71970949,
+        wd:Q872896 ;
+    wdt:P3876 wd:Q7003155 ;
+    wdt:P4195 wd:Q7996200 ;
+    wdt:P463 wd:Q109496585,
+        wd:Q1201755,
+        wd:Q135107230,
+        wd:Q1559701,
+        wd:Q1618604,
+        wd:Q19861084,
+        wd:Q2514863,
+        wd:Q39129,
+        wd:Q61658497,
+        wd:Q868940,
+        wd:Q880981 ;
+    wdt:P5008 wd:Q117222928 ;
+    wdt:P527 wd:Q124844618,
+        wd:Q135495242,
+        wd:Q135655112,
+        wd:Q28738079 ;
+    wdt:P6269 <https://aai.rz.uni-leipzig.de/idp/shibboleth> ;
+    wdt:P7101 <https://www.uni-leipzig.de/datenschutz> ;
+    wdt:P8324 wd:Q294163 ;
+    wdt:P856 <https://www.uni-leipzig.de/>,
+        <https://www.uni-leipzig.de/en> ;
+    wdt:P910 wd:Q8803696 .
+
+wd:Q160302 wdt:P1299 wd:Q71989949 ;
+    wdt:P131 wd:Q2379199 ;
+    wdt:P1343 wd:Q16082057,
+        wd:Q3181656,
+        wd:Q73357989 ;
+    wdt:P1416 wd:Q590631 ;
+    wdt:P159 wd:Q23436 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Old%20College%20Quad.jpg> ;
+    wdt:P1830 wd:Q20767339,
+        wd:Q3719191,
+        wd:Q50839383,
+        wd:Q6801106 ;
+    wdt:P2354 wd:Q6635049 ;
+    wdt:P2388 wd:Q5070801,
+        wd:Q7303224 ;
+    wdt:P276 wd:Q23436 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q163740,
+        wd:Q2667285,
+        wd:Q45400320,
+        wd:Q875538 ;
+    wdt:P355 wd:Q1633976,
+        wd:Q30265823,
+        wd:Q33121582,
+        wd:Q3719191,
+        wd:Q54869657,
+        wd:Q54913087,
+        wd:Q7895359 ;
+    wdt:P3876 wd:Q8170135 ;
+    wdt:P41 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20University%20of%20Edinburgh.svg> ;
+    wdt:P4195 wd:Q8219110 ;
+    wdt:P463 wd:Q1152269,
+        wd:Q118398,
+        wd:Q1883765,
+        wd:Q19861084,
+        wd:Q211620,
+        wd:Q35677307,
+        wd:Q37033,
+        wd:Q4809891,
+        wd:Q48789578,
+        wd:Q590631,
+        wd:Q59696014,
+        wd:Q72936141,
+        wd:Q7894986,
+        wd:Q868940 ;
+    wdt:P5008 wd:Q117222928 ;
+    wdt:P527 wd:Q116738915,
+        wd:Q124831389,
+        wd:Q26986300,
+        wd:Q59278940,
+        wd:Q60789168,
+        wd:Q7309980,
+        wd:Q7592777,
+        wd:Q7679039 ;
+    wdt:P6269 <https://idp.ed.ac.uk/shibboleth> ;
+    wdt:P7014 <https://www.ed.ac.uk/information-services/library-museum-gallery/library-help/copyright> ;
+    wdt:P7959 wd:Q67317221 ;
+    wdt:P8464 wd:Q97496863 ;
+    wdt:P856 <https://www.ed.ac.uk> ;
+    wdt:P910 wd:Q9621383 ;
+    wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Edinburgh%20coat%20of%20arms.JPG> .
+
+wd:Q168751 wdt:P101 wd:Q136822,
+        wd:Q42240 ;
+    wdt:P10588 wd:Q3955006 ;
+    wdt:P10607 wd:Q2907160 ;
+    wdt:P112 wd:Q2916122 ;
+    wdt:P131 wd:Q49229 ;
+    wdt:P1343 wd:Q107434948,
+        wd:Q124336527,
+        wd:Q73357989 ;
+    wdt:P138 wd:Q16031191 ;
+    wdt:P140 wd:Q329646 ;
+    wdt:P1454 wd:Q130264570 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Duke%20University%20logo.svg> ;
+    wdt:P159 wd:Q49229 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P1792 wd:Q8391733 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Duke%20Chapel%204%2016%2005.jpg> ;
+    wdt:P1830 wd:Q2907160,
+        wd:Q2934766,
+        wd:Q31160143,
+        wd:Q3565475,
+        wd:Q5038194,
+        wd:Q5312753,
+        wd:Q56275015,
+        wd:Q6111807,
+        wd:Q7722123,
+        wd:Q7957605 ;
+    wdt:P2643 wd:Q113624884,
+        wd:Q23622831,
+        wd:Q23623491,
+        wd:Q23662432,
+        wd:Q23662486,
+        wd:Q23662760 ;
+    wdt:P276 wd:Q99438089 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q23002054,
+        wd:Q3918,
+        wd:Q45400320 ;
+    wdt:P355 wd:Q4119601,
+        wd:Q45132062,
+        wd:Q45132293,
+        wd:Q45133628,
+        wd:Q45135978,
+        wd:Q45136363,
+        wd:Q56474016,
+        wd:Q7417654,
+        wd:Q96150792 ;
+    wdt:P3876 wd:Q6449003 ;
+    wdt:P4195 wd:Q6375957 ;
+    wdt:P452 wd:Q136822 ;
+    wdt:P463 wd:Q101483295,
+        wd:Q116153205,
+        wd:Q118398,
+        wd:Q123938901,
+        wd:Q124358776,
+        wd:Q19861084,
+        wd:Q2842325,
+        wd:Q4809602,
+        wd:Q5059850,
+        wd:Q5137944,
+        wd:Q5275906,
+        wd:Q5583848,
+        wd:Q647039,
+        wd:Q743812,
+        wd:Q756355,
+        wd:Q78511203 ;
+    wdt:P4640 <http://commons.wikimedia.org/wiki/Special:FilePath/Duke%20University%20in%20July%202025%20West%20Campus%20photosphere%201.jpg> ;
+    wdt:P5008 wd:Q117222928,
+        wd:Q6173448 ;
+    wdt:P6364 wd:Q5312932,
+        wd:Q89507824 ;
+    wdt:P8324 wd:Q786194 ;
+    wdt:P8464 wd:Q97496928 ;
+    wdt:P856 <https://duke.edu> ;
+    wdt:P8592 <http://commons.wikimedia.org/wiki/Special:FilePath/Duke%20University%2C%20from%20the%20air%20%28294137873%29.jpg> ;
+    wdt:P910 wd:Q8391721 .
+
+wd:Q179282 wdt:P101 wd:Q18362,
+        wd:Q338,
+        wd:Q413 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q169470,
+        wd:Q19350898,
+        wd:Q2998308,
+        wd:Q36180 ;
+    wdt:P1066 wd:Q567758 ;
+    wdt:P108 wd:Q13371,
+        wd:Q168756,
+        wd:Q263761,
+        wd:Q49108,
+        wd:Q49213 ;
+    wdt:P119 wd:Q2342386 ;
+    wdt:P1343 wd:Q126178049,
+        wd:Q2657718 ;
+    wdt:P135 wd:Q7066 ;
+    wdt:P140 wd:Q7066 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q1164475,
+        wd:Q1332315,
+        wd:Q14906020,
+        wd:Q1522873,
+        wd:Q1778662,
+        wd:Q19869310,
+        wd:Q21662156,
+        wd:Q23055126,
+        wd:Q2776640,
+        wd:Q2887042,
+        wd:Q3806623,
+        wd:Q38104,
+        wd:Q50614979,
+        wd:Q57446605,
+        wd:Q61745062,
+        wd:Q7331107,
+        wd:Q737051,
+        wd:Q74267946 ;
+    wdt:P172 wd:Q34069 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Steven%20Weinberg%202010.jpg> ;
+    wdt:P184 wd:Q567758 ;
+    wdt:P185 wd:Q102110263,
+        wd:Q102118642,
+        wd:Q102305238,
+        wd:Q102305239,
+        wd:Q102305240,
+        wd:Q102305241,
+        wd:Q102305245,
+        wd:Q103231696,
+        wd:Q103231717,
+        wd:Q103231805,
+        wd:Q103231834,
+        wd:Q103231863,
+        wd:Q134428142,
+        wd:Q22669803,
+        wd:Q30119896,
+        wd:Q5345651,
+        wd:Q5444891,
+        wd:Q63754483,
+        wd:Q6767706,
+        wd:Q722128 ;
+    wdt:P1889 wd:Q3499297 ;
+    wdt:P19 wd:Q60 ;
+    wdt:P20 wd:Q16559 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P26 wd:Q6689000 ;
+    wdt:P2650 wd:Q18362 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q123885,
+        wd:Q270794,
+        wd:Q463303,
+        wd:Q466089 ;
+    wdt:P512 wd:Q19693354 ;
+    wdt:P551 wd:Q16559 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P6886 wd:Q1860 ;
+    wdt:P69 wd:Q21578,
+        wd:Q49088,
+        wd:Q49115,
+        wd:Q751612 ;
+    wdt:P734 wd:Q15853853 ;
+    wdt:P735 wd:Q17501985 .
+
+wd:Q187199 wdt:P101 wd:Q18334 ;
+    wdt:P102 wd:Q327591 ;
+    wdt:P103 wd:Q652 ;
+    wdt:P106 wd:Q169470,
+        wd:Q81096 ;
+    wdt:P108 wd:Q13371,
+        wd:Q219317 ;
+    wdt:P1412 wd:Q1860,
+        wd:Q652 ;
+    wdt:P1416 wd:Q42944 ;
+    wdt:P166 wd:Q10855195,
+        wd:Q109595718,
+        wd:Q1107771,
+        wd:Q1227372,
+        wd:Q126416255,
+        wd:Q126416272,
+        wd:Q14539974,
+        wd:Q14906020,
+        wd:Q20853466,
+        wd:Q38104,
+        wd:Q63101530,
+        wd:Q96622669,
+        wd:Q97446358 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Carlo%20Rubbia%202012.jpg> ;
+    wdt:P19 wd:Q6596 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q38 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P39 wd:Q17376888,
+        wd:Q826589 ;
+    wdt:P463 wd:Q123885,
+        wd:Q1264085,
+        wd:Q139860,
+        wd:Q1674868,
+        wd:Q265058,
+        wd:Q270794,
+        wd:Q299015,
+        wd:Q337234,
+        wd:Q338432,
+        wd:Q3603946,
+        wd:Q3603955,
+        wd:Q463303,
+        wd:Q651690,
+        wd:Q83172,
+        wd:Q881206,
+        wd:Q938622 ;
+    wdt:P512 wd:Q849697 ;
+    wdt:P6104 wd:Q21829785,
+        wd:Q4913761,
+        wd:Q8487193 ;
+    wdt:P69 wd:Q49088,
+        wd:Q645663,
+        wd:Q672416 ;
+    wdt:P734 wd:Q111512551 ;
+    wdt:P735 wd:Q4205426 ;
+    wdt:P937 wd:Q220 ;
+    wdt:P973 <https://rinconeducativo.org/es/noticias/es-posible-reducir-el-80-de-los-residuos-radiactivos-existentes-carlo-rubbia-responde-que-si/> .
+
+wd:Q192112 wdt:P101 wd:Q18362,
+        wd:Q402,
+        wd:Q489328 ;
+    wdt:P103 wd:Q1860 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q1650915,
+        wd:Q169470,
+        wd:Q19350898,
+        wd:Q63017728 ;
+    wdt:P108 wd:Q160302,
+        wd:Q170027,
+        wd:Q193196,
+        wd:Q7374001 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Signature%20of%20British%20physicist%20Peter%20Higgs.png> ;
+    wdt:P140 wd:Q7066 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q101462913,
+        wd:Q107473961,
+        wd:Q1227368,
+        wd:Q15631401,
+        wd:Q15815544,
+        wd:Q16947520,
+        wd:Q1778662,
+        wd:Q21476518,
+        wd:Q22000992,
+        wd:Q2240036,
+        wd:Q24081884,
+        wd:Q26736352,
+        wd:Q28003,
+        wd:Q3320352,
+        wd:Q38104,
+        wd:Q40683907,
+        wd:Q41795465,
+        wd:Q41805995,
+        wd:Q42120789,
+        wd:Q42309487,
+        wd:Q426989,
+        wd:Q5438598,
+        wd:Q55139818,
+        wd:Q55149541,
+        wd:Q59823889,
+        wd:Q6142870,
+        wd:Q69330712,
+        wd:Q7795894,
+        wd:Q83529740,
+        wd:Q844872,
+        wd:Q845333 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Nobel%20Prize%2024%202013.jpg> ;
+    wdt:P184 wd:Q899772,
+        wd:Q900605 ;
+    wdt:P185 wd:Q102303254,
+        wd:Q102442979,
+        wd:Q20714000,
+        wd:Q5111954,
+        wd:Q5240797,
+        wd:Q55588857 ;
+    wdt:P1889 wd:Q102445863 ;
+    wdt:P19 wd:Q1425428 ;
+    wdt:P20 wd:Q23436 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q145 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P39 wd:Q1240569 ;
+    wdt:P463 wd:Q117467,
+        wd:Q123885,
+        wd:Q1420500,
+        wd:Q245247,
+        wd:Q30688565,
+        wd:Q513283,
+        wd:Q674773,
+        wd:Q7374817,
+        wd:Q7406142 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P69 wd:Q245247,
+        wd:Q2654767,
+        wd:Q5175347 ;
+    wdt:P734 wd:Q37464129 ;
+    wdt:P735 wd:Q2793400 ;
+    wdt:P800 wd:Q402 ;
+    wdt:P856 <https://www.ph.ed.ac.uk/higgs> ;
+    wdt:P910 wd:Q10188657 .
+
+wd:Q192695 wdt:P101 wd:Q413 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q169470,
+        wd:Q63017728 ;
+    wdt:P108 wd:Q131252,
+        wd:Q337641,
+        wd:Q49088,
+        wd:Q659706 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q126178049,
+        wd:Q81593924 ;
+    wdt:P140 wd:Q288928 ;
+    wdt:P1411 wd:Q38104 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q1316544,
+        wd:Q1332315,
+        wd:Q17613667,
+        wd:Q19877229,
+        wd:Q38104,
+        wd:Q41955909,
+        wd:Q61745062,
+        wd:Q7331107,
+        wd:Q737051,
+        wd:Q7971681,
+        wd:Q8017107,
+        wd:Q845333,
+        wd:Q931545 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Leon%20M.%20Lederman.jpg> ;
+    wdt:P184 wd:Q3764217,
+        wd:Q5407775 ;
+    wdt:P185 wd:Q2427918 ;
+    wdt:P19 wd:Q60 ;
+    wdt:P20 wd:Q818311 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P241 wd:Q9212 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P2959 wd:Q12893457 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P40 wd:Q108868371 ;
+    wdt:P463 wd:Q270794,
+        wd:Q40358,
+        wd:Q463303,
+        wd:Q466089,
+        wd:Q466113,
+        wd:Q83172 ;
+    wdt:P5008 wd:Q131754900 ;
+    wdt:P509 wd:Q83030 ;
+    wdt:P607 wd:Q362 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P641 wd:Q718 ;
+    wdt:P69 wd:Q1093910,
+        wd:Q49088,
+        wd:Q6139911 ;
+    wdt:P734 wd:Q21492455 ;
+    wdt:P735 wd:Q37080 .
+
+wd:Q28189 wdt:P101 wd:Q54505 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q169470,
+        wd:Q19350898 ;
+    wdt:P108 wd:Q1190606,
+        wd:Q126726,
+        wd:Q131252,
+        wd:Q1472358,
+        wd:Q1549932,
+        wd:Q1661751,
+        wd:Q189022,
+        wd:Q35794,
+        wd:Q4294470,
+        wd:Q49088,
+        wd:Q691283 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/AbdusSalamBlackpenAutograph.png> ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q124737637,
+        wd:Q126178049 ;
+    wdt:P140 wd:Q171764 ;
+    wdt:P1411 wd:Q38104 ;
+    wdt:P1412 wd:Q1617,
+        wd:Q1860,
+        wd:Q58635 ;
+    wdt:P166 wd:Q10458475,
+        wd:Q104767284,
+        wd:Q109595718,
+        wd:Q1107771,
+        wd:Q12201445,
+        wd:Q1340199,
+        wd:Q1419938,
+        wd:Q14539974,
+        wd:Q15631401,
+        wd:Q1745209,
+        wd:Q17613667,
+        wd:Q1820710,
+        wd:Q2065289,
+        wd:Q211692,
+        wd:Q21476518,
+        wd:Q22000992,
+        wd:Q23055126,
+        wd:Q2683676,
+        wd:Q2776640,
+        wd:Q28003,
+        wd:Q28814622,
+        wd:Q3132815,
+        wd:Q351723,
+        wd:Q38104,
+        wd:Q3885294,
+        wd:Q41795465,
+        wd:Q41955909,
+        wd:Q42559576,
+        wd:Q4287195,
+        wd:Q50621171,
+        wd:Q59153507,
+        wd:Q59767926,
+        wd:Q61576125,
+        wd:Q63091851,
+        wd:Q7040271,
+        wd:Q72859645,
+        wd:Q746756,
+        wd:Q757645,
+        wd:Q844872,
+        wd:Q97386404 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Abdus%20Salam%201987%20%28cropped%29.jpg> ;
+    wdt:P184 wd:Q1382109,
+        wd:Q2062704 ;
+    wdt:P185 wd:Q101503976,
+        wd:Q102079169,
+        wd:Q102260034,
+        wd:Q102270819,
+        wd:Q102333221,
+        wd:Q102361136,
+        wd:Q1086766,
+        wd:Q11181243,
+        wd:Q113407442,
+        wd:Q12887151,
+        wd:Q1627065,
+        wd:Q1665193,
+        wd:Q17521164,
+        wd:Q21165121,
+        wd:Q2133987,
+        wd:Q2165743,
+        wd:Q217486,
+        wd:Q24285829,
+        wd:Q2639791,
+        wd:Q471965,
+        wd:Q5439125,
+        wd:Q5557639,
+        wd:Q6935925,
+        wd:Q7140209,
+        wd:Q726724,
+        wd:Q7322195,
+        wd:Q7343486,
+        wd:Q76000545,
+        wd:Q89288715 ;
+    wdt:P19 wd:Q1026616 ;
+    wdt:P20 wd:Q34217 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P26 wd:Q29612 ;
+    wdt:P2650 wd:Q18362 ;
+    wdt:P27 wd:Q129286,
+        wd:Q843 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q123885,
+        wd:Q191583,
+        wd:Q2095524,
+        wd:Q2370801,
+        wd:Q2502839,
+        wd:Q265058,
+        wd:Q270794,
+        wd:Q337352,
+        wd:Q338432,
+        wd:Q3603946,
+        wd:Q463303,
+        wd:Q5341957,
+        wd:Q651690,
+        wd:Q83172,
+        wd:Q938622 ;
+    wdt:P509 wd:Q945930 ;
+    wdt:P512 wd:Q752297 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P69 wd:Q126726,
+        wd:Q1549932,
+        wd:Q18354533,
+        wd:Q691283 ;
+    wdt:P734 wd:Q37252353 ;
+    wdt:P735 wd:Q116364143,
+        wd:Q5837762 ;
+    wdt:P737 wd:Q47480 ;
+    wdt:P802 wd:Q11181266,
+        wd:Q4665388,
+        wd:Q5429541,
+        wd:Q574843,
+        wd:Q6272458 ;
+    wdt:P910 wd:Q30683607 .
+
+wd:Q364997 wdt:P101 wd:Q1144457 ;
+    wdt:P106 wd:Q1650915,
+        wd:Q169470 ;
+    wdt:P108 wd:Q202660,
+        wd:Q273604,
+        wd:Q280413,
+        wd:Q30299281,
+        wd:Q898448 ;
+    wdt:P1412 wd:Q150,
+        wd:Q1860 ;
+    wdt:P166 wd:Q1452721,
+        wd:Q1957671,
+        wd:Q38104,
+        wd:Q628457,
+        wd:Q7031462,
+        wd:Q845333 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Alain%20Aspect%20%2826341660894%29%20%28cropped%29.jpg> ;
+    wdt:P185 wd:Q124311550,
+        wd:Q131725977,
+        wd:Q134167719,
+        wd:Q28269682,
+        wd:Q297477,
+        wd:Q56761424,
+        wd:Q56849127,
+        wd:Q57195944,
+        wd:Q59521758,
+        wd:Q61987214,
+        wd:Q90768198,
+        wd:Q92550959 ;
+    wdt:P19 wd:Q6625 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q135094853 ;
+    wdt:P25 wd:Q135094865 ;
+    wdt:P26 wd:Q135094812 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q142 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P39 wd:Q121594,
+        wd:Q18705668,
+        wd:Q3029430,
+        wd:Q94084 ;
+    wdt:P40 wd:Q135094818,
+        wd:Q135094828 ;
+    wdt:P463 wd:Q123885,
+        wd:Q161806,
+        wd:Q188771,
+        wd:Q270794,
+        wd:Q2822399,
+        wd:Q299015,
+        wd:Q3349677,
+        wd:Q337234,
+        wd:Q337580,
+        wd:Q338432 ;
+    wdt:P512 wd:Q3033550 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P69 wd:Q1480643,
+        wd:Q273604 ;
+    wdt:P734 wd:Q65097206 ;
+    wdt:P735 wd:Q2829505 ;
+    wdt:P856 <http://www.lcf.institutoptique.fr/Alain-Aspect-homepage>,
+        <https://www.lcf.institutoptique.fr/groupes-de-recherche/gaz-quantiques/membres/permanents/alain-aspect> ;
+    wdt:P973 <https://www.academie-sciences.fr/pdf/membre/Aspect_Alain_CV.pdf> .
+
+wd:Q39246 wdt:P101 wd:Q18334,
+        wd:Q234881,
+        wd:Q413 ;
+    wdt:P1026 wd:Q89037888 ;
+    wdt:P103 wd:Q7976 ;
+    wdt:P1050 wd:Q13258 ;
+    wdt:P106 wd:Q15143191,
+        wd:Q1622272,
+        wd:Q16745601,
+        wd:Q169470,
+        wd:Q19350898,
+        wd:Q205375,
+        wd:Q36180,
+        wd:Q4351403,
+        wd:Q82955 ;
+    wdt:P1066 wd:Q202631,
+        wd:Q54086433 ;
+    wdt:P108 wd:Q127050,
+        wd:Q161562,
+        wd:Q49115 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Richard%20Feynman%20signature.svg> ;
+    wdt:P119 wd:Q56843093 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q1186818,
+        wd:Q126178049,
+        wd:Q17378135,
+        wd:Q2657718 ;
+    wdt:P1344 wd:Q127050 ;
+    wdt:P140 wd:Q7066 ;
+    wdt:P1411 wd:Q38104 ;
+    wdt:P1412 wd:Q1860,
+        wd:Q5146 ;
+    wdt:P1424 wd:Q14034029 ;
+    wdt:P1442 <http://commons.wikimedia.org/wiki/Special:FilePath/Feynman%27s%20tombstone.jpg> ;
+    wdt:P166 wd:Q1351451,
+        wd:Q1356190,
+        wd:Q14906020,
+        wd:Q38104,
+        wd:Q41955909,
+        wd:Q577432,
+        wd:Q7031462,
+        wd:Q737051,
+        wd:Q99486391 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/RichardFeynman-PaineMansionWoods1984%20copyrightTamikoThiel%20bw.jpg> ;
+    wdt:P184 wd:Q202631 ;
+    wdt:P185 wd:Q102163279,
+        wd:Q102352442,
+        wd:Q102352667,
+        wd:Q102352668,
+        wd:Q102352669,
+        wd:Q102352674,
+        wd:Q102352677,
+        wd:Q102352678,
+        wd:Q102419477,
+        wd:Q102419478,
+        wd:Q102487617,
+        wd:Q12714647,
+        wd:Q1465941,
+        wd:Q16091755,
+        wd:Q1808331,
+        wd:Q3161262,
+        wd:Q3710550,
+        wd:Q547674,
+        wd:Q5563970,
+        wd:Q64597245,
+        wd:Q7788761 ;
+    wdt:P19 wd:Q62460 ;
+    wdt:P20 wd:Q2169282 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q104603914 ;
+    wdt:P25 wd:Q104603920 ;
+    wdt:P26 wd:Q108422010 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3373 wd:Q2373057 ;
+    wdt:P40 wd:Q26197299 ;
+    wdt:P463 wd:Q123885,
+        wd:Q270794,
+        wd:Q40358,
+        wd:Q466113 ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P509 wd:Q18967077 ;
+    wdt:P551 wd:Q318637,
+        wd:Q433701,
+        wd:Q62460 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P6363 <http://data.wordlift.io/wl0216/entity/richard_feynman> ;
+    wdt:P69 wd:Q21578,
+        wd:Q49108,
+        wd:Q5434604 ;
+    wdt:P7153 wd:Q960 ;
+    wdt:P734 wd:Q12788863 ;
+    wdt:P735 wd:Q1249148,
+        wd:Q19872853 ;
+    wdt:P737 wd:Q47480 ;
+    wdt:P800 wd:Q1317359,
+        wd:Q20180482,
+        wd:Q2305761,
+        wd:Q2743592,
+        wd:Q3526772,
+        wd:Q386272,
+        wd:Q4351947,
+        wd:Q4898003,
+        wd:Q5446134,
+        wd:Q5446137,
+        wd:Q682339,
+        wd:Q76401941,
+        wd:Q874591,
+        wd:Q906809,
+        wd:Q946666 ;
+    wdt:P802 wd:Q439687,
+        wd:Q92942 ;
+    wdt:P856 <http://richardfeynman.com/> ;
+    wdt:P910 wd:Q8662017 .
+
+wd:Q40904 wdt:P101 wd:Q18362,
+        wd:Q395 ;
+    wdt:P1026 wd:Q56068096 ;
+    wdt:P103 wd:Q188 ;
+    wdt:P106 wd:Q19350898 ;
+    wdt:P108 wd:Q152087,
+        wd:Q152838,
+        wd:Q154804,
+        wd:Q186285,
+        wd:Q216273,
+        wd:Q463326,
+        wd:Q55044,
+        wd:Q700162 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Werner%20Heisenberg%20signature.svg> ;
+    wdt:P119 wd:Q253763 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q126178049,
+        wd:Q17378135,
+        wd:Q20078554 ;
+    wdt:P1344 wd:Q63430346,
+        wd:Q677817 ;
+    wdt:P1411 wd:Q38104 ;
+    wdt:P1412 wd:Q188 ;
+    wdt:P1442 <http://commons.wikimedia.org/wiki/Special:FilePath/Waldfriedhof%20Grabstelle%20Werner%20Heisenberg.jpg> ;
+    wdt:P1576 wd:Q45996 ;
+    wdt:P166 wd:Q10905171,
+        wd:Q1419938,
+        wd:Q14906020,
+        wd:Q15056034,
+        wd:Q1535113,
+        wd:Q156478,
+        wd:Q20884576,
+        wd:Q21043512,
+        wd:Q2164908,
+        wd:Q317038,
+        wd:Q38104,
+        wd:Q41799198,
+        wd:Q467143,
+        wd:Q51720673,
+        wd:Q672787,
+        wd:Q7031462 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild183-R57262%2C%20Werner%20Heisenberg.jpg> ;
+    wdt:P184 wd:Q77078 ;
+    wdt:P185 wd:Q102242466,
+        wd:Q102253594,
+        wd:Q102305376,
+        wd:Q102387977,
+        wd:Q102432895,
+        wd:Q102432896,
+        wd:Q102867291,
+        wd:Q102867319,
+        wd:Q102910103,
+        wd:Q102910177,
+        wd:Q102947433,
+        wd:Q105986,
+        wd:Q123022,
+        wd:Q1239666,
+        wd:Q1267231,
+        wd:Q15832878,
+        wd:Q16295397,
+        wd:Q1647386,
+        wd:Q1667141,
+        wd:Q1669456,
+        wd:Q28653658,
+        wd:Q396946,
+        wd:Q55412227,
+        wd:Q609709,
+        wd:Q61735,
+        wd:Q65350,
+        wd:Q6733,
+        wd:Q70502,
+        wd:Q825443,
+        wd:Q90579 ;
+    wdt:P19 wd:Q2999 ;
+    wdt:P20 wd:Q1726 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q72885 ;
+    wdt:P25 wd:Q27908660 ;
+    wdt:P26 wd:Q22259998 ;
+    wdt:P2632 wd:Q17543885 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q41304,
+        wd:Q43287,
+        wd:Q713750,
+        wd:Q7318 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3342 wd:Q87302 ;
+    wdt:P3373 wd:Q4111888 ;
+    wdt:P40 wd:Q106745,
+        wd:Q59531630,
+        wd:Q6207234,
+        wd:Q95190689,
+        wd:Q96073323,
+        wd:Q96073326,
+        wd:Q96073327 ;
+    wdt:P463 wd:Q123885,
+        wd:Q1683229,
+        wd:Q191583,
+        wd:Q253439,
+        wd:Q270794,
+        wd:Q329464,
+        wd:Q338432,
+        wd:Q414188,
+        wd:Q451079,
+        wd:Q463303,
+        wd:Q466089,
+        wd:Q49738,
+        wd:Q543804,
+        wd:Q569379,
+        wd:Q684415,
+        wd:Q812155,
+        wd:Q901677,
+        wd:Q938622 ;
+    wdt:P485 wd:Q635551 ;
+    wdt:P5008 wd:Q100137722,
+        wd:Q103505599,
+        wd:Q6173448 ;
+    wdt:P509 wd:Q1164529,
+        wd:Q977787 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P641 wd:Q36908 ;
+    wdt:P69 wd:Q1914194,
+        wd:Q55044 ;
+    wdt:P734 wd:Q47544540 ;
+    wdt:P735 wd:Q15731830,
+        wd:Q676823 ;
+    wdt:P7763 wd:Q73555012 ;
+    wdt:P793 wd:Q1396781,
+        wd:Q662020 ;
+    wdt:P800 wd:Q1601337,
+        wd:Q44746,
+        wd:Q836938,
+        wd:Q975341 ;
+    wdt:P802 wd:Q72179 ;
+    wdt:P910 wd:Q9184112 ;
+    wdt:P937 wd:Q1726,
+        wd:Q2079 ;
+    wdt:P973 <http://www.digiporta.net/index.php?id=128566587>,
+        <http://www.digiporta.net/index.php?id=298745530>,
+        <http://www.digiporta.net/index.php?id=418537476>,
+        <http://www.digiporta.net/index.php?id=693602009>,
+        <http://www.digiporta.net/index.php?id=882150826>,
+        <http://www.digiporta.net/index.php?id=908197310>,
+        <http://www.digiporta.net/index.php?id=938714223> .
+
+wd:Q49213 wdt:P10588 wd:Q3955006 ;
+    wdt:P10607 wd:Q2615493 ;
+    wdt:P131 wd:Q16559 ;
+    wdt:P1343 wd:Q1029706,
+        wd:Q16082057,
+        wd:Q19047539 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Texas%20at%20Austin%20logo.svg> ;
+    wdt:P158 <http://commons.wikimedia.org/wiki/Special:FilePath/Large%20university-of-texas%20seal%20rgb%28199-91-18%29.png> ;
+    wdt:P159 wd:Q16559 ;
+    wdt:P166 wd:Q92429087 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P1792 wd:Q8884675 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Texas%20Main%20Building%20Tower%203.jpg> ;
+    wdt:P1830 wd:Q1166591,
+        wd:Q3082598,
+        wd:Q3259110,
+        wd:Q5127221,
+        wd:Q5580319,
+        wd:Q5606946,
+        wd:Q5671855,
+        wd:Q6339755,
+        wd:Q6339777,
+        wd:Q6340260,
+        wd:Q6588130,
+        wd:Q7125052,
+        wd:Q7305270,
+        wd:Q7728725,
+        wd:Q7864459,
+        wd:Q7959540,
+        wd:Q7959614,
+        wd:Q7980550 ;
+    wdt:P1889 wd:Q109539822 ;
+    wdt:P2643 wd:Q113624884,
+        wd:Q23622707,
+        wd:Q23623483,
+        wd:Q23662433,
+        wd:Q23662487,
+        wd:Q23662768 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q23002039,
+        wd:Q62078547 ;
+    wdt:P355 wd:Q123345100,
+        wd:Q14710993,
+        wd:Q2906140,
+        wd:Q30297026,
+        wd:Q45134887,
+        wd:Q45135227,
+        wd:Q5139658,
+        wd:Q5276032,
+        wd:Q63283433,
+        wd:Q6800462,
+        wd:Q7896446,
+        wd:Q7896452 ;
+    wdt:P3876 wd:Q7116156 ;
+    wdt:P4195 wd:Q8975565 ;
+    wdt:P463 wd:Q101483295,
+        wd:Q115690216,
+        wd:Q116153205,
+        wd:Q118398,
+        wd:Q123938901,
+        wd:Q19861084,
+        wd:Q2842325,
+        wd:Q3151430,
+        wd:Q4810015,
+        wd:Q4810036,
+        wd:Q5059850,
+        wd:Q5137944,
+        wd:Q5275906,
+        wd:Q60607639,
+        wd:Q647039,
+        wd:Q743812 ;
+    wdt:P527 wd:Q1647700,
+        wd:Q7896452 ;
+    wdt:P6269 <https://idp.its.utexas.edu/idp/shibboleth> ;
+    wdt:P749 wd:Q2140391 ;
+    wdt:P793 wd:Q541394 ;
+    wdt:P8324 wd:Q786194 ;
+    wdt:P856 <https://www.utexas.edu/> ;
+    wdt:P910 wd:Q8958612 .
+
+wd:Q56189 wdt:P101 wd:Q413 ;
+    wdt:P1038 wd:Q93479 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q16742096,
+        wd:Q169470,
+        wd:Q593644 ;
+    wdt:P108 wd:Q152087,
+        wd:Q165980,
+        wd:Q179036,
+        wd:Q20266330,
+        wd:Q854280 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Lise%20Meitner%20signature.svg> ;
+    wdt:P119 wd:Q98272559 ;
+    wdt:P1343 wd:Q101064178,
+        wd:Q105802405,
+        wd:Q110290935,
+        wd:Q112892854,
+        wd:Q113116304,
+        wd:Q125459804,
+        wd:Q126178049,
+        wd:Q379406,
+        wd:Q50395049,
+        wd:Q66758970,
+        wd:Q98281053 ;
+    wdt:P140 wd:Q1380438,
+        wd:Q9268 ;
+    wdt:P1411 wd:Q38104,
+        wd:Q44585 ;
+    wdt:P1412 wd:Q188 ;
+    wdt:P1442 <http://commons.wikimedia.org/wiki/Special:FilePath/Lise%20Meitner%20Grave.jpg> ;
+    wdt:P166 wd:Q14906020,
+        wd:Q15056034,
+        wd:Q1804550,
+        wd:Q19353807,
+        wd:Q306590,
+        wd:Q317038,
+        wd:Q32331664,
+        wd:Q52382875,
+        wd:Q56117454,
+        wd:Q690732,
+        wd:Q700368,
+        wd:Q931545 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Lise%20Meitner%20%281878-1968%29%2C%20lecturing%20at%20Catholic%20University%2C%20Washington%2C%20D.C.%2C%201946.jpg> ;
+    wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/Berliner%20Gedenktafel%20Hessische%20Str%201%20%28Mitte%29%20Lise%20Meitner.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/GDCh-Gedenktafel%20Fritz%20Stra%C3%9Fmann.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Wien-Akademisches%20Gymnasium-10-Lise%20Meitner-2005-gje.jpg> ;
+    wdt:P184 wd:Q84296,
+        wd:Q84783 ;
+    wdt:P185 wd:Q16509061,
+        wd:Q89048 ;
+    wdt:P19 wd:Q1741 ;
+    wdt:P20 wd:Q350 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P22 wd:Q264630 ;
+    wdt:P25 wd:Q115118426 ;
+    wdt:P27 wd:Q34,
+        wd:Q40,
+        wd:Q533534 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3342 wd:Q10492595,
+        wd:Q170741,
+        wd:Q4956130,
+        wd:Q57065,
+        wd:Q60859,
+        wd:Q7085,
+        wd:Q9021 ;
+    wdt:P3373 wd:Q102311964,
+        wd:Q109662280,
+        wd:Q15635377 ;
+    wdt:P39 wd:Q121594 ;
+    wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q9027%20%28swe%29-Moonhouse-Lise%20Meitner.wav> ;
+    wdt:P463 wd:Q123885,
+        wd:Q191583,
+        wd:Q299015,
+        wd:Q414188,
+        wd:Q463303,
+        wd:Q49738,
+        wd:Q543804 ;
+    wdt:P485 wd:Q635551 ;
+    wdt:P5008 wd:Q60687720,
+        wd:Q6173448,
+        wd:Q85319493 ;
+    wdt:P512 wd:Q752297 ;
+    wdt:P6104 wd:Q100741461,
+        wd:Q8487137 ;
+    wdt:P69 wd:Q165980,
+        wd:Q414936 ;
+    wdt:P734 wd:Q18729891 ;
+    wdt:P735 wd:Q1330670 ;
+    wdt:P800 wd:Q12772819,
+        wd:Q1344449 ;
+    wdt:P802 wd:Q72983 ;
+    wdt:P910 wd:Q9004503 ;
+    wdt:P937 wd:Q1754,
+        wd:Q350 ;
+    wdt:P973 <http://www.digiporta.net/index.php?id=477511648> .
+
+wd:Q6019423 wdt:P138 wd:Q9021 ;
+    wdt:P2354 wd:Q10563354 ;
+    wdt:P279 wd:Q130368409 ;
+    wdt:P31 wd:Q2385804 ;
+    wdt:P361 wd:Q158085 ;
+    wdt:P463 wd:Q871092 ;
+    wdt:P527 wd:Q632667 ;
+    wdt:P910 wd:Q9015435 .
+
+wd:Q7186 wdt:P101 wd:Q1128,
+        wd:Q11448,
+        wd:Q2329,
+        wd:Q413,
+        wd:Q979 ;
+    wdt:P1026 wd:Q19226650 ;
+    wdt:P103 wd:Q809 ;
+    wdt:P1038 wd:Q20968820,
+        wd:Q20968821,
+        wd:Q4162667,
+        wd:Q4180245,
+        wd:Q9287322,
+        wd:Q950605 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q169470,
+        wd:Q593644 ;
+    wdt:P108 wd:Q209842,
+        wd:Q214654,
+        wd:Q2451973 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Marie%20Curie%20Sk%C5%82odowska%20Signature%20Polish.svg> ;
+    wdt:P119 wd:Q188856 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q113116304,
+        wd:Q126178049,
+        wd:Q130615764,
+        wd:Q130615770,
+        wd:Q1485141,
+        wd:Q17378135,
+        wd:Q19180675,
+        wd:Q20078554,
+        wd:Q2041543,
+        wd:Q51157080,
+        wd:Q51955019,
+        wd:Q602358 ;
+    wdt:P1344 wd:Q63430342,
+        wd:Q63430344,
+        wd:Q63430346 ;
+    wdt:P140 wd:Q288928 ;
+    wdt:P1411 wd:Q38104,
+        wd:Q44585 ;
+    wdt:P1412 wd:Q150,
+        wd:Q1860,
+        wd:Q188,
+        wd:Q7737,
+        wd:Q809 ;
+    wdt:P1441 wd:Q105582867,
+        wd:Q26963166,
+        wd:Q98553891 ;
+    wdt:P1442 <http://commons.wikimedia.org/wiki/Special:FilePath/Marie%20Curie%2C%20Panth%C3%A9on%20de%20Paris%202012-10-11.jpg> ;
+    wdt:P166 wd:Q10855271,
+        wd:Q125121451,
+        wd:Q1332315,
+        wd:Q137915278,
+        wd:Q1419938,
+        wd:Q20853550,
+        wd:Q220842,
+        wd:Q29026864,
+        wd:Q3332215,
+        wd:Q38104,
+        wd:Q44585,
+        wd:Q46636944,
+        wd:Q4677703,
+        wd:Q4710826,
+        wd:Q4888659,
+        wd:Q84020,
+        wd:Q902788 ;
+    wdt:P172 wd:Q1026 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Marie%20Curie%20%281900%29%20%28cropped%29.jpg> ;
+    wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/Plaque%20Pierre%20%26%20Marie%20Curie%2C%2024%20rue%20de%20la%20Glaci%C3%A8re%2C%20Paris%2013.jpg> ;
+    wdt:P184 wd:Q133232 ;
+    wdt:P185 wd:Q103167056,
+        wd:Q18507270,
+        wd:Q241822,
+        wd:Q3593654,
+        wd:Q468371,
+        wd:Q67180509,
+        wd:Q9031531,
+        wd:Q9663423 ;
+    wdt:P1889 wd:Q61774983,
+        wd:Q6762812 ;
+    wdt:P19 wd:Q270 ;
+    wdt:P20 wd:Q2364887 ;
+    wdt:P21 wd:Q6581072 ;
+    wdt:P22 wd:Q4021169 ;
+    wdt:P237 wd:Q2672465 ;
+    wdt:P25 wd:Q110932341 ;
+    wdt:P26 wd:Q37463 ;
+    wdt:P2650 wd:Q18366 ;
+    wdt:P27 wd:Q142,
+        wd:Q207272,
+        wd:Q34266 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3373 wd:Q11731365,
+        wd:Q8861061,
+        wd:Q8861668 ;
+    wdt:P361 wd:Q11297474 ;
+    wdt:P39 wd:Q121594 ;
+    wdt:P40 wd:Q230068,
+        wd:Q7504 ;
+    wdt:P463 wd:Q15647945,
+        wd:Q1575786,
+        wd:Q191583,
+        wd:Q2370801,
+        wd:Q253439,
+        wd:Q2761462,
+        wd:Q337555,
+        wd:Q3603955,
+        wd:Q4345832,
+        wd:Q466089,
+        wd:Q543804,
+        wd:Q6706991,
+        wd:Q83172 ;
+    wdt:P485 wd:Q193563 ;
+    wdt:P5008 wd:Q103505599,
+        wd:Q5460604,
+        wd:Q60687720,
+        wd:Q6173448,
+        wd:Q85319493 ;
+    wdt:P509 wd:Q846316 ;
+    wdt:P512 wd:Q749020,
+        wd:Q849697 ;
+    wdt:P53 wd:Q63531961 ;
+    wdt:P551 wd:Q270,
+        wd:Q90 ;
+    wdt:P552 wd:Q789447 ;
+    wdt:P6104 wd:Q10656655,
+        wd:Q10816832,
+        wd:Q135106469,
+        wd:Q14544312,
+        wd:Q15884639,
+        wd:Q15884861,
+        wd:Q18377637,
+        wd:Q20963430,
+        wd:Q21712210,
+        wd:Q21829613,
+        wd:Q21829616,
+        wd:Q21830346,
+        wd:Q21830354,
+        wd:Q21830356,
+        wd:Q21830391,
+        wd:Q21830624,
+        wd:Q4099686,
+        wd:Q4913761,
+        wd:Q7160149,
+        wd:Q8487137,
+        wd:Q8487193,
+        wd:Q8487234 ;
+    wdt:P6886 wd:Q150,
+        wd:Q809 ;
+    wdt:P69 wd:Q1048461,
+        wd:Q209842,
+        wd:Q3064332,
+        wd:Q9383191 ;
+    wdt:P734 wd:Q112081452,
+        wd:Q112192994,
+        wd:Q21429443 ;
+    wdt:P735 wd:Q20088057,
+        wd:Q325872,
+        wd:Q632104 ;
+    wdt:P793 wd:Q201676 ;
+    wdt:P800 wd:Q24041517 ;
+    wdt:P802 wd:Q433169,
+        wd:Q7504 ;
+    wdt:P910 wd:Q6898030 ;
+    wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/POL%20COA%20Do%C5%82%C4%99ga.svg> ;
+    wdt:P973 <http://www.digiporta.net/index.php?id=826393978>,
+        <https://history.aip.org/exhibits/curie/romleg.htm> ;
+    wdt:P989 <http://commons.wikimedia.org/wiki/Special:FilePath/Fr-Spoken%20Wikipedia-Marie%20Curie.oga>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Wikipedia%20-%20Marie%20Curie.mp3> .
+
+wd:Q83333 wdt:P101 wd:Q115160648,
+        wd:Q210506,
+        wd:Q60762897,
+        wd:Q7094,
+        wd:Q7162,
+        wd:Q7202 ;
+    wdt:P103 wd:Q7976 ;
+    wdt:P106 wd:Q14906342,
+        wd:Q15839206,
+        wd:Q1622272,
+        wd:Q169470,
+        wd:Q2919046,
+        wd:Q3126128,
+        wd:Q3400985,
+        wd:Q350979,
+        wd:Q36180,
+        wd:Q593644,
+        wd:Q864503,
+        wd:Q901 ;
+    wdt:P1066 wd:Q83598 ;
+    wdt:P108 wd:Q13371,
+        wd:Q161562,
+        wd:Q35794,
+        wd:Q390551,
+        wd:Q609768 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/James%20D%20Watson%20signature.svg> ;
+    wdt:P1142 wd:Q1772910 ;
+    wdt:P1343 wd:Q138341720,
+        wd:Q2657718 ;
+    wdt:P140 wd:Q7066 ;
+    wdt:P1411 wd:Q44585 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P1552 wd:Q104844637 ;
+    wdt:P166 wd:Q101242891,
+        wd:Q1031994,
+        wd:Q104783495,
+        wd:Q1316544,
+        wd:Q1340199,
+        wd:Q138049049,
+        wd:Q14906020,
+        wd:Q17144,
+        wd:Q17291441,
+        wd:Q1732108,
+        wd:Q26268243,
+        wd:Q28003,
+        wd:Q47035798,
+        wd:Q6240976,
+        wd:Q63638576,
+        wd:Q64755635,
+        wd:Q7182737,
+        wd:Q737051,
+        wd:Q80061,
+        wd:Q999734 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/James%20D.%20Watson%20%28cropped%29.jpg> ;
+    wdt:P184 wd:Q205667 ;
+    wdt:P185 wd:Q1690702,
+        wd:Q2077123,
+        wd:Q215574,
+        wd:Q295659 ;
+    wdt:P19 wd:Q1297 ;
+    wdt:P20 wd:Q3459309 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q108094168 ;
+    wdt:P2650 wd:Q7162 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q110587,
+        wd:Q123885,
+        wd:Q1376791,
+        wd:Q1636237,
+        wd:Q2370801,
+        wd:Q270794,
+        wd:Q337234,
+        wd:Q463303,
+        wd:Q83172,
+        wd:Q9067001,
+        wd:Q958769 ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P69 wd:Q1079140,
+        wd:Q131252,
+        wd:Q7568443 ;
+    wdt:P734 wd:Q1184721 ;
+    wdt:P735 wd:Q16275509,
+        wd:Q677191 ;
+    wdt:P793 wd:Q1764062 ;
+    wdt:P800 wd:Q1211984,
+        wd:Q29458433 ;
+    wdt:P802 wd:Q21166236,
+        wd:Q2165770,
+        wd:Q309816,
+        wd:Q312977,
+        wd:Q4869199 ;
+    wdt:P910 wd:Q58483767 .
+
+wd:Q9130 wdt:P101 wd:Q18362 ;
+    wdt:P1050 wd:Q12204 ;
+    wdt:P106 wd:Q15980158,
+        wd:Q1622272,
+        wd:Q169470,
+        wd:Q170790,
+        wd:Q19350898 ;
+    wdt:P1066 wd:Q78849 ;
+    wdt:P108 wd:Q1137665,
+        wd:Q122453,
+        wd:Q152087,
+        wd:Q154561,
+        wd:Q165980,
+        wd:Q20266330,
+        wd:Q206702,
+        wd:Q3151953,
+        wd:Q315658,
+        wd:Q34433,
+        wd:Q622683 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Erwin%20Schr%C3%B6dinger%20signature.svg> ;
+    wdt:P119 wd:Q671394 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q105047190,
+        wd:Q124737635,
+        wd:Q126178049,
+        wd:Q17378135,
+        wd:Q4532138 ;
+    wdt:P1344 wd:Q63430346 ;
+    wdt:P140 wd:Q7066 ;
+    wdt:P1411 wd:Q38104 ;
+    wdt:P1412 wd:Q1860,
+        wd:Q188 ;
+    wdt:P1442 <http://commons.wikimedia.org/wiki/Special:FilePath/Friedhof%20Alpbach.jpg> ;
+    wdt:P1576 wd:Q45996 ;
+    wdt:P166 wd:Q1419938,
+        wd:Q14906020,
+        wd:Q15056034,
+        wd:Q15148547,
+        wd:Q156478,
+        wd:Q1569607,
+        wd:Q1804550,
+        wd:Q306590,
+        wd:Q317038,
+        wd:Q38104,
+        wd:Q41955909,
+        wd:Q876438 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Erwin%20Schr%C3%B6dinger%20-%20Narodowe%20Archiwum%20Cyfrowe%20%281-E-939%29.jpg> ;
+    wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/Wien09%20Pasteurgasse004%202017-03-22%20GuentherZ%20GD%20Schr%C3%B6dinger%200466.jpg> ;
+    wdt:P184 wd:Q78849,
+        wd:Q84783 ;
+    wdt:P185 wd:Q102442697 ;
+    wdt:P19 wd:Q1741 ;
+    wdt:P20 wd:Q1741 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q586137 ;
+    wdt:P26 wd:Q94742201 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q183,
+        wd:Q533534,
+        wd:Q7318 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P40 wd:Q94736655 ;
+    wdt:P463 wd:Q123885,
+        wd:Q2370801,
+        wd:Q299015,
+        wd:Q329464,
+        wd:Q338432,
+        wd:Q3603946,
+        wd:Q463303,
+        wd:Q49738,
+        wd:Q684415,
+        wd:Q83172,
+        wd:Q938622 ;
+    wdt:P485 wd:Q39934978 ;
+    wdt:P5008 wd:Q103505599,
+        wd:Q5460604,
+        wd:Q6173448 ;
+    wdt:P509 wd:Q12204 ;
+    wdt:P551 wd:Q1741,
+        wd:Q1761 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P6379 wd:Q430682 ;
+    wdt:P69 wd:Q165980,
+        wd:Q34433,
+        wd:Q414936 ;
+    wdt:P734 wd:Q105061814 ;
+    wdt:P735 wd:Q16747215 ;
+    wdt:P7763 wd:Q73555012 ;
+    wdt:P800 wd:Q165498,
+        wd:Q8588 ;
+    wdt:P910 wd:Q8949213 ;
+    wdt:P989 <http://commons.wikimedia.org/wiki/Special:FilePath/Ru-Erwin%20Schrodinger%20%28intro%29.ogg> .
+
+wd:Q937 wdt:P101 wd:Q18362 ;
+    wdt:P102 wd:Q328195 ;
+    wdt:P1026 wd:Q51754009 ;
+    wdt:P103 wd:Q188 ;
+    wdt:P1038 wd:Q55594631,
+        wd:Q68761 ;
+    wdt:P1050 wd:Q132971 ;
+    wdt:P106 wd:Q169470 ;
+    wdt:P1066 wd:Q116635,
+        wd:Q57246 ;
+    wdt:P108 wd:Q11942,
+        wd:Q152087,
+        wd:Q156598,
+        wd:Q168756,
+        wd:Q1729754,
+        wd:Q206702,
+        wd:Q21578,
+        wd:Q31519,
+        wd:Q329464,
+        wd:Q635642,
+        wd:Q659080,
+        wd:Q685539,
+        wd:Q70,
+        wd:Q708038,
+        wd:Q819187 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Einstein%20signature%201934.svg> ;
+    wdt:P119 wd:Q902624 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1303 wd:Q8355 ;
+    wdt:P13146 <http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Einstein%20writing%20on%20a%20blackboard%20in%20Pasadena%20%281931%29.jpg> ;
+    wdt:P1321 wd:Q72 ;
+    wdt:P1343 wd:Q642074 ;
+    wdt:P1344 wd:Q63430342,
+        wd:Q63430346 ;
+    wdt:P140 wd:Q288928,
+        wd:Q728455,
+        wd:Q9268 ;
+    wdt:P1411 wd:Q38104 ;
+    wdt:P1412 wd:Q1860,
+        wd:Q188 ;
+    wdt:P1424 wd:Q8092556 ;
+    wdt:P1441 wd:Q26963166 ;
+    wdt:P166 wd:Q121359767,
+        wd:Q125121451,
+        wd:Q126418747,
+        wd:Q1419938,
+        wd:Q14705795,
+        wd:Q14906020,
+        wd:Q15056034,
+        wd:Q1522873,
+        wd:Q1711648,
+        wd:Q25287226,
+        wd:Q28003,
+        wd:Q28861731,
+        wd:Q3141777,
+        wd:Q317038,
+        wd:Q38104,
+        wd:Q42309226,
+        wd:Q50621171,
+        wd:Q63315195,
+        wd:Q753072,
+        wd:Q808424 ;
+    wdt:P172 wd:Q7325 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Einstein%20Head%20cleaned.jpg> ;
+    wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/05w%20Denkmal%20Albert%20Einstein.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/8839%20-%20Milano%20-%20Via%20Bigli%20-%20Palazzo%20Olivazzi%20-%20Lapide%20Albert%20Einstein%20-%20Foto%20Giovanni%20Dall%27Orto%20-%2014-Apr-2007.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Albert%20Einstein%20-%20Andr%C3%A4schule%20Salzburg.PNG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Archenhold-Sternwarte%2C%20642-748.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Einstein%20Plaque.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Einstein%20deska.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Einstein-barrakka.JPG>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Home%20Albert%20Einstein%201895%20Memorial.jpg> ;
+    wdt:P184 wd:Q116635,
+        wd:Q4175282,
+        wd:Q97154 ;
+    wdt:P185 wd:Q153238 ;
+    wdt:P1889 wd:Q124500735,
+        wd:Q124606656,
+        wd:Q2904131 ;
+    wdt:P19 wd:Q3012 ;
+    wdt:P20 wd:Q138518 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q88665 ;
+    wdt:P2354 wd:Q6643270 ;
+    wdt:P25 wd:Q4357787 ;
+    wdt:P26 wd:Q68761,
+        wd:Q76346 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q159631,
+        wd:Q183,
+        wd:Q223050,
+        wd:Q30,
+        wd:Q39,
+        wd:Q41304,
+        wd:Q533534 ;
+    wdt:P2959 wd:Q21200226,
+        wd:Q25696257 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3373 wd:Q216738 ;
+    wdt:P39 wd:Q121594 ;
+    wdt:P3909 <http://www.wikidata.org/.well-known/genid/f46146fd363146161830537c80cdddaf> ;
+    wdt:P40 wd:Q118253,
+        wd:Q123371,
+        wd:Q468357 ;
+    wdt:P443 <http://commons.wikimedia.org/wiki/Special:FilePath/De-Albert%20Einstein-Pronuciation.ogg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/LL-Q34239%20%28kok%29-Fredericknoronha-Albert%20Einstein.wav> ;
+    wdt:P463 wd:Q123885,
+        wd:Q1683229,
+        wd:Q188771,
+        wd:Q191583,
+        wd:Q2095524,
+        wd:Q2497232,
+        wd:Q253439,
+        wd:Q270794,
+        wd:Q2945826,
+        wd:Q329464,
+        wd:Q338432,
+        wd:Q3603946,
+        wd:Q414188,
+        wd:Q463303,
+        wd:Q466089,
+        wd:Q543804,
+        wd:Q684415,
+        wd:Q83172 ;
+    wdt:P485 wd:Q14708020,
+        wd:Q1707871,
+        wd:Q22095877,
+        wd:Q39934978,
+        wd:Q675617 ;
+    wdt:P5008 wd:Q103505599,
+        wd:Q5460604,
+        wd:Q6173448 ;
+    wdt:P5021 wd:Q1051792 ;
+    wdt:P509 wd:Q2256736 ;
+    wdt:P512 wd:Q19693354 ;
+    wdt:P5125 wd:Q48835067 ;
+    wdt:P551 wd:Q1309294,
+        wd:Q138518,
+        wd:Q1726,
+        wd:Q390003,
+        wd:Q9009,
+        wd:Q942842 ;
+    wdt:P6104 wd:Q10781185,
+        wd:Q10816993,
+        wd:Q117090054,
+        wd:Q134895452,
+        wd:Q15884639,
+        wd:Q15884861,
+        wd:Q15885083,
+        wd:Q21829616,
+        wd:Q21829826,
+        wd:Q21830231,
+        wd:Q21830481,
+        wd:Q21830617,
+        wd:Q21830620,
+        wd:Q21830624,
+        wd:Q21830627,
+        wd:Q4913761,
+        wd:Q6871603,
+        wd:Q6872806,
+        wd:Q8486525,
+        wd:Q8487137,
+        wd:Q8487193,
+        wd:Q8493596,
+        wd:Q8503229 ;
+    wdt:P6363 <http://data.thenextweb.com/tnw/entity/albert_einstein> ;
+    wdt:P6886 wd:Q1860,
+        wd:Q188 ;
+    wdt:P69 wd:Q11942,
+        wd:Q1876751,
+        wd:Q206702,
+        wd:Q435651 ;
+    wdt:P7084 wd:Q32080413 ;
+    wdt:P734 wd:Q16834800 ;
+    wdt:P735 wd:Q577011 ;
+    wdt:P737 wd:Q1001,
+        wd:Q19185,
+        wd:Q200639,
+        wd:Q25820,
+        wd:Q310794,
+        wd:Q355245,
+        wd:Q35802,
+        wd:Q37160,
+        wd:Q38193,
+        wd:Q41688,
+        wd:Q42299,
+        wd:Q57193,
+        wd:Q57246,
+        wd:Q7322195,
+        wd:Q9095,
+        wd:Q935,
+        wd:Q93996,
+        wd:Q991 ;
+    wdt:P7763 wd:Q71887839 ;
+    wdt:P793 wd:Q115784320 ;
+    wdt:P800 wd:Q1080745,
+        wd:Q11452,
+        wd:Q11455,
+        wd:Q122894,
+        wd:Q273711,
+        wd:Q35875,
+        wd:Q43514,
+        wd:Q56100717,
+        wd:Q83213,
+        wd:Q853656,
+        wd:Q944 ;
+    wdt:P802 wd:Q87554 ;
+    wdt:P803 wd:Q25339110,
+        wd:Q414528 ;
+    wdt:P856 <https://alberteinstein.com> ;
+    wdt:P8852 wd:Q7963760 ;
+    wdt:P910 wd:Q7213562 ;
+    wdt:P937 wd:Q1085,
+        wd:Q138518,
+        wd:Q464344,
+        wd:Q64,
+        wd:Q70,
+        wd:Q72 ;
+    wdt:P973 <http://www.digiporta.net/index.php?id=553550365>,
+        <http://www.digiporta.net/index.php?id=568612883>,
+        <http://www.digiporta.net/index.php?id=707892219>,
+        <http://www.einsteinsommerhaus.de/index.php?id=539&no_cache=1>,
+        <https://www.ige.ch/de/ueber-uns/einstein.html> ;
+    wdt:P989 <http://commons.wikimedia.org/wiki/Special:FilePath/De-Albert%20Einstein.ogg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Hy-%D4%B1%D5%AC%D5%A2%D5%A5%D6%80%D5%BF%20%D4%B1%D5%B5%D5%B6%D5%B7%D5%BF%D5%A1%D5%B5%D5%B6%20%28Albert%20Einstein%29.ogg> ;
+    wdt:P990 <http://commons.wikimedia.org/wiki/Special:FilePath/03%20ALBERT%20EINSTEIN.ogg> .
+
+wd:Q17144 wdt:P1027 wd:Q11696 ;
+    wdt:P112 wd:Q9696 ;
+    wdt:P1365 wd:Q1330790 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Presidential-medal-of-freedom.jpg> ;
+    wdt:P1889 wd:Q23046020 ;
+    wdt:P2425 <http://commons.wikimedia.org/wiki/Special:FilePath/Presidential%20Medal%20of%20Freedom%20%28ribbon%29.svg> ;
+    wdt:P2517 wd:Q8579568 ;
+    wdt:P279 wd:Q131647 ;
+    wdt:P31 wd:Q5124642 ;
+    wdt:P3729 wd:Q1582967 ;
+    wdt:P910 wd:Q9542790 .
+
+wd:Q172840 wdt:P101 wd:Q18334,
+        wd:Q413 ;
+    wdt:P106 wd:Q15980158,
+        wd:Q169470,
+        wd:Q19350898 ;
+    wdt:P1066 wd:Q441154,
+        wd:Q8753 ;
+    wdt:P108 wd:Q131252,
+        wd:Q161562 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Murray%20Gell-Mann%20signature.JPG> ;
+    wdt:P119 wd:Q106149371 ;
+    wdt:P1343 wd:Q126178049,
+        wd:Q17378135,
+        wd:Q2657718 ;
+    wdt:P1411 wd:Q38104 ;
+    wdt:P1412 wd:Q1860 ;
+    wdt:P166 wd:Q110610920,
+        wd:Q1164475,
+        wd:Q1316544,
+        wd:Q1356190,
+        wd:Q14906020,
+        wd:Q1562616,
+        wd:Q17712,
+        wd:Q19869310,
+        wd:Q28663097,
+        wd:Q3141777,
+        wd:Q38104,
+        wd:Q41795465,
+        wd:Q41795590,
+        wd:Q41955909,
+        wd:Q42043175,
+        wd:Q52382875,
+        wd:Q59767926,
+        wd:Q61745062,
+        wd:Q6240976,
+        wd:Q63072267,
+        wd:Q63072513,
+        wd:Q7331107,
+        wd:Q8017107 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Murray%20Gell-Mann%20-%20World%20Economic%20Forum%20Annual%20Meeting%202012.jpg> ;
+    wdt:P184 wd:Q441154 ;
+    wdt:P185 wd:Q102352442,
+        wd:Q102352669,
+        wd:Q102352677,
+        wd:Q102352678,
+        wd:Q102352679,
+        wd:Q11168661,
+        wd:Q116689364,
+        wd:Q1357688,
+        wd:Q15619198,
+        wd:Q1680534,
+        wd:Q193503,
+        wd:Q20119907,
+        wd:Q2966651,
+        wd:Q30068263,
+        wd:Q5173982,
+        wd:Q7356160,
+        wd:Q7603334 ;
+    wdt:P19 wd:Q11253 ;
+    wdt:P20 wd:Q38555 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P26 wd:Q108675061,
+        wd:Q108675064 ;
+    wdt:P2650 wd:Q18362 ;
+    wdt:P27 wd:Q30 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P39 wd:Q2824523 ;
+    wdt:P463 wd:Q123885,
+        wd:Q2095524,
+        wd:Q270794,
+        wd:Q40358,
+        wd:Q463303,
+        wd:Q466089,
+        wd:Q466113,
+        wd:Q83172,
+        wd:Q839363 ;
+    wdt:P485 wd:Q2154134 ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P551 wd:Q30 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P69 wd:Q2599077,
+        wd:Q49108,
+        wd:Q49112,
+        wd:Q5149700,
+        wd:Q6273029 ;
+    wdt:P734 wd:Q64022043 ;
+    wdt:P735 wd:Q19802961 ;
+    wdt:P802 wd:Q1357688,
+        wd:Q193503 ;
+    wdt:P856 <http://tuvalu.santafe.edu/~mgm> ;
+    wdt:P910 wd:Q55271890 .
+
+wd:Q189022 wdt:P112 wd:Q20875 ;
+    wdt:P131 wd:Q188801 ;
+    wdt:P1343 wd:Q867541 ;
+    wdt:P1416 wd:Q593768 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Imperial%20College%20London%20new%20logo.png> ;
+    wdt:P159 wd:Q86088281 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Imperial%20College%20London%20down%20Exhibition%20Road.jpg> ;
+    wdt:P2184 wd:Q65064371 ;
+    wdt:P237 wd:Q88883747 ;
+    wdt:P2388 wd:Q7241201 ;
+    wdt:P276 wd:Q7517190,
+        wd:Q86088281,
+        wd:Q86113860,
+        wd:Q86114776 ;
+    wdt:P2888 <https://findthatcharity.uk/orgid/XI-ROR-041kmwe10> ;
+    wdt:P31 wd:Q3918,
+        wd:Q41176,
+        wd:Q5341295,
+        wd:Q62078547 ;
+    wdt:P355 wd:Q15228570,
+        wd:Q16937419,
+        wd:Q6006474,
+        wd:Q6006478 ;
+    wdt:P3876 wd:Q6999150 ;
+    wdt:P4195 wd:Q6999122 ;
+    wdt:P463 wd:Q1073858,
+        wd:Q109496493,
+        wd:Q1152269,
+        wd:Q118398,
+        wd:Q19861084,
+        wd:Q37033,
+        wd:Q5583848,
+        wd:Q590631,
+        wd:Q868940 ;
+    wdt:P485 wd:Q81165064 ;
+    wdt:P527 wd:Q81165064 ;
+    wdt:P6269 <https://shibboleth.imperial.ac.uk/shibboleth> ;
+    wdt:P7959 wd:Q19186 ;
+    wdt:P856 <https://www.imperial.ac.uk/> ;
+    wdt:P910 wd:Q6999112 ;
+    wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Shield%20of%20Imperial%20College%20London.svg> .
+
+wd:Q4182 wdt:P1037 wd:Q164790,
+        wd:Q172183,
+        wd:Q1926337,
+        wd:Q2900092,
+        wd:Q305776,
+        wd:Q512627,
+        wd:Q5219144,
+        wd:Q54963670,
+        wd:Q718008,
+        wd:Q7933549,
+        wd:Q873499 ;
+    wdt:P112 wd:Q172183 ;
+    wdt:P131 wd:Q207350 ;
+    wdt:P1344 wd:Q116784147 ;
+    wdt:P138 wd:Q172183 ;
+    wdt:P1435 wd:Q86811900 ;
+    wdt:P17 wd:Q801 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Weizmann%20Institute%20of%20Science%20Aerial%20View.jpg> ;
+    wdt:P31 wd:Q1664720,
+        wd:Q209465,
+        wd:Q875538 ;
+    wdt:P355 wd:Q45137848,
+        wd:Q6654554 ;
+    wdt:P3876 wd:Q7583749 ;
+    wdt:P4195 wd:Q7583793 ;
+    wdt:P463 wd:Q11595916,
+        wd:Q118398,
+        wd:Q19861084,
+        wd:Q821542 ;
+    wdt:P856 <http://www.weizmann.ac.il/> ;
+    wdt:P910 wd:Q7466815 .
+
+wd:Q42944 wdt:P101 wd:Q18334,
+        wd:Q350265 ;
+    wdt:P1019 <https://home.cern/about/updates/feed> ;
+    wdt:P10311 <https://careers.cern/> ;
+    wdt:P1037 wd:Q47487723 ;
+    wdt:P10624 wd:Q47423 ;
+    wdt:P131 wd:Q328385,
+        wd:Q68230 ;
+    wdt:P1325 <http://opendata.web.cern.ch/> ;
+    wdt:P1344 wd:Q116784147 ;
+    wdt:P1424 wd:Q14333889 ;
+    wdt:P1454 wd:Q129311612 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/CERN%20logo%20badge.svg> ;
+    wdt:P159 wd:Q328385,
+        wd:Q68230 ;
+    wdt:P166 wd:Q17099726,
+        wd:Q3320352 ;
+    wdt:P17 wd:Q142,
+        wd:Q39 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/CERN-aerial%201.jpg> ;
+    wdt:P1830 wd:Q20430617,
+        wd:Q20571540,
+        wd:Q659478 ;
+    wdt:P2388 wd:Q17376888 ;
+    wdt:P242 <http://commons.wikimedia.org/wiki/Special:FilePath/CERN%20member%20states.svg> ;
+    wdt:P2936 wd:Q150 ;
+    wdt:P31 wd:Q109909183,
+        wd:Q484652 ;
+    wdt:P37 wd:Q150,
+        wd:Q1860 ;
+    wdt:P463 wd:Q112828800,
+        wd:Q115682002,
+        wd:Q118398,
+        wd:Q125499293,
+        wd:Q19861084,
+        wd:Q3045937,
+        wd:Q37033,
+        wd:Q4390865,
+        wd:Q5275956,
+        wd:Q62391989,
+        wd:Q821542,
+        wd:Q858851 ;
+    wdt:P485 wd:Q43290734 ;
+    wdt:P488 wd:Q57087709 ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P527 wd:Q27485150 ;
+    wdt:P793 wd:Q105970204,
+        wd:Q54004690 ;
+    wdt:P797 wd:Q131720477 ;
+    wdt:P856 <https://home.cern>,
+        <https://home.cern/fr> ;
+    wdt:P910 wd:Q8918014 .
+
+wd:Q579968 wdt:P10588 wd:Q3955006 ;
+    wdt:P10607 wd:Q264545 ;
+    wdt:P131 wd:Q59670 ;
+    wdt:P1343 wd:Q1029706,
+        wd:Q16082057,
+        wd:Q19047539 ;
+    wdt:P1424 wd:Q20313741 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Missouri%20logo.svg> ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Mizzou-columns-JayBuffington.jpg> ;
+    wdt:P1830 wd:Q1320105,
+        wd:Q3317355,
+        wd:Q6325876,
+        wd:Q6340945,
+        wd:Q7361271,
+        wd:Q7690136 ;
+    wdt:P2643 wd:Q113624884,
+        wd:Q23622707,
+        wd:Q23623483,
+        wd:Q23662432,
+        wd:Q23662486,
+        wd:Q23663133 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q23002039,
+        wd:Q615150,
+        wd:Q62078547 ;
+    wdt:P355 wd:Q6879703,
+        wd:Q98278143 ;
+    wdt:P3876 wd:Q7003302 ;
+    wdt:P4195 wd:Q8975537 ;
+    wdt:P463 wd:Q116153205,
+        wd:Q19861084,
+        wd:Q2842325,
+        wd:Q4810015,
+        wd:Q4810036,
+        wd:Q5059850,
+        wd:Q5137944,
+        wd:Q647039,
+        wd:Q743812,
+        wd:Q963227 ;
+    wdt:P6104 wd:Q10816993,
+        wd:Q14942922,
+        wd:Q21829598,
+        wd:Q21829786,
+        wd:Q21830419,
+        wd:Q21830424,
+        wd:Q8486755 ;
+    wdt:P749 wd:Q2713662 ;
+    wdt:P793 wd:Q541394 ;
+    wdt:P856 <https://extension.missouri.edu/>,
+        <https://missouri.edu/> ;
+    wdt:P910 wd:Q8806712 .
+
+wd:Q609768 wdt:P131 wd:Q3448994 ;
+    wdt:P1435 wd:Q19558910 ;
+    wdt:P1454 wd:Q18325436 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P1830 wd:Q19835482 ;
+    wdt:P31 wd:Q163740,
+        wd:Q31855,
+        wd:Q96888669 ;
+    wdt:P452 wd:Q42240 ;
+    wdt:P463 wd:Q116153205,
+        wd:Q132154030,
+        wd:Q28136204 ;
+    wdt:P488 wd:Q1709900,
+        wd:Q83333 ;
+    wdt:P856 <https://www.cshl.edu/> .
+
+wd:Q635642 wdt:P1037 wd:Q710978 ;
+    wdt:P112 wd:Q210100,
+        wd:Q2654784,
+        wd:Q5044973 ;
+    wdt:P131 wd:Q138518 ;
+    wdt:P159 wd:Q138518 ;
+    wdt:P166 wd:Q97466981 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Fuld%20Hall%2C%20Institute%20for%20Advanced%20Study%2C%20Princeton%2C%20NJ.jpg> ;
+    wdt:P2388 wd:Q124248658 ;
+    wdt:P31 wd:Q166118,
+        wd:Q31855 ;
+    wdt:P4195 wd:Q8549773 ;
+    wdt:P463 wd:Q118398,
+        wd:Q19861084,
+        wd:Q7559427 ;
+    wdt:P527 wd:Q120868923,
+        wd:Q120892032,
+        wd:Q120920354,
+        wd:Q121156934 ;
+    wdt:P6269 <https://idp.ias.edu/idp/shibboleth> ;
+    wdt:P856 <https://ias.edu> ;
+    wdt:P910 wd:Q7485342 .
+
+wd:Q7085 wdt:P101 wd:Q18362,
+        wd:Q26383 ;
+    wdt:P1026 wd:Q51754276 ;
+    wdt:P1038 wd:Q12332212,
+        wd:Q1383725,
+        wd:Q3193096 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q16389557,
+        wd:Q16742096,
+        wd:Q169470,
+        wd:Q593644,
+        wd:Q937857 ;
+    wdt:P1066 wd:Q130623251,
+        wd:Q47285,
+        wd:Q9123 ;
+    wdt:P108 wd:Q186285,
+        wd:Q263761,
+        wd:Q35794,
+        wd:Q867530 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Niels%20Bohr%20Signature.svg> ;
+    wdt:P119 wd:Q742670 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1299 wd:Q17317042 ;
+    wdt:P1343 wd:Q126178049,
+        wd:Q28666511,
+        wd:Q34501886,
+        wd:Q51955019 ;
+    wdt:P1344 wd:Q127050,
+        wd:Q63430346 ;
+    wdt:P1411 wd:Q38104,
+        wd:Q44585 ;
+    wdt:P1412 wd:Q1860,
+        wd:Q9035 ;
+    wdt:P1416 wd:Q263761,
+        wd:Q35794,
+        wd:Q635642,
+        wd:Q867530 ;
+    wdt:P166 wd:Q10855195,
+        wd:Q125121451,
+        wd:Q126418747,
+        wd:Q13377524,
+        wd:Q1419938,
+        wd:Q14906020,
+        wd:Q15056034,
+        wd:Q1562616,
+        wd:Q18601713,
+        wd:Q18601721,
+        wd:Q1994574,
+        wd:Q20638310,
+        wd:Q22058866,
+        wd:Q28003,
+        wd:Q28100916,
+        wd:Q3141777,
+        wd:Q317038,
+        wd:Q38104,
+        wd:Q41799198,
+        wd:Q4564349,
+        wd:Q51025493,
+        wd:Q57394994,
+        wd:Q61577006,
+        wd:Q7031462,
+        wd:Q7515378,
+        wd:Q757645,
+        wd:Q844872,
+        wd:Q9208584,
+        wd:Q963068,
+        wd:Q976544 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Niels%20Bohr.jpg> ;
+    wdt:P184 wd:Q326390,
+        wd:Q47285 ;
+    wdt:P185 wd:Q102415020,
+        wd:Q103854,
+        wd:Q7342453 ;
+    wdt:P19 wd:Q1748 ;
+    wdt:P20 wd:Q1748 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q135503 ;
+    wdt:P25 wd:Q12309804 ;
+    wdt:P26 wd:Q22231147 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q756617 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3342 wd:Q56189 ;
+    wdt:P3373 wd:Q310009 ;
+    wdt:P39 wd:Q121594 ;
+    wdt:P40 wd:Q103854,
+        wd:Q12310291,
+        wd:Q12315250,
+        wd:Q4505347 ;
+    wdt:P413 wd:Q201330 ;
+    wdt:P463 wd:Q1201052,
+        wd:Q123885,
+        wd:Q1636237,
+        wd:Q1683229,
+        wd:Q191583,
+        wd:Q2095524,
+        wd:Q219989,
+        wd:Q253439,
+        wd:Q265058,
+        wd:Q270794,
+        wd:Q329464,
+        wd:Q338432,
+        wd:Q3603946,
+        wd:Q463303,
+        wd:Q466089,
+        wd:Q49738,
+        wd:Q543804,
+        wd:Q651690,
+        wd:Q684415,
+        wd:Q83172,
+        wd:Q938622 ;
+    wdt:P5008 wd:Q103505599,
+        wd:Q133729053,
+        wd:Q6173448 ;
+    wdt:P509 wd:Q181754 ;
+    wdt:P53 wd:Q16844005 ;
+    wdt:P54 wd:Q287851 ;
+    wdt:P551 wd:Q1748,
+        wd:Q21,
+        wd:Q30,
+        wd:Q34,
+        wd:Q35,
+        wd:Q96 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P641 wd:Q2736 ;
+    wdt:P6886 wd:Q1860 ;
+    wdt:P69 wd:Q186285,
+        wd:Q332342,
+        wd:Q35794 ;
+    wdt:P734 wd:Q12786074 ;
+    wdt:P735 wd:Q2001572 ;
+    wdt:P800 wd:Q1136644,
+        wd:Q172948 ;
+    wdt:P802 wd:Q103854,
+        wd:Q133267,
+        wd:Q202631,
+        wd:Q251524,
+        wd:Q451225 ;
+    wdt:P910 wd:Q7030974 ;
+    wdt:P973 <http://fr.dbpedia.org/resource/Niels_Bohr>,
+        <http://www.digiporta.net/index.php?id=336559322>,
+        <http://www.digiporta.net/index.php?id=428511280> .
+
+wd:Q8753 wdt:P101 wd:Q18334,
+        wd:Q18362,
+        wd:Q18366,
+        wd:Q188715,
+        wd:Q238323,
+        wd:Q3194786,
+        wd:Q413,
+        wd:Q81197,
+        wd:Q944 ;
+    wdt:P1026 wd:Q106468787 ;
+    wdt:P103 wd:Q652 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q16742096,
+        wd:Q169470,
+        wd:Q19350898,
+        wd:Q205375 ;
+    wdt:P1066 wd:Q58978,
+        wd:Q84227 ;
+    wdt:P108 wd:Q1274429,
+        wd:Q131252,
+        wd:Q152838,
+        wd:Q156598,
+        wd:Q209344,
+        wd:Q49088,
+        wd:Q820887 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Enrico%20Fermi%20signature.svg> ;
+    wdt:P119 wd:Q7073757 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1343 wd:Q126178049,
+        wd:Q17378135,
+        wd:Q20078554 ;
+    wdt:P1344 wd:Q127050 ;
+    wdt:P140 wd:Q288928 ;
+    wdt:P1411 wd:Q38104,
+        wd:Q44585 ;
+    wdt:P1412 wd:Q1860,
+        wd:Q652 ;
+    wdt:P166 wd:Q1366018,
+        wd:Q1419938,
+        wd:Q14906020,
+        wd:Q1607116,
+        wd:Q2096481,
+        wd:Q3141777,
+        wd:Q317038,
+        wd:Q38104,
+        wd:Q41955909,
+        wd:Q7331107,
+        wd:Q7515378,
+        wd:Q808424,
+        wd:Q844872 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Enrico%20Fermi%201943-49.jpg> ;
+    wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/Memorial%20plaque%20in%20honour%20of%20Enrico%20Fermi%20in%20the%20Basilica%20Santa%20Croce%2C%20Florence.%20Italy.jpg> ;
+    wdt:P184 wd:Q3840066 ;
+    wdt:P185 wd:Q107303710,
+        wd:Q1608700,
+        wd:Q173028,
+        wd:Q183655,
+        wd:Q183679,
+        wd:Q2149560,
+        wd:Q347236,
+        wd:Q367196,
+        wd:Q376617,
+        wd:Q430002,
+        wd:Q4396575,
+        wd:Q47314101,
+        wd:Q567758,
+        wd:Q792158 ;
+    wdt:P19 wd:Q220 ;
+    wdt:P20 wd:Q1297 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P26 wd:Q6498895 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q172579,
+        wd:Q30,
+        wd:Q38 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P463 wd:Q123885,
+        wd:Q2370801,
+        wd:Q270794,
+        wd:Q2822280,
+        wd:Q2822396,
+        wd:Q338432,
+        wd:Q3603946,
+        wd:Q3603955,
+        wd:Q40358,
+        wd:Q466089,
+        wd:Q543804,
+        wd:Q901677 ;
+    wdt:P485 wd:Q7895259 ;
+    wdt:P5008 wd:Q5460604,
+        wd:Q6173448 ;
+    wdt:P509 wd:Q189588 ;
+    wdt:P512 wd:Q752297 ;
+    wdt:P551 wd:Q220,
+        wd:Q30,
+        wd:Q38 ;
+    wdt:P6104 wd:Q10653810,
+        wd:Q13500453,
+        wd:Q135105817,
+        wd:Q135106469,
+        wd:Q15884861,
+        wd:Q17331366,
+        wd:Q20819071,
+        wd:Q21829613,
+        wd:Q21829616,
+        wd:Q21829785,
+        wd:Q21830399,
+        wd:Q21830490,
+        wd:Q21830624,
+        wd:Q4913761,
+        wd:Q6876022,
+        wd:Q8486702,
+        wd:Q8487137,
+        wd:Q8487193 ;
+    wdt:P6886 wd:Q1860,
+        wd:Q652 ;
+    wdt:P69 wd:Q114415800,
+        wd:Q152838,
+        wd:Q156598,
+        wd:Q645663 ;
+    wdt:P734 wd:Q76912274 ;
+    wdt:P735 wd:Q16908530 ;
+    wdt:P737 wd:Q57065,
+        wd:Q8772 ;
+    wdt:P800 wd:Q1073295,
+        wd:Q1192374,
+        wd:Q1406423,
+        wd:Q274072,
+        wd:Q33580,
+        wd:Q462254,
+        wd:Q5444399,
+        wd:Q900431 ;
+    wdt:P802 wd:Q172840,
+        wd:Q173028,
+        wd:Q181369,
+        wd:Q183655,
+        wd:Q183679,
+        wd:Q792158 ;
+    wdt:P910 wd:Q8947901 .
+
+ex:California_Institute_of_Technology a ex:Organization ;
+    rdfs:label "California Institute of Technology"@en ;
+    owl:sameAs wd:Q161562 .
+
+ex:Nobel_Prize_in_Physiology a ex:Award ;
+    rdfs:label "Nobel Prize in Physiology"@en ;
+    owl:sameAs wd:Q80061 .
+
+wd:Q186285 wdt:P1075 wd:Q28752724 ;
+    wdt:P131 wd:Q504125 ;
+    wdt:P1416 wd:Q1140056 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Ku-ucph-logo-svg.svg> ;
+    wdt:P17 wd:Q35 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/University%20Main%20Building.jpg> ;
+    wdt:P1830 wd:Q12333708,
+        wd:Q3374825,
+        wd:Q7064961 ;
+    wdt:P276 wd:Q1748 ;
+    wdt:P2936 wd:Q9035 ;
+    wdt:P31 wd:Q43229,
+        wd:Q62078547 ;
+    wdt:P355 wd:Q11991824,
+        wd:Q12308387,
+        wd:Q12334702,
+        wd:Q43896176,
+        wd:Q45135092,
+        wd:Q7895304,
+        wd:Q7895307 ;
+    wdt:P3876 wd:Q9407860 ;
+    wdt:P4195 wd:Q8975611 ;
+    wdt:P463 wd:Q1140056,
+        wd:Q1152269,
+        wd:Q12307660,
+        wd:Q1883765,
+        wd:Q19861084,
+        wd:Q284199,
+        wd:Q63171242 ;
+    wdt:P5008 wd:Q133729053,
+        wd:Q6173448 ;
+    wdt:P527 wd:Q621273 ;
+    wdt:P6269 <http://federation.ku.dk/adfs/services/trust> ;
+    wdt:P856 <https://www.ku.dk/> ;
+    wdt:P910 wd:Q8883069 .
+
+wd:Q34433 wdt:P1151 wd:Q14614984 ;
+    wdt:P131 wd:Q34217 ;
+    wdt:P1343 wd:Q3181656 ;
+    wdt:P1416 wd:Q1140056 ;
+    wdt:P1424 wd:Q10970759 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Oxford.svg> ;
+    wdt:P158 <http://commons.wikimedia.org/wiki/Special:FilePath/Circlet%20of%20University%20of%20Oxford.svg> ;
+    wdt:P159 wd:Q34217 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/1%20oxford%20aerial%20panorama%202016.jpg> ;
+    wdt:P1830 wd:Q111474594,
+        wd:Q115451,
+        wd:Q1602700,
+        wd:Q16994716,
+        wd:Q217595,
+        wd:Q5419282,
+        wd:Q6786826,
+        wd:Q7280038,
+        wd:Q7357835,
+        wd:Q83874 ;
+    wdt:P2354 wd:Q6635050 ;
+    wdt:P237 wd:Q784596 ;
+    wdt:P2388 wd:Q6566685 ;
+    wdt:P276 wd:Q23169,
+        wd:Q34217 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P2959 wd:Q22828709 ;
+    wdt:P31 wd:Q3354859,
+        wd:Q38723,
+        wd:Q5341295,
+        wd:Q5420001,
+        wd:Q875538 ;
+    wdt:P355 wd:Q111474594,
+        wd:Q21008607,
+        wd:Q21008611,
+        wd:Q21061833,
+        wd:Q217595,
+        wd:Q30265452,
+        wd:Q30265456,
+        wd:Q45132018,
+        wd:Q45133634,
+        wd:Q50975812,
+        wd:Q5260200,
+        wd:Q5428925,
+        wd:Q56612600,
+        wd:Q56815965,
+        wd:Q6800896,
+        wd:Q7115308,
+        wd:Q7189584,
+        wd:Q7370455,
+        wd:Q774489,
+        wd:Q7761877,
+        wd:Q81162 ;
+    wdt:P3876 wd:Q8237442 ;
+    wdt:P41 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20University%20of%20Oxford.svg> ;
+    wdt:P417 wd:Q1314431 ;
+    wdt:P4195 wd:Q7996581 ;
+    wdt:P421 wd:Q30192 ;
+    wdt:P462 wd:Q7115244 ;
+    wdt:P463 wd:Q105077092,
+        wd:Q109259306,
+        wd:Q109496493,
+        wd:Q1140056,
+        wd:Q1152269,
+        wd:Q118398,
+        wd:Q19861084,
+        wd:Q35677307,
+        wd:Q37033,
+        wd:Q5275956,
+        wd:Q590631,
+        wd:Q6269240,
+        wd:Q7894986 ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P527 wd:Q1135137,
+        wd:Q117018050,
+        wd:Q1247550,
+        wd:Q1276338,
+        wd:Q128497,
+        wd:Q133886088,
+        wd:Q1376987,
+        wd:Q1465651,
+        wd:Q1544655,
+        wd:Q1546625,
+        wd:Q1738296,
+        wd:Q1758457,
+        wd:Q1819342,
+        wd:Q2007225,
+        wd:Q2035359,
+        wd:Q23015771,
+        wd:Q2487282,
+        wd:Q2487309,
+        wd:Q2487322,
+        wd:Q2537765,
+        wd:Q2706726,
+        wd:Q2706734,
+        wd:Q3397198,
+        wd:Q3402788,
+        wd:Q5273413,
+        wd:Q609646,
+        wd:Q63198474,
+        wd:Q653483,
+        wd:Q73079,
+        wd:Q7308069,
+        wd:Q73094,
+        wd:Q745967,
+        wd:Q774489,
+        wd:Q780745,
+        wd:Q805285,
+        wd:Q81087,
+        wd:Q81090,
+        wd:Q81092,
+        wd:Q81153,
+        wd:Q81162,
+        wd:Q81170,
+        wd:Q81173,
+        wd:Q81174,
+        wd:Q82133,
+        wd:Q82513,
+        wd:Q82606,
+        wd:Q899030,
+        wd:Q951946,
+        wd:Q973884 ;
+    wdt:P6269 <https://registry.shibboleth.ox.ac.uk/idp> ;
+    wdt:P7153 wd:Q67311417 ;
+    wdt:P793 wd:Q84590041 ;
+    wdt:P7959 wd:Q67311417 ;
+    wdt:P8324 wd:Q786194 ;
+    wdt:P856 <https://ox.ac.uk/> ;
+    wdt:P910 wd:Q9150156 ;
+    wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Arms%20of%20University%20of%20Oxford.svg> .
+
+wd:Q47480 wdt:P101 wd:Q18362,
+        wd:Q234881,
+        wd:Q395,
+        wd:Q944 ;
+    wdt:P1026 wd:Q107073499 ;
+    wdt:P103 wd:Q150 ;
+    wdt:P1038 wd:Q1007178,
+        wd:Q155790 ;
+    wdt:P1050 wd:Q244438 ;
+    wdt:P106 wd:Q121594,
+        wd:Q169470,
+        wd:Q170790,
+        wd:Q19350898,
+        wd:Q3400985,
+        wd:Q37226,
+        wd:Q81096,
+        wd:Q901,
+        wd:Q974144 ;
+    wdt:P1066 wd:Q544338 ;
+    wdt:P108 wd:Q35794,
+        wd:Q691283,
+        wd:Q738258,
+        wd:Q861548 ;
+    wdt:P119 wd:Q107064073 ;
+    wdt:P1343 wd:Q124737616,
+        wd:Q126178049,
+        wd:Q17378135 ;
+    wdt:P1344 wd:Q63430346 ;
+    wdt:P140 wd:Q620629 ;
+    wdt:P1411 wd:Q38104 ;
+    wdt:P1412 wd:Q150,
+        wd:Q1860 ;
+    wdt:P1482 <https://hsm.stackexchange.com/tags/dirac> ;
+    wdt:P166 wd:Q109595718,
+        wd:Q1107771,
+        wd:Q126418747,
+        wd:Q1562616,
+        wd:Q15631401,
+        wd:Q23055126,
+        wd:Q28003,
+        wd:Q317038,
+        wd:Q38104,
+        wd:Q746756,
+        wd:Q94056 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Paul%20Dirac%2C%201933.jpg> ;
+    wdt:P184 wd:Q544338 ;
+    wdt:P185 wd:Q102169582,
+        wd:Q1585395,
+        wd:Q183397,
+        wd:Q284336,
+        wd:Q325611,
+        wd:Q5110686,
+        wd:Q55412227,
+        wd:Q726724,
+        wd:Q95763389 ;
+    wdt:P19 wd:Q23154 ;
+    wdt:P20 wd:Q37043 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q12346131 ;
+    wdt:P26 wd:Q22097468 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q145 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P39 wd:Q865664 ;
+    wdt:P463 wd:Q110587,
+        wd:Q117467,
+        wd:Q123885,
+        wd:Q1636237,
+        wd:Q188771,
+        wd:Q2095533,
+        wd:Q2370801,
+        wd:Q270794,
+        wd:Q2822396,
+        wd:Q338432,
+        wd:Q377066,
+        wd:Q3775604,
+        wd:Q463303,
+        wd:Q466089,
+        wd:Q466113,
+        wd:Q543804,
+        wd:Q9384228,
+        wd:Q938622 ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P512 wd:Q752297 ;
+    wdt:P551 wd:Q145 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P6886 wd:Q1860 ;
+    wdt:P69 wd:Q35794,
+        wd:Q459506,
+        wd:Q5175347 ;
+    wdt:P734 wd:Q76477255 ;
+    wdt:P735 wd:Q1472321,
+        wd:Q18145211,
+        wd:Q4925623 ;
+    wdt:P737 wd:Q50020 ;
+    wdt:P800 wd:Q1227387,
+        wd:Q1227393,
+        wd:Q1348371,
+        wd:Q1370759,
+        wd:Q167476,
+        wd:Q209675,
+        wd:Q2115969,
+        wd:Q272621,
+        wd:Q274072,
+        wd:Q2824495,
+        wd:Q3720173,
+        wd:Q385599,
+        wd:Q3895805,
+        wd:Q4893644,
+        wd:Q688945,
+        wd:Q907439 ;
+    wdt:P802 wd:Q132537,
+        wd:Q24204010 ;
+    wdt:P910 wd:Q15298814 ;
+    wdt:P973 <http://www.digiporta.net/index.php?id=259387690> .
+
+wd:Q622664 wdt:P10588 wd:Q19310187 ;
+    wdt:P10607 wd:Q16982442 ;
+    wdt:P131 wd:Q16552 ;
+    wdt:P1424 wd:Q20372243 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20California%2C%20San%20Diego%20logo.svg> ;
+    wdt:P158 <http://commons.wikimedia.org/wiki/Special:FilePath/Seal%20of%20the%20University%20of%20California%2C%20San%20Diego.svg> ;
+    wdt:P166 wd:Q92429087 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Price%20Center%2C%20UCSD.jpg> ;
+    wdt:P1830 wd:Q6337596,
+        wd:Q7242568,
+        wd:Q7276790,
+        wd:Q7844316 ;
+    wdt:P2643 wd:Q113624884,
+        wd:Q23622771,
+        wd:Q23623483,
+        wd:Q23662433,
+        wd:Q23662486,
+        wd:Q23662741 ;
+    wdt:P276 wd:Q840668 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q23002039,
+        wd:Q875538 ;
+    wdt:P355 wd:Q105455901,
+        wd:Q30264495,
+        wd:Q30297024,
+        wd:Q604029,
+        wd:Q63969880,
+        wd:Q7895182 ;
+    wdt:P361 wd:Q184478 ;
+    wdt:P3876 wd:Q8729301 ;
+    wdt:P4195 wd:Q8882897 ;
+    wdt:P463 wd:Q1074688,
+        wd:Q108040139,
+        wd:Q108872504,
+        wd:Q116153205,
+        wd:Q118398,
+        wd:Q19861084,
+        wd:Q2842325,
+        wd:Q4809602,
+        wd:Q4810015,
+        wd:Q4810036,
+        wd:Q5059850,
+        wd:Q5137944,
+        wd:Q5275906,
+        wd:Q60607639,
+        wd:Q647039,
+        wd:Q743812,
+        wd:Q75097496 ;
+    wdt:P527 wd:Q12053158,
+        wd:Q124395179,
+        wd:Q16982442,
+        wd:Q3050526,
+        wd:Q3182133,
+        wd:Q3428406,
+        wd:Q3485759,
+        wd:Q3526141,
+        wd:Q3547155,
+        wd:Q3947008,
+        wd:Q604029,
+        wd:Q6119768,
+        wd:Q6324509,
+        wd:Q6337596,
+        wd:Q7242568,
+        wd:Q7281806,
+        wd:Q7533741,
+        wd:Q7626417,
+        wd:Q7638304,
+        wd:Q7638305,
+        wd:Q7844316,
+        wd:Q7864119,
+        wd:Q7895182,
+        wd:Q962291 ;
+    wdt:P749 wd:Q184478 ;
+    wdt:P856 <https://ucsd.edu> ;
+    wdt:P910 wd:Q8882890 ;
+    wdt:P9601 <http://act.ucsd.edu/maps/?ovrrdr=1>,
+        <http://ccom.ucsd.edu/~dd20/downloads/dd20-ucsd-map.pdf>,
+        <https://hdh.ucsd.edu/conferences/docs/cs_mapdirections.pdf>,
+        <https://maps.ucsd.edu/map/default.htm> .
+
+wd:Q9021 wdt:P101 wd:Q11473,
+        wd:Q18362,
+        wd:Q3194786,
+        wd:Q413,
+        wd:Q5891 ;
+    wdt:P102 wd:Q316533 ;
+    wdt:P1026 wd:Q55713946 ;
+    wdt:P106 wd:Q1622272,
+        wd:Q169470,
+        wd:Q19350898,
+        wd:Q4964182 ;
+    wdt:P1066 wd:Q15454803,
+        wd:Q464 ;
+    wdt:P108 wd:Q152087,
+        wd:Q156737,
+        wd:Q20266330,
+        wd:Q55044 ;
+    wdt:P109 <http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Planck%20signature.svg> ;
+    wdt:P119 wd:Q2327123 ;
+    wdt:P1196 wd:Q3739104 ;
+    wdt:P1303 wd:Q1444,
+        wd:Q5994,
+        wd:Q8371 ;
+    wdt:P1343 wd:Q126178049,
+        wd:Q51955019 ;
+    wdt:P1344 wd:Q63430342,
+        wd:Q63430346 ;
+    wdt:P140 wd:Q75809 ;
+    wdt:P1411 wd:Q38104 ;
+    wdt:P1412 wd:Q1321,
+        wd:Q188 ;
+    wdt:P1442 <http://commons.wikimedia.org/wiki/Special:FilePath/Grave%20of%20Max%20Planck%20at%20Stadtfriedhof%20G%C3%B6ttingen%202017%2001.jpg> ;
+    wdt:P166 wd:Q1396769,
+        wd:Q14906020,
+        wd:Q15056034,
+        wd:Q1562616,
+        wd:Q1585689,
+        wd:Q159909,
+        wd:Q28003,
+        wd:Q3141777,
+        wd:Q317038,
+        wd:Q38104,
+        wd:Q40673468,
+        wd:Q41795465,
+        wd:Q55149541,
+        wd:Q56239664,
+        wd:Q565030,
+        wd:Q567492,
+        wd:Q61577006,
+        wd:Q838936,
+        wd:Q876062 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Max%20Planck.png> ;
+    wdt:P1801 <http://commons.wikimedia.org/wiki/Special:FilePath/Gedenktafel%20Max%20Planck.jpg> ;
+    wdt:P184 wd:Q91386 ;
+    wdt:P185 wd:Q14465850,
+        wd:Q14465865,
+        wd:Q14465876,
+        wd:Q14465900,
+        wd:Q14466076,
+        wd:Q19287605,
+        wd:Q57067,
+        wd:Q57070,
+        wd:Q57193,
+        wd:Q60347,
+        wd:Q61686,
+        wd:Q62271,
+        wd:Q65751,
+        wd:Q76474,
+        wd:Q77953,
+        wd:Q78314,
+        wd:Q85556,
+        wd:Q97710 ;
+    wdt:P1889 wd:Q107892,
+        wd:Q1913219,
+        wd:Q94822129,
+        wd:Q95352256 ;
+    wdt:P19 wd:Q1707 ;
+    wdt:P20 wd:Q3033 ;
+    wdt:P21 wd:Q6581097 ;
+    wdt:P22 wd:Q106490 ;
+    wdt:P26 wd:Q22259966 ;
+    wdt:P2650 wd:Q413 ;
+    wdt:P27 wd:Q1206012 ;
+    wdt:P31 wd:Q5 ;
+    wdt:P3373 wd:Q1287829,
+        wd:Q55845707,
+        wd:Q55858925 ;
+    wdt:P39 wd:Q11165895,
+        wd:Q121594 ;
+    wdt:P40 wd:Q125370428,
+        wd:Q73759,
+        wd:Q94756157 ;
+    wdt:P463 wd:Q123885,
+        wd:Q191583,
+        wd:Q2002153,
+        wd:Q2301163,
+        wd:Q253439,
+        wd:Q265058,
+        wd:Q270794,
+        wd:Q2822396,
+        wd:Q292692,
+        wd:Q2991053,
+        wd:Q329464,
+        wd:Q338432,
+        wd:Q414188,
+        wd:Q451079,
+        wd:Q463303,
+        wd:Q466089,
+        wd:Q543804,
+        wd:Q684415,
+        wd:Q708038,
+        wd:Q819187,
+        wd:Q83172,
+        wd:Q938622 ;
+    wdt:P485 wd:Q635551 ;
+    wdt:P5008 wd:Q103505599,
+        wd:Q5460604,
+        wd:Q6173448 ;
+    wdt:P509 wd:Q12152 ;
+    wdt:P551 wd:Q1707,
+        wd:Q1726 ;
+    wdt:P6104 wd:Q8487137 ;
+    wdt:P6886 wd:Q188 ;
+    wdt:P69 wd:Q1914194,
+        wd:Q20266330,
+        wd:Q55044 ;
+    wdt:P734 wd:Q47516218 ;
+    wdt:P735 wd:Q14159020,
+        wd:Q15731830,
+        wd:Q18133228,
+        wd:Q292691 ;
+    wdt:P7763 wd:Q71887839 ;
+    wdt:P800 wd:Q122894,
+        wd:Q212986 ;
+    wdt:P802 wd:Q57067,
+        wd:Q57070,
+        wd:Q57193,
+        wd:Q60347,
+        wd:Q61686,
+        wd:Q62271,
+        wd:Q76474 ;
+    wdt:P910 wd:Q10112305 ;
+    wdt:P937 wd:Q1726 ;
+    wdt:P973 <http://www.digiporta.net/index.php?id=118976689>,
+        <http://www.digiporta.net/index.php?id=130052455>,
+        <http://www.digiporta.net/index.php?id=154395358>,
+        <http://www.digiporta.net/index.php?id=388744505>,
+        <http://www.digiporta.net/index.php?id=475935943>,
+        <http://www.digiporta.net/index.php?id=705677160>,
+        <http://www.digiporta.net/index.php?id=877419476>,
+        <http://www.digiporta.net/index.php?id=928048916>,
+        <http://www.digiporta.net/index.php?id=959088004> ;
+    wdt:P989 <http://commons.wikimedia.org/wiki/Special:FilePath/Ru-Max%20Planck%20%28intro%29.ogg> .
+
+ex:Award a owl:Class .
+
+wd:Q170027 wdt:P1037 wd:Q4685361 ;
+    wdt:P131 wd:Q202088 ;
+    wdt:P159 wd:Q84 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P1792 wd:Q8721682 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Senate%20House%20UoL.jpg> ;
+    wdt:P1830 wd:Q3478501,
+        wd:Q7827146,
+        wd:Q8028979,
+        wd:Q81165404 ;
+    wdt:P276 wd:Q84 ;
+    wdt:P31 wd:Q38723,
+        wd:Q3918,
+        wd:Q45400320,
+        wd:Q5341295 ;
+    wdt:P355 wd:Q1094046,
+        wd:Q1126189,
+        wd:Q1144673,
+        wd:Q1149028,
+        wd:Q1202039,
+        wd:Q1481050,
+        wd:Q174570,
+        wd:Q189022,
+        wd:Q193196,
+        wd:Q195668,
+        wd:Q220144,
+        wd:Q2248856,
+        wd:Q245247,
+        wd:Q268411,
+        wd:Q375606,
+        wd:Q4119768,
+        wd:Q45133342,
+        wd:Q45135315,
+        wd:Q528231,
+        wd:Q6039999,
+        wd:Q641609,
+        wd:Q683095,
+        wd:Q734266,
+        wd:Q772421,
+        wd:Q81165404,
+        wd:Q981195 ;
+    wdt:P3876 wd:Q6546749 ;
+    wdt:P41 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20University%20of%20London.svg> ;
+    wdt:P4195 wd:Q6376369 ;
+    wdt:P463 wd:Q1334284,
+        wd:Q1666471,
+        wd:Q284199,
+        wd:Q5275956,
+        wd:Q6269240,
+        wd:Q868940 ;
+    wdt:P5008 wd:Q117222928,
+        wd:Q6173448 ;
+    wdt:P527 wd:Q60792619 ;
+    wdt:P6269 <https://idp.london.ac.uk/shibboleth> ;
+    wdt:P7959 wd:Q19186 ;
+    wdt:P8324 wd:Q786194 ;
+    wdt:P856 <https://www.london.ac.uk/> ;
+    wdt:P910 wd:Q8804361 ;
+    wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20London%20arms.svg> .
+
+wd:Q165980 wdt:P112 wd:Q156404 ;
+    wdt:P131 wd:Q1741 ;
+    wdt:P1343 wd:Q124355862,
+        wd:Q73357989 ;
+    wdt:P1416 wd:Q16250053 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Uni%20Wien%20logo.gif> ;
+    wdt:P158 <http://commons.wikimedia.org/wiki/Special:FilePath/Seal%20of%20the%20University%20of%20Vienna.svg> ;
+    wdt:P159 wd:Q1741 ;
+    wdt:P17 wd:Q40 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Wien%20-%20Universit%C3%A4t%20%282%29.JPG> ;
+    wdt:P1889 wd:Q278044,
+        wd:Q689400,
+        wd:Q700731 ;
+    wdt:P2959 wd:Q23016473 ;
+    wdt:P31 wd:Q3918 ;
+    wdt:P355 wd:Q131714951,
+        wd:Q1362780 ;
+    wdt:P3876 wd:Q8743189 ;
+    wdt:P4195 wd:Q6450101 ;
+    wdt:P463 wd:Q118398,
+        wd:Q125499293,
+        wd:Q135107721,
+        wd:Q1559701,
+        wd:Q17381953,
+        wd:Q19861084,
+        wd:Q59490097,
+        wd:Q76612450,
+        wd:Q868940 ;
+    wdt:P5008 wd:Q117222928,
+        wd:Q6173448 ;
+    wdt:P527 wd:Q1362780,
+        wd:Q1478417,
+        wd:Q306033,
+        wd:Q532127,
+        wd:Q55829324 ;
+    wdt:P6269 <https://weblogin.univie.ac.at/shibboleth> ;
+    wdt:P7014 <https://herbarium.univie.ac.at/> ;
+    wdt:P8324 wd:Q786194 ;
+    wdt:P856 <https://www.univie.ac.at/> ;
+    wdt:P910 wd:Q8823198 .
+
+wd:Q245247 wdt:P1075 wd:Q5342122 ;
+    wdt:P112 wd:Q130586,
+        wd:Q131691 ;
+    wdt:P131 wd:Q202059,
+        wd:Q5273898 ;
+    wdt:P1343 wd:Q3181656 ;
+    wdt:P1416 wd:Q170027 ;
+    wdt:P1454 wd:Q111668431 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Kcl-logo.svg> ;
+    wdt:P159 wd:Q84 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P1792 wd:Q8721410 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Strand102.jpg> ;
+    wdt:P1830 wd:Q5069998 ;
+    wdt:P1889 wd:Q924289 ;
+    wdt:P237 wd:Q21592325 ;
+    wdt:P276 wd:Q84 ;
+    wdt:P2888 <https://findthatcharity.uk/orgid/XI-ROR-0220mzb33> ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P2959 wd:Q100264474 ;
+    wdt:P31 wd:Q5341295,
+        wd:Q62078547,
+        wd:Q62079009,
+        wd:Q96888669 ;
+    wdt:P355 wd:Q45135425 ;
+    wdt:P361 wd:Q170027 ;
+    wdt:P3876 wd:Q8237075 ;
+    wdt:P4195 wd:Q8974785 ;
+    wdt:P463 wd:Q1073858,
+        wd:Q118398,
+        wd:Q1883765,
+        wd:Q19861084,
+        wd:Q37033,
+        wd:Q5275956,
+        wd:Q590631,
+        wd:Q59490097,
+        wd:Q6269240,
+        wd:Q6458663,
+        wd:Q7894986,
+        wd:Q868940 ;
+    wdt:P485 wd:Q81165068 ;
+    wdt:P5008 wd:Q117222928 ;
+    wdt:P527 wd:Q81165068 ;
+    wdt:P6269 <https://kclidp.kcl.ac.uk/idp/shibboleth> ;
+    wdt:P6363 <http://data.wordlift.io/wl01714/entity/kings-college-london.html> ;
+    wdt:P669 wd:Q66813351 ;
+    wdt:P749 wd:Q170027 ;
+    wdt:P7959 wd:Q19186 ;
+    wdt:P8324 wd:Q786194 ;
+    wdt:P856 <https://kcl.ac.uk/> ;
+    wdt:P910 wd:Q8574059 ;
+    wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/King%27s%20College%2C%20London%20full%20achievement.svg> .
+
+wd:Q49112 wdt:P10588 wd:Q3955006 ;
+    wdt:P10607 wd:Q1138025 ;
+    wdt:P131 wd:Q49145 ;
+    wdt:P1343 wd:Q1029706,
+        wd:Q126374795,
+        wd:Q15987490,
+        wd:Q16082057,
+        wd:Q19219752,
+        wd:Q3181656,
+        wd:Q867541 ;
+    wdt:P138 wd:Q514846 ;
+    wdt:P1424 wd:Q15305041 ;
+    wdt:P1454 wd:Q130265038 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Yale%20University%20Shield%201.svg> ;
+    wdt:P1546 wd:Q1130380,
+        wd:Q21503968 ;
+    wdt:P159 wd:Q49145 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P1792 wd:Q7116154 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Yale%20Law%20School%20in%20the%20Sterling%20Law%20Building.jpg> ;
+    wdt:P1830 wd:Q1535796,
+        wd:Q1585431,
+        wd:Q16864780,
+        wd:Q24883182,
+        wd:Q255147,
+        wd:Q41982987,
+        wd:Q4290192,
+        wd:Q43371253,
+        wd:Q43371254,
+        wd:Q6557071,
+        wd:Q8047379 ;
+    wdt:P2388 wd:Q116886729 ;
+    wdt:P2643 wd:Q113624884,
+        wd:Q23622831,
+        wd:Q23623491,
+        wd:Q23662432,
+        wd:Q23662486,
+        wd:Q23662741 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q11396960,
+        wd:Q1188663,
+        wd:Q15936437,
+        wd:Q23002054,
+        wd:Q902104,
+        wd:Q96888669 ;
+    wdt:P355 wd:Q1961140,
+        wd:Q45134688,
+        wd:Q45136055,
+        wd:Q56612637,
+        wd:Q6352575,
+        wd:Q7152454,
+        wd:Q8047428 ;
+    wdt:P3876 wd:Q9759404 ;
+    wdt:P4195 wd:Q6376039 ;
+    wdt:P452 wd:Q136822 ;
+    wdt:P463 wd:Q101483295,
+        wd:Q108872504,
+        wd:Q1140056,
+        wd:Q116153205,
+        wd:Q118398,
+        wd:Q123938901,
+        wd:Q124358776,
+        wd:Q19861084,
+        wd:Q2842325,
+        wd:Q35677307,
+        wd:Q4810036,
+        wd:Q49113,
+        wd:Q5059850,
+        wd:Q5137944,
+        wd:Q59974849,
+        wd:Q647039,
+        wd:Q7007152,
+        wd:Q743812,
+        wd:Q858851 ;
+    wdt:P488 wd:Q2916304,
+        wd:Q84814810 ;
+    wdt:P5008 wd:Q117222928,
+        wd:Q6173448 ;
+    wdt:P527 wd:Q10723329,
+        wd:Q1143289,
+        wd:Q1568434,
+        wd:Q1961140,
+        wd:Q255147,
+        wd:Q2599077,
+        wd:Q2784420,
+        wd:Q27865418,
+        wd:Q6352575,
+        wd:Q7083583,
+        wd:Q8047363,
+        wd:Q8047384,
+        wd:Q8047422,
+        wd:Q8047423,
+        wd:Q8047424,
+        wd:Q8047426,
+        wd:Q8047427,
+        wd:Q8047439,
+        wd:Q8047440 ;
+    wdt:P6269 <https://auth.yale.edu/idp/shibboleth> ;
+    wdt:P6364 wd:Q8047350 ;
+    wdt:P7867 wd:Q84122546 ;
+    wdt:P793 wd:Q541394 ;
+    wdt:P797 wd:Q2599066 ;
+    wdt:P8324 wd:Q786194 ;
+    wdt:P856 <https://yale.edu> ;
+    wdt:P910 wd:Q7237851 .
+
+wd:Q80061 wdt:P1027 wd:Q219564 ;
+    wdt:P1346 wd:Q170342 ;
+    wdt:P138 wd:Q23810 ;
+    wdt:P1424 wd:Q5877571 ;
+    wdt:P158 <http://commons.wikimedia.org/wiki/Special:FilePath/NobelPrizeSymbol.png> ;
+    wdt:P17 wd:Q34 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Nobel%20prize%20medal%20awarded%20to%20Alexander%20Fleming%2C%201945.%20%289660573705%29.jpg> ;
+    wdt:P2517 wd:Q7023215 ;
+    wdt:P276 wd:Q1754 ;
+    wdt:P279 wd:Q7191 ;
+    wdt:P2910 <http://commons.wikimedia.org/wiki/Special:FilePath/Nobel%20prize%20medal.svg> ;
+    wdt:P31 wd:Q11448906,
+        wd:Q7191 ;
+    wdt:P361 wd:Q7191 ;
+    wdt:P6291 wd:Q11190,
+        wd:Q521 ;
+    wdt:P856 <https://www.nobelprize.org/prizes/medicine/> ;
+    wdt:P910 wd:Q31318517 .
+
+wd:Q131252 wdt:P10588 wd:Q19310187 ;
+    wdt:P10607 wd:Q3294618 ;
+    wdt:P112 wd:Q131805,
+        wd:Q160278,
+        wd:Q1903332,
+        wd:Q21664297,
+        wd:Q23614086,
+        wd:Q29394233 ;
+    wdt:P131 wd:Q1297 ;
+    wdt:P1343 wd:Q1029706,
+        wd:Q15987490,
+        wd:Q16082057,
+        wd:Q19047539,
+        wd:Q867541 ;
+    wdt:P1365 wd:Q7085361 ;
+    wdt:P1454 wd:Q130264561 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Chicago%20wordmark.svg> ;
+    wdt:P159 wd:Q1297 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P1792 wd:Q10819185 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Campus%20Spring.jpg> ;
+    wdt:P1830 wd:Q1814982,
+        wd:Q5549510,
+        wd:Q5950673,
+        wd:Q7950366 ;
+    wdt:P1889 wd:Q955764 ;
+    wdt:P2388 wd:Q118942237 ;
+    wdt:P2643 wd:Q113624884,
+        wd:Q23622831,
+        wd:Q23623491,
+        wd:Q23662432,
+        wd:Q23662486,
+        wd:Q23662741 ;
+    wdt:P276 wd:Q1297 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q15936437,
+        wd:Q23002054,
+        wd:Q902104 ;
+    wdt:P355 wd:Q1814982,
+        wd:Q45133172,
+        wd:Q50573096,
+        wd:Q60752351,
+        wd:Q649120,
+        wd:Q7895256 ;
+    wdt:P3876 wd:Q5626945 ;
+    wdt:P4195 wd:Q8446513 ;
+    wdt:P452 wd:Q136822 ;
+    wdt:P463 wd:Q101483295,
+        wd:Q116153205,
+        wd:Q118398,
+        wd:Q123938901,
+        wd:Q5059850,
+        wd:Q5137944,
+        wd:Q647039,
+        wd:Q743812,
+        wd:Q821542 ;
+    wdt:P488 wd:Q4162666 ;
+    wdt:P5008 wd:Q117222928,
+        wd:Q6173448 ;
+    wdt:P527 wd:Q1036763,
+        wd:Q16258680,
+        wd:Q16935291,
+        wd:Q2963304,
+        wd:Q5593213,
+        wd:Q5665022,
+        wd:Q7245998,
+        wd:Q7895255,
+        wd:Q7895256,
+        wd:Q7895264 ;
+    wdt:P5460 wd:Q1631920 ;
+    wdt:P793 wd:Q541394 ;
+    wdt:P8324 wd:Q786194 ;
+    wdt:P856 <https://uchicago.cn/>,
+        <https://uchicago.edu/>,
+        <https://uchicago.hk/>,
+        <https://uchicago.in/>,
+        <https://urb-bd.org/> ;
+    wdt:P910 wd:Q6974469 ;
+    wdt:P9601 <https://collegeadmissions.uchicago.edu/files/documents/visitor-map.pdf>,
+        <https://maps.uchicago.edu/> .
+
+wd:Q13371 wdt:P10588 wd:Q3955006 ;
+    wdt:P10607 wd:Q1573151 ;
+    wdt:P112 wd:Q1453540 ;
+    wdt:P122 wd:Q5676287 ;
+    wdt:P131 wd:Q100,
+        wd:Q49111,
+        wd:Q54072,
+        wd:Q54073,
+        wd:Q771 ;
+    wdt:P1343 wd:Q1029706,
+        wd:Q15987490,
+        wd:Q19047539,
+        wd:Q19077875,
+        wd:Q19085957,
+        wd:Q20078554,
+        wd:Q2041543,
+        wd:Q3181656,
+        wd:Q867541 ;
+    wdt:P138 wd:Q318328 ;
+    wdt:P1416 wd:Q6970684 ;
+    wdt:P1424 wd:Q13395939 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Harvard%20University%20logo.svg> ;
+    wdt:P159 wd:Q49111 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Sanders%20theater%202009y.JPG> ;
+    wdt:P1830 wd:Q1420782,
+        wd:Q1587879,
+        wd:Q16945714,
+        wd:Q17576108,
+        wd:Q18749200,
+        wd:Q2918448,
+        wd:Q3558578,
+        wd:Q3783572,
+        wd:Q43148402,
+        wd:Q43371255,
+        wd:Q48837745,
+        wd:Q6284262,
+        wd:Q6743907,
+        wd:Q7081069,
+        wd:Q7557389,
+        wd:Q776823 ;
+    wdt:P2388 wd:Q19588706 ;
+    wdt:P2643 wd:Q113624884,
+        wd:Q23622831,
+        wd:Q23623491,
+        wd:Q23662432,
+        wd:Q23662486,
+        wd:Q23662741 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q1188663,
+        wd:Q15936437,
+        wd:Q23002054,
+        wd:Q902104 ;
+    wdt:P355 wd:Q1053592,
+        wd:Q107410830,
+        wd:Q1133697,
+        wd:Q1264942,
+        wd:Q14715514,
+        wd:Q15408380,
+        wd:Q1587900,
+        wd:Q16971924,
+        wd:Q2001855,
+        wd:Q30280744,
+        wd:Q3128016,
+        wd:Q33121074,
+        wd:Q33121251,
+        wd:Q33121261,
+        wd:Q3558578,
+        wd:Q3783572,
+        wd:Q45132967,
+        wd:Q45133655,
+        wd:Q45133843,
+        wd:Q45134541,
+        wd:Q45135691,
+        wd:Q45136793,
+        wd:Q45136983,
+        wd:Q45137420,
+        wd:Q49121,
+        wd:Q49122,
+        wd:Q49126,
+        wd:Q49127,
+        wd:Q5429991,
+        wd:Q5676392,
+        wd:Q5676489,
+        wd:Q59297496,
+        wd:Q59452059,
+        wd:Q7185824,
+        wd:Q7945473 ;
+    wdt:P3876 wd:Q7234382 ;
+    wdt:P4004 <http://commons.wikimedia.org/wiki/Special:FilePath/Harvard%20University%20shield.svg> ;
+    wdt:P4195 wd:Q6376057 ;
+    wdt:P452 wd:Q136822 ;
+    wdt:P463 wd:Q101483295,
+        wd:Q116153205,
+        wd:Q117746046,
+        wd:Q118398,
+        wd:Q123580836,
+        wd:Q123938901,
+        wd:Q124358776,
+        wd:Q19861084,
+        wd:Q2842325,
+        wd:Q35677307,
+        wd:Q4809602,
+        wd:Q4810036,
+        wd:Q49093087,
+        wd:Q49113,
+        wd:Q5059850,
+        wd:Q5137944,
+        wd:Q5275906,
+        wd:Q64005076,
+        wd:Q647039,
+        wd:Q743812 ;
+    wdt:P488 wd:Q29121979,
+        wd:Q49128,
+        wd:Q6504550 ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P5125 wd:Q7112286 ;
+    wdt:P527 wd:Q14715665,
+        wd:Q3605059,
+        wd:Q3649216,
+        wd:Q3699650,
+        wd:Q3716309,
+        wd:Q3815603,
+        wd:Q6693225,
+        wd:Q7179823,
+        wd:Q7272145,
+        wd:Q8026572 ;
+    wdt:P6269 <https://fed.huit.harvard.edu/idp/shibboleth> ;
+    wdt:P6364 wd:Q303826 ;
+    wdt:P749 wd:Q7241254 ;
+    wdt:P856 <https://www.harvard.edu> ;
+    wdt:P910 wd:Q8505919 ;
+    wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Harvard%20University%20coat%20of%20arms.svg> .
+
+wd:Q161562 wdt:P10588 wd:Q19310187 ;
+    wdt:P10607 wd:Q105080578 ;
+    wdt:P131 wd:Q485176 ;
+    wdt:P1416 wd:Q4809856 ;
+    wdt:P1454 wd:Q130264579 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Caltech%20Logo.svg> ;
+    wdt:P159 wd:Q99 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Caltech%20Entrance.jpg> ;
+    wdt:P1830 wd:Q191684 ;
+    wdt:P1889 wd:Q116712226 ;
+    wdt:P2388 wd:Q60458919 ;
+    wdt:P2643 wd:Q113624884,
+        wd:Q23622765,
+        wd:Q23623491,
+        wd:Q23662432,
+        wd:Q23662489,
+        wd:Q23662760 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q23002054,
+        wd:Q3918 ;
+    wdt:P355 wd:Q1027482,
+        wd:Q31680,
+        wd:Q45135502,
+        wd:Q6382472 ;
+    wdt:P3876 wd:Q6490392 ;
+    wdt:P4195 wd:Q8974284 ;
+    wdt:P452 wd:Q136822 ;
+    wdt:P463 wd:Q116153205,
+        wd:Q118398,
+        wd:Q123938901,
+        wd:Q19861084,
+        wd:Q25338539,
+        wd:Q2842325,
+        wd:Q5137944,
+        wd:Q5275906,
+        wd:Q60607639,
+        wd:Q6458663,
+        wd:Q743812 ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P6269 <https://idp.caltech.edu/idp/shibboleth> ;
+    wdt:P856 <https://caltech.edu> ;
+    wdt:P910 wd:Q6490320 .
+
+wd:Q49088 wdt:P10588 wd:Q3955006 ;
+    wdt:P10607 wd:Q3242000 ;
+    wdt:P131 wd:Q11299 ;
+    wdt:P1343 wd:Q1029706,
+        wd:Q124737632,
+        wd:Q15987490,
+        wd:Q16082057,
+        wd:Q19047539,
+        wd:Q867541 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20Columbia%20University.svg> ;
+    wdt:P159 wd:Q11299,
+        wd:Q60 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Columbia%20University%20-%20Low%20Memorial%20Library%20%2848170370506%29.jpg> ;
+    wdt:P1830 wd:Q14707668,
+        wd:Q1986539,
+        wd:Q2654474,
+        wd:Q34051,
+        wd:Q5437756,
+        wd:Q5640913,
+        wd:Q7346228 ;
+    wdt:P2643 wd:Q113624884,
+        wd:Q23622831,
+        wd:Q23623491,
+        wd:Q23662433,
+        wd:Q23662486,
+        wd:Q23662760 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q1188663,
+        wd:Q15936437,
+        wd:Q23002054,
+        wd:Q902104 ;
+    wdt:P355 wd:Q167733,
+        wd:Q2080179,
+        wd:Q2415975,
+        wd:Q34051,
+        wd:Q422272,
+        wd:Q45133520,
+        wd:Q45136232,
+        wd:Q45136769,
+        wd:Q4976176,
+        wd:Q5149699,
+        wd:Q5149701,
+        wd:Q5149832,
+        wd:Q5149833,
+        wd:Q7432485,
+        wd:Q844673,
+        wd:Q98736039 ;
+    wdt:P3876 wd:Q9752123 ;
+    wdt:P4195 wd:Q8390910 ;
+    wdt:P452 wd:Q136822 ;
+    wdt:P463 wd:Q101483295,
+        wd:Q108872504,
+        wd:Q116153205,
+        wd:Q118398,
+        wd:Q123938901,
+        wd:Q124358776,
+        wd:Q28136204,
+        wd:Q2842325,
+        wd:Q4809602,
+        wd:Q48789578,
+        wd:Q49113,
+        wd:Q5059850,
+        wd:Q5137944,
+        wd:Q5275906,
+        wd:Q64005076,
+        wd:Q6458663,
+        wd:Q647039,
+        wd:Q743812,
+        wd:Q99600029 ;
+    wdt:P5008 wd:Q120754096,
+        wd:Q6173448 ;
+    wdt:P527 wd:Q108336081,
+        wd:Q5149897,
+        wd:Q71853094 ;
+    wdt:P5460 wd:Q46525,
+        wd:Q6685514,
+        wd:Q724144,
+        wd:Q7945315,
+        wd:Q899039 ;
+    wdt:P6104 wd:Q10816993,
+        wd:Q15884984,
+        wd:Q21829785,
+        wd:Q21830490,
+        wd:Q5496595,
+        wd:Q8486755 ;
+    wdt:P6379 wd:Q1192305,
+        wd:Q165366 ;
+    wdt:P793 wd:Q541394 ;
+    wdt:P856 <https://columbia.edu> ;
+    wdt:P910 wd:Q8921472 .
+
+wd:Q168756 wdt:P10588 wd:Q3955006 ;
+    wdt:P10607 wd:Q2918860 ;
+    wdt:P131 wd:Q484678 ;
+    wdt:P1343 wd:Q16082057,
+        wd:Q19047539,
+        wd:Q7727516 ;
+    wdt:P1344 wd:Q3944788 ;
+    wdt:P1424 wd:Q20372153 ;
+    wdt:P1433 wd:Q19047539 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/Seal%20of%20University%20of%20California%2C%20Berkeley.svg> ;
+    wdt:P1546 wd:Q2704440 ;
+    wdt:P158 <http://commons.wikimedia.org/wiki/Special:FilePath/Seal%20of%20University%20of%20California%2C%20Berkeley.svg> ;
+    wdt:P159 wd:Q484678 ;
+    wdt:P17 wd:Q30 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Berkeley%20glade%20afternoon.jpg> ;
+    wdt:P1830 wd:Q1026837,
+        wd:Q17027693,
+        wd:Q47263042,
+        wd:Q5020490,
+        wd:Q5415905,
+        wd:Q6535651 ;
+    wdt:P2184 wd:Q5870629 ;
+    wdt:P2643 wd:Q113624884,
+        wd:Q23622771,
+        wd:Q23623487,
+        wd:Q23662433,
+        wd:Q23662487,
+        wd:Q23662760 ;
+    wdt:P2652 wd:Q1795504 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P31 wd:Q11422631,
+        wd:Q23002039,
+        wd:Q615150,
+        wd:Q62078547 ;
+    wdt:P355 wd:Q106606163,
+        wd:Q16909705,
+        wd:Q17379467,
+        wd:Q17985847,
+        wd:Q19386548,
+        wd:Q2509567,
+        wd:Q30263158,
+        wd:Q3125258,
+        wd:Q45133165,
+        wd:Q45133770,
+        wd:Q45134785,
+        wd:Q55264428,
+        wd:Q6049553,
+        wd:Q7864146,
+        wd:Q7895157,
+        wd:Q83231227,
+        wd:Q846183 ;
+    wdt:P361 wd:Q184478 ;
+    wdt:P3876 wd:Q7003063 ;
+    wdt:P4195 wd:Q6375970 ;
+    wdt:P463 wd:Q101483295,
+        wd:Q108040139,
+        wd:Q108872504,
+        wd:Q1140056,
+        wd:Q116153205,
+        wd:Q118398,
+        wd:Q128471,
+        wd:Q16725802,
+        wd:Q2842325,
+        wd:Q4809602,
+        wd:Q4810015,
+        wd:Q4810036,
+        wd:Q5059850,
+        wd:Q5137944,
+        wd:Q5275906,
+        wd:Q743812 ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P527 wd:Q5028719,
+        wd:Q5146711 ;
+    wdt:P749 wd:Q184478 ;
+    wdt:P793 wd:Q541394 ;
+    wdt:P822 wd:Q7106980 ;
+    wdt:P856 <https://berkeley.edu> ;
+    wdt:P910 wd:Q8950208 ;
+    wdt:P9601 <https://www.berkeley.edu/map> .
+
+ex:Nobel_Prize_in_Chemistry a ex:Award ;
+    rdfs:label "Nobel Prize in Chemistry"@en ;
+    owl:sameAs wd:Q44585 .
+
+wd:Q35794 wdt:P131 wd:Q23112 ;
+    wdt:P1343 wd:Q131719188,
+        wd:Q16082057,
+        wd:Q19077875,
+        wd:Q3181656,
+        wd:Q867541 ;
+    wdt:P1416 wd:Q590631 ;
+    wdt:P154 <http://commons.wikimedia.org/wiki/Special:FilePath/University%20of%20Cambridge%20logo.png> ;
+    wdt:P159 wd:Q350 ;
+    wdt:P17 wd:Q145 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/St%20John%27s%20College%20Second%20Court%2C%20Cambridge%2C%20UK%20-%20Diliff.jpg> ;
+    wdt:P1830 wd:Q15262052,
+        wd:Q15990358,
+        wd:Q253274,
+        wd:Q3478506,
+        wd:Q7083359 ;
+    wdt:P1889 wd:Q350 ;
+    wdt:P2354 wd:Q6635048 ;
+    wdt:P237 wd:Q15708418 ;
+    wdt:P276 wd:Q350 ;
+    wdt:P2936 wd:Q1860 ;
+    wdt:P2959 wd:Q22828705 ;
+    wdt:P31 wd:Q3354859,
+        wd:Q5341295,
+        wd:Q62078547 ;
+    wdt:P355 wd:Q110372591,
+        wd:Q15262052,
+        wd:Q30265811,
+        wd:Q30265836,
+        wd:Q332342,
+        wd:Q45131702,
+        wd:Q45132565,
+        wd:Q45132872,
+        wd:Q45133543,
+        wd:Q45133764,
+        wd:Q45135697,
+        wd:Q4651087,
+        wd:Q5025669,
+        wd:Q50842564,
+        wd:Q5260149,
+        wd:Q5260390,
+        wd:Q5429039,
+        wd:Q55934861,
+        wd:Q56033657,
+        wd:Q56486967,
+        wd:Q57981176,
+        wd:Q59605122,
+        wd:Q6039897,
+        wd:Q6379327,
+        wd:Q7432402,
+        wd:Q7445283,
+        wd:Q912887,
+        wd:Q924289 ;
+    wdt:P3876 wd:Q7116146 ;
+    wdt:P41 <http://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20the%20University%20of%20Cambridge.svg> ;
+    wdt:P4195 wd:Q8219109 ;
+    wdt:P463 wd:Q109496493,
+        wd:Q1140056,
+        wd:Q1152269,
+        wd:Q118398,
+        wd:Q19861084,
+        wd:Q35677307,
+        wd:Q5153090,
+        wd:Q590631,
+        wd:Q6269240,
+        wd:Q7894986 ;
+    wdt:P4640 <http://commons.wikimedia.org/wiki/Special:FilePath/Cambridge%20%E2%80%93%20Panorama%20%28Andreas%20Mischok%20via%20Poly%20Haven%29.jpg> ;
+    wdt:P5008 wd:Q6173448 ;
+    wdt:P527 wd:Q1028334 ;
+    wdt:P5460 wd:Q1690167,
+        wd:Q351723,
+        wd:Q4679816 ;
+    wdt:P6269 <https://shib.raven.cam.ac.uk/shibboleth> ;
+    wdt:P7959 wd:Q30612390 ;
+    wdt:P856 <https://www.cam.ac.uk/> ;
+    wdt:P910 wd:Q9150069 ;
+    wdt:P94 <http://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20Arms%20of%20the%20University%20of%20Cambridge.svg> .
+
+ex:Nobel_Prize_in_Physics a ex:Award ;
+    rdfs:label "Nobel Prize in Physics"@en ;
+    owl:sameAs wd:Q38104 .
+
+wd:Q44585 wdt:P101 wd:Q2329 ;
+    wdt:P1027 wd:Q191583 ;
+    wdt:P1343 wd:Q56884217 ;
+    wdt:P138 wd:Q23810 ;
+    wdt:P1424 wd:Q6948248 ;
+    wdt:P17 wd:Q34 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Marie%20Sk%C5%82odowska-Curie%27s%20Nobel%20Prize%20in%20Chemistry%201911.jpg> ;
+    wdt:P2517 wd:Q5838278 ;
+    wdt:P276 wd:Q1754 ;
+    wdt:P279 wd:Q7191 ;
+    wdt:P2910 <http://commons.wikimedia.org/wiki/Special:FilePath/Nobel%20prize%20medal.svg> ;
+    wdt:P31 wd:Q107471279,
+        wd:Q7191 ;
+    wdt:P361 wd:Q7191 ;
+    wdt:P6291 wd:Q2329 ;
+    wdt:P856 <http://www.nobelprize.org> ;
+    wdt:P910 wd:Q31316317 .
+
+wd:Q38104 wdt:P1027 wd:Q191583 ;
+    wdt:P1346 wd:Q1002250,
+        wd:Q103854,
+        wd:Q104104,
+        wd:Q104651,
+        wd:Q104668,
+        wd:Q104779,
+        wd:Q106454,
+        wd:Q106494,
+        wd:Q106949,
+        wd:Q107407,
+        wd:Q107416,
+        wd:Q107419,
+        wd:Q107420,
+        wd:Q107423,
+        wd:Q107450,
+        wd:Q109370,
+        wd:Q109588,
+        wd:Q11443689,
+        wd:Q11538917,
+        wd:Q122298,
+        wd:Q123022,
+        wd:Q123026,
+        wd:Q123029,
+        wd:Q1235614,
+        wd:Q123975,
+        wd:Q124013,
+        wd:Q127234,
+        wd:Q127944,
+        wd:Q130113,
+        wd:Q130975,
+        wd:Q131721,
+        wd:Q131729,
+        wd:Q133222,
+        wd:Q133232,
+        wd:Q133267,
+        wd:Q133747,
+        wd:Q133846,
+        wd:Q134085,
+        wd:Q1365270,
+        wd:Q148109,
+        wd:Q151746,
+        wd:Q153178,
+        wd:Q153194,
+        wd:Q153201,
+        wd:Q153210,
+        wd:Q153219,
+        wd:Q155759,
+        wd:Q155773,
+        wd:Q155777,
+        wd:Q155781,
+        wd:Q155786,
+        wd:Q155790,
+        wd:Q155794,
+        wd:Q156286,
+        wd:Q15900993,
+        wd:Q160518,
+        wd:Q160522,
+        wd:Q162900,
+        wd:Q163415,
+        wd:Q16389,
+        wd:Q165969,
+        wd:Q1673706,
+        wd:Q169330,
+        wd:Q169366,
+        wd:Q169577,
+        wd:Q1700920,
+        wd:Q170741,
+        wd:Q171034,
+        wd:Q172118,
+        wd:Q172466,
+        wd:Q172840,
+        wd:Q172844,
+        wd:Q172877,
+        wd:Q173028,
+        wd:Q175519,
+        wd:Q178103,
+        wd:Q178344,
+        wd:Q179282,
+        wd:Q179572,
+        wd:Q179852,
+        wd:Q181363,
+        wd:Q181369,
+        wd:Q182031,
+        wd:Q183270,
+        wd:Q183279,
+        wd:Q183631,
+        wd:Q183655,
+        wd:Q183679,
+        wd:Q184499,
+        wd:Q184563,
+        wd:Q184566,
+        wd:Q184571,
+        wd:Q184577,
+        wd:Q184592,
+        wd:Q186465,
+        wd:Q186481,
+        wd:Q186497,
+        wd:Q187199,
+        wd:Q187224,
+        wd:Q187822,
+        wd:Q188120,
+        wd:Q188128,
+        wd:Q188293,
+        wd:Q189485,
+        wd:Q189741,
+        wd:Q189987,
+        wd:Q189990,
+        wd:Q189997,
+        wd:Q190495,
+        wd:Q190503,
+        wd:Q190697,
+        wd:Q190745,
+        wd:Q190756,
+        wd:Q190766,
+        wd:Q190770,
+        wd:Q191922,
+        wd:Q192106,
+        wd:Q192112,
+        wd:Q192685,
+        wd:Q192688,
+        wd:Q192689,
+        wd:Q192695,
+        wd:Q192703,
+        wd:Q192708,
+        wd:Q192712,
+        wd:Q192715,
+        wd:Q192718,
+        wd:Q193496,
+        wd:Q193503,
+        wd:Q193655,
+        wd:Q193803,
+        wd:Q201452,
+        wd:Q201470,
+        wd:Q201506,
+        wd:Q201853,
+        wd:Q202138,
+        wd:Q202149,
+        wd:Q202164,
+        wd:Q202168,
+        wd:Q205954,
+        wd:Q206379,
+        wd:Q206390,
+        wd:Q206405,
+        wd:Q206499,
+        wd:Q2128461,
+        wd:Q28189,
+        wd:Q323320,
+        wd:Q35149,
+        wd:Q36488,
+        wd:Q364997,
+        wd:Q3675789,
+        wd:Q37463,
+        wd:Q391237,
+        wd:Q39246,
+        wd:Q40262,
+        wd:Q40904,
+        wd:Q41269,
+        wd:Q41688,
+        wd:Q44286,
+        wd:Q46120,
+        wd:Q47285,
+        wd:Q47480,
+        wd:Q493956,
+        wd:Q54945,
+        wd:Q556543,
+        wd:Q565544,
+        wd:Q56855591,
+        wd:Q57020342,
+        wd:Q57063,
+        wd:Q57066,
+        wd:Q57067,
+        wd:Q57068,
+        wd:Q57070,
+        wd:Q57072,
+        wd:Q57077,
+        wd:Q57092,
+        wd:Q57100,
+        wd:Q57120,
+        wd:Q57227,
+        wd:Q58978,
+        wd:Q60429,
+        wd:Q61045,
+        wd:Q62891,
+        wd:Q62897,
+        wd:Q64188,
+        wd:Q65807,
+        wd:Q65989,
+        wd:Q70532,
+        wd:Q708472,
+        wd:Q7085,
+        wd:Q71013,
+        wd:Q71015,
+        wd:Q71016,
+        wd:Q71022,
+        wd:Q71023,
+        wd:Q71024,
+        wd:Q710597,
+        wd:Q7186,
+        wd:Q726394,
+        wd:Q728331,
+        wd:Q730065,
+        wd:Q73058,
+        wd:Q76373,
+        wd:Q76462,
+        wd:Q76474,
+        wd:Q76687,
+        wd:Q76766,
+        wd:Q76797,
+        wd:Q76970,
+        wd:Q78520,
+        wd:Q78610,
+        wd:Q79000,
+        wd:Q80884,
+        wd:Q80905,
+        wd:Q82563,
+        wd:Q83297,
+        wd:Q83331,
+        wd:Q83552,
+        wd:Q83557,
+        wd:Q86970,
+        wd:Q8753,
+        wd:Q9021,
+        wd:Q9130,
+        wd:Q92894,
+        wd:Q937,
+        wd:Q949 ;
+    wdt:P138 wd:Q23810 ;
+    wdt:P1424 wd:Q5620129 ;
+    wdt:P17 wd:Q34 ;
+    wdt:P18 <http://commons.wikimedia.org/wiki/Special:FilePath/Marie%20and%20Pierre%20Curie%27s%20Nobel%20Prize%20in%20Physics%201903.jpg> ;
+    wdt:P2517 wd:Q5838087 ;
+    wdt:P276 wd:Q1754 ;
+    wdt:P279 wd:Q7191 ;
+    wdt:P2910 <http://commons.wikimedia.org/wiki/Special:FilePath/Nobel%20prize%20medal.svg> ;
+    wdt:P31 wd:Q107494520,
+        wd:Q7191 ;
+    wdt:P361 wd:Q7191 ;
+    wdt:P6363 <http://data.thenextweb.com/tnw/entity/nobel_prize_in_physics> ;
+    wdt:P856 <http://nobelprize.org/> ;
+    wdt:P910 wd:Q31318214 ;
+    wdt:P989 <http://commons.wikimedia.org/wiki/Special:FilePath/Nobel%20Prize%20in%20Physics%20Recorded%20by%20Dimitri%20O%20Ledenyov%20and%20Viktor%20O%20Ledenyov.ogg> .
+
+ex:Organization a owl:Class .
+
+ex:Researcher a owl:Class .
+

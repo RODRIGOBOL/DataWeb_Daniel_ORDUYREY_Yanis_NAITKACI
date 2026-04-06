@@ -1,0 +1,9 @@
+=== STATISTIQUES FINALES — KB ETENDUE ===
+Triplets totaux      : 52,716
+Entites (noeuds)     : 26,266
+Relations distinctes : 196
+
+=== CONFORMITE AUX CONSIGNES ===
+Triplets [50k-200k]  : OK (52,716)
+Entites  [5k-30k]    : OK (26,266)
+Relations [50-200]   : OK (196)

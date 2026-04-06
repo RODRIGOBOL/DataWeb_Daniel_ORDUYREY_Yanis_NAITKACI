@@ -1,0 +1,38 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/private#ResearchInstitute> a owl:Class ;
+    rdfs:subClassOf <http://example.org/private#Organization> .
+
+<http://example.org/private#University> a owl:Class ;
+    rdfs:subClassOf <http://example.org/private#Organization> .
+
+<http://example.org/private#affiliatedWith> a owl:ObjectProperty ;
+    rdfs:domain <http://example.org/private#Researcher> ;
+    rdfs:range <http://example.org/private#Organization> ;
+    owl:equivalentProperty <http://www.wikidata.org/prop/direct/P1416> .
+
+<http://example.org/private#employedBy> a owl:ObjectProperty ;
+    rdfs:domain <http://example.org/private#Researcher> ;
+    rdfs:range <http://example.org/private#Organization> ;
+    owl:equivalentProperty <http://www.wikidata.org/prop/direct/P108> .
+
+<http://example.org/private#fieldOfStudy> a owl:ObjectProperty ;
+    rdfs:domain <http://example.org/private#Researcher> ;
+    owl:equivalentProperty <http://www.wikidata.org/prop/direct/P101> .
+
+<http://example.org/private#nationality> a owl:ObjectProperty ;
+    rdfs:domain <http://example.org/private#Researcher> ;
+    owl:equivalentProperty <http://www.wikidata.org/prop/direct/P27> .
+
+<http://example.org/private#wonAward> a owl:ObjectProperty ;
+    rdfs:domain <http://example.org/private#Researcher> ;
+    rdfs:range <http://example.org/private#Award> ;
+    owl:equivalentProperty <http://www.wikidata.org/prop/direct/P166> .
+
+<http://example.org/private#Award> a owl:Class .
+
+<http://example.org/private#Organization> a owl:Class .
+
+<http://example.org/private#Researcher> a owl:Class .
+

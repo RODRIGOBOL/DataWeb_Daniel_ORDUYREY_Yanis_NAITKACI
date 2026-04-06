@@ -1,0 +1,23 @@
+# --- Extraction & NLP (TP1) ---
+httpx
+trafilatura
+spacy
+spacy-transformers
+pandas
+
+# --- Knowledge Graph & SPARQL (TP4) ---
+rdflib
+requests
+tqdm
+
+# --- Reasoners & Embeddings (TP5) ---
+owlready2
+pykeen
+torch
+numpy
+scikit-learn
+matplotlib
+seaborn
+
+# --- RAG & UI (TP6) ---
+rich
